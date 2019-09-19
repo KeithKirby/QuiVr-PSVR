@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WoodRough00
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _DETAILCOLOR_ON _DETAIL_MULX2 _EMISSION _LIGHTWRAP_ON _METALLICGLOSSMAP
+    _NORMALDETAIL_ON _NORMALMAP
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpDetail
+      second:
+        m_Texture: {fileID: 2800000, guid: 8ec50d4a9ee253c47bb1b35d5cba3dd4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 324b6085f0b83164b98c56dc79a09296, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 2800000, guid: df6d956156ba86d4a8199948bc2c360c, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 8411189591329d04083f5f285b75fa88, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 8ec50d4a9ee253c47bb1b35d5cba3dd4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailTex
+      second:
+        m_Texture: {fileID: 2800000, guid: df6d956156ba86d4a8199948bc2c360c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _IBLMap
+      second:
+        m_Texture: {fileID: 8900000, guid: b4e35d7a0f345b14baf8b26bbca6b501, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: df6d956156ba86d4a8199948bc2c360c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 2800000, guid: c0180cb6d3edb7747b05940b8eda886c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 90ce474aba3f8e74385dbd4abfd8b7aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TranslucentMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AOPower
+      second: 5
+    - first:
+        name: _BumpDetailPower
+      second: 0
+    - first:
+        name: _BumpPower
+      second: -0.31
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _CustomDetailNormal
+      second: 0
+    - first:
+        name: _CustomDetailTex
+      second: 0
+    - first:
+        name: _CustomSpecDetail
+      second: 0
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailColor
+      second: 1
+    - first:
+        name: _DetailMix
+      second: 0.42857143
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DetailTiling
+      second: 4
+    - first:
+        name: _Diffusepower
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _EmissionScaleUI
+      second: 0
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _IBLPower
+      second: 5
+    - first:
+        name: _LightWrap
+      second: 1
+    - first:
+        name: _LightWrapPower
+      second: 2.84
+    - first:
+        name: _MainTiling
+      second: 2
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _NormalDetail
+      second: 1
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.0672
+    - first:
+        name: _Quality
+      second: 30
+    - first:
+        name: _RimFresnel
+      second: 1.25
+    - first:
+        name: _RimPower
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.5
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecDetail
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SpecularIBL
+      second: 0
+    - first:
+        name: _SpecularPower
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _TranslucentPower
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _UseDetailMask
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.63235295, g: 0.34072992, b: 0.120891005, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _EmissionColorUI
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _LightWrapColor
+      second: {r: 0.31617647, g: 0.28924054, b: 0.26038063, a: 1}
+    - first:
+        name: _RimLightColor
+      second: {r: 0.4852941, g: 0.4754504, b: 0.4496107, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.5735294, g: 0.471155, b: 0.40484428, a: 1}
+    - first:
+        name: _TranslucentColor
+      second: {r: 0.7941176, g: 0.6983564, b: 0.5547145, a: 1}

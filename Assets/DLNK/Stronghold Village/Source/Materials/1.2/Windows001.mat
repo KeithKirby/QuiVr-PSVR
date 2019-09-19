@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Windows001
+  m_Shader: {fileID: 4800000, guid: 1fb5d170279b8b74894edf2ad48acc9c, type: 3}
+  m_ShaderKeywords:
+  - _AOON_ON
+  - _PARALLAXON_ON
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: a24d1eb65e2107c48a02f5749261bd05, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Reflection
+        second:
+          m_Texture: {fileID: 8900000, guid: f9606b3e20ac24c4093011992521c9cd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 66c589b78c6f9f84fbf66669115456ec, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Oclussion
+        second:
+          m_Texture: {fileID: 2800000, guid: c6e680d2a46d9e24f811fb91368c2520, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: a24d1eb65e2107c48a02f5749261bd05, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Illum
+        second:
+          m_Texture: {fileID: 2800000, guid: b9b351f45fa913e43892f7c0f7415960, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 2800000, guid: 66c589b78c6f9f84fbf66669115456ec, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specular
+        second:
+          m_Texture: {fileID: 2800000, guid: efe0647215e5fa0498283ab2b9134f74, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionMask
+        second:
+          m_Texture: {fileID: 2800000, guid: b9b351f45fa913e43892f7c0f7415960, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Height
+        second:
+          m_Texture: {fileID: 2800000, guid: 899dc37f8530fba4a8cf15a44aad285c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .629999995
+      data:
+        first:
+          name: _BumpPower
+        second: 0
+      data:
+        first:
+          name: _SpecularPower
+        second: 1.60000002
+      data:
+        first:
+          name: _MainTiling
+        second: 1
+      data:
+        first:
+          name: _RimPower
+        second: .680000007
+      data:
+        first:
+          name: _Gloss
+        second: .0535714217
+      data:
+        first:
+          name: _MasterTile
+        second: 1
+      data:
+        first:
+          name: _ParallaxOn
+        second: 1
+      data:
+        first:
+          name: _OclussionPower
+        second: .5
+      data:
+        first:
+          name: _EmissionLM
+        second: 8.77999973
+      data:
+        first:
+          name: _Depth
+        second: .0500000007
+      data:
+        first:
+          name: _RefIntensity
+        second: 23.8099995
+      data:
+        first:
+          name: _AOon
+        second: 1
+      data:
+        first:
+          name: _SpecIntensity
+        second: .699999988
+      data:
+        first:
+          name: _OclussionMip
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .588, g: .588, b: .588, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: .902994871, g: .941176474, b: .768166125, a: 1}
+      data:
+        first:
+          name: _DiffuseTint
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _RefColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ColorOclussion
+        second: {r: 0, g: 0, b: 0, a: 1}

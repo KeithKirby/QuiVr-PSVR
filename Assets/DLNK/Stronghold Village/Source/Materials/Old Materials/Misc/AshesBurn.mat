@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AshesBurn
+  m_Shader: {fileID: 4800000, guid: 95beed0ee8fb2954c85d959a841b351e, type: 3}
+  m_ShaderKeywords:
+  - _TILTEMISSIVE_ON
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecularMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 2310c2545eb10fc4d9cfc22e495c4b0b, type: 3}
+          m_Scale: {x: 5, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Emissive
+        second:
+          m_Texture: {fileID: 2800000, guid: d555f5a584ef5374095c2800fa1c9824, type: 3}
+          m_Scale: {x: 3, y: 3}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 2800000, guid: 42c0de100d28e6c4fb1d132e27048ffa, type: 3}
+          m_Scale: {x: 5, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseA
+        second:
+          m_Texture: {fileID: 2800000, guid: 3cc6828474a7e27479165afd1610692e, type: 3}
+          m_Scale: {x: 5, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseB
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseMix
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalA
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalB
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _SpecularLevel
+        second: 1.97838318
+      data:
+        first:
+          name: _Gloss
+        second: .160714284
+      data:
+        first:
+          name: _EmissiveMult
+        second: 3.30357146
+      data:
+        first:
+          name: _FresnelExp
+        second: 1.16071427
+      data:
+        first:
+          name: _MixBurn
+        second: 1
+      data:
+        first:
+          name: _FresnelOn
+        second: 0
+      data:
+        first:
+          name: _TiltEmissive
+        second: 1
+      data:
+        first:
+          name: _TiltTime
+        second: 2
+      data:
+        first:
+          name: _RangeTilt
+        second: .300000012
+      data:
+        first:
+          name: _RangeMin
+        second: 1.21428525
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecularTint
+        second: {r: .485294104, g: .485294104, b: .485294104, a: 1}
+      data:
+        first:
+          name: _EmissiveTint
+        second: {r: 1, g: .72048682, b: .220588207, a: 1}

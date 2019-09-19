@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: d0294f375e3510f42809a7e574b24ff9
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BackFrame
+    100002: BackFrame 1
+    100004: BackFrame 10
+    100006: BackFrame 11
+    100008: BackFrame 12
+    100010: BackFrame 13
+    100012: BackFrame 14
+    100014: BackFrame 15
+    100016: BackFrame 16
+    100018: BackFrame 17
+    100020: BackFrame 18
+    100022: BackFrame 19
+    100024: BackFrame 2
+    100026: BackFrame 3
+    100028: BackFrame 4
+    100030: BackFrame 5
+    100032: BackFrame 6
+    100034: BackFrame 7
+    100036: BackFrame 8
+    100038: BackFrame 9
+    100040: //RootNode
+    100042: Picture
+    100044: Picture 1
+    100046: Picture 10
+    100048: Picture 11
+    100050: Picture 12
+    100052: Picture 13
+    100054: Picture 14
+    100056: Picture 15
+    100058: Picture 16
+    100060: Picture 17
+    100062: Picture 18
+    100064: Picture 19
+    100066: Picture 2
+    100068: Picture 20
+    100070: Picture 3
+    100072: Picture 4
+    100074: Picture 5
+    100076: Picture 6
+    100078: Picture 7
+    100080: Picture 8
+    100082: Picture 9
+    100084: PictureFrame00
+    100086: PictureFrame01
+    100088: PictureFrame02
+    100090: PictureFrame03
+    100092: PictureFrame04
+    100094: PictureFrame05
+    100096: PictureFrame06
+    100098: PictureFrame07
+    100100: PictureFrame08
+    100102: PictureFrame09
+    100104: PictureFrame10
+    100106: PictureFrame11
+    100108: PictureFrame12
+    100110: PictureFrame13
+    100112: PictureFrame14
+    100114: PictureFrame15
+    100116: PictureFrame16
+    100118: PictureFrame17
+    100120: PictureFrame18
+    100122: PictureFrame19
+    100124: PictureFrame20
+    100126: BackFrame 20
+    400000: BackFrame
+    400002: BackFrame 1
+    400004: BackFrame 10
+    400006: BackFrame 11
+    400008: BackFrame 12
+    400010: BackFrame 13
+    400012: BackFrame 14
+    400014: BackFrame 15
+    400016: BackFrame 16
+    400018: BackFrame 17
+    400020: BackFrame 18
+    400022: BackFrame 19
+    400024: BackFrame 2
+    400026: BackFrame 3
+    400028: BackFrame 4
+    400030: BackFrame 5
+    400032: BackFrame 6
+    400034: BackFrame 7
+    400036: BackFrame 8
+    400038: BackFrame 9
+    400040: //RootNode
+    400042: Picture
+    400044: Picture 1
+    400046: Picture 10
+    400048: Picture 11
+    400050: Picture 12
+    400052: Picture 13
+    400054: Picture 14
+    400056: Picture 15
+    400058: Picture 16
+    400060: Picture 17
+    400062: Picture 18
+    400064: Picture 19
+    400066: Picture 2
+    400068: Picture 20
+    400070: Picture 3
+    400072: Picture 4
+    400074: Picture 5
+    400076: Picture 6
+    400078: Picture 7
+    400080: Picture 8
+    400082: Picture 9
+    400084: PictureFrame00
+    400086: PictureFrame01
+    400088: PictureFrame02
+    400090: PictureFrame03
+    400092: PictureFrame04
+    400094: PictureFrame05
+    400096: PictureFrame06
+    400098: PictureFrame07
+    400100: PictureFrame08
+    400102: PictureFrame09
+    400104: PictureFrame10
+    400106: PictureFrame11
+    400108: PictureFrame12
+    400110: PictureFrame13
+    400112: PictureFrame14
+    400114: PictureFrame15
+    400116: PictureFrame16
+    400118: PictureFrame17
+    400120: PictureFrame18
+    400122: PictureFrame19
+    400124: PictureFrame20
+    400126: BackFrame 20
+    2300000: BackFrame
+    2300002: BackFrame 1
+    2300004: BackFrame 10
+    2300006: BackFrame 11
+    2300008: BackFrame 12
+    2300010: BackFrame 13
+    2300012: BackFrame 14
+    2300014: BackFrame 15
+    2300016: BackFrame 16
+    2300018: BackFrame 17
+    2300020: BackFrame 18
+    2300022: BackFrame 19
+    2300024: BackFrame 2
+    2300026: BackFrame 3
+    2300028: BackFrame 4
+    2300030: BackFrame 5
+    2300032: BackFrame 6
+    2300034: BackFrame 7
+    2300036: BackFrame 8
+    2300038: BackFrame 9
+    2300040: Picture
+    2300042: Picture 1
+    2300044: Picture 10
+    2300046: Picture 11
+    2300048: Picture 12
+    2300050: Picture 13
+    2300052: Picture 14
+    2300054: Picture 15
+    2300056: Picture 16
+    2300058: Picture 17
+    2300060: Picture 18
+    2300062: Picture 19
+    2300064: Picture 2
+    2300066: Picture 20
+    2300068: Picture 3
+    2300070: Picture 4
+    2300072: Picture 5
+    2300074: Picture 6
+    2300076: Picture 7
+    2300078: Picture 8
+    2300080: Picture 9
+    2300082: PictureFrame00
+    2300084: PictureFrame01
+    2300086: PictureFrame02
+    2300088: PictureFrame03
+    2300090: PictureFrame04
+    2300092: PictureFrame05
+    2300094: PictureFrame06
+    2300096: PictureFrame07
+    2300098: PictureFrame08
+    2300100: PictureFrame09
+    2300102: PictureFrame10
+    2300104: PictureFrame11
+    2300106: PictureFrame12
+    2300108: PictureFrame13
+    2300110: PictureFrame14
+    2300112: PictureFrame15
+    2300114: PictureFrame16
+    2300116: PictureFrame17
+    2300118: PictureFrame18
+    2300120: PictureFrame19
+    2300122: PictureFrame20
+    2300124: BackFrame 20
+    3300000: BackFrame
+    3300002: BackFrame 1
+    3300004: BackFrame 10
+    3300006: BackFrame 11
+    3300008: BackFrame 12
+    3300010: BackFrame 13
+    3300012: BackFrame 14
+    3300014: BackFrame 15
+    3300016: BackFrame 16
+    3300018: BackFrame 17
+    3300020: BackFrame 18
+    3300022: BackFrame 19
+    3300024: BackFrame 2
+    3300026: BackFrame 3
+    3300028: BackFrame 4
+    3300030: BackFrame 5
+    3300032: BackFrame 6
+    3300034: BackFrame 7
+    3300036: BackFrame 8
+    3300038: BackFrame 9
+    3300040: Picture
+    3300042: Picture 1
+    3300044: Picture 10
+    3300046: Picture 11
+    3300048: Picture 12
+    3300050: Picture 13
+    3300052: Picture 14
+    3300054: Picture 15
+    3300056: Picture 16
+    3300058: Picture 17
+    3300060: Picture 18
+    3300062: Picture 19
+    3300064: Picture 2
+    3300066: Picture 20
+    3300068: Picture 3
+    3300070: Picture 4
+    3300072: Picture 5
+    3300074: Picture 6
+    3300076: Picture 7
+    3300078: Picture 8
+    3300080: Picture 9
+    3300082: PictureFrame00
+    3300084: PictureFrame01
+    3300086: PictureFrame02
+    3300088: PictureFrame03
+    3300090: PictureFrame04
+    3300092: PictureFrame05
+    3300094: PictureFrame06
+    3300096: PictureFrame07
+    3300098: PictureFrame08
+    3300100: PictureFrame09
+    3300102: PictureFrame10
+    3300104: PictureFrame11
+    3300106: PictureFrame12
+    3300108: PictureFrame13
+    3300110: PictureFrame14
+    3300112: PictureFrame15
+    3300114: PictureFrame16
+    3300116: PictureFrame17
+    3300118: PictureFrame18
+    3300120: PictureFrame19
+    3300122: PictureFrame20
+    3300124: BackFrame 20
+    4300000: PictureFrame18
+    4300002: Picture
+    4300004: BackFrame
+    4300006: PictureFrame17
+    4300008: Picture
+    4300010: BackFrame
+    4300012: PictureFrame16
+    4300014: Picture
+    4300016: BackFrame
+    4300018: PictureFrame15
+    4300020: Picture
+    4300022: BackFrame
+    4300024: PictureFrame04
+    4300026: Picture
+    4300028: BackFrame
+    4300030: PictureFrame05
+    4300032: Picture
+    4300034: BackFrame
+    4300036: PictureFrame06
+    4300038: Picture
+    4300040: BackFrame
+    4300042: PictureFrame12
+    4300044: Picture
+    4300046: BackFrame
+    4300048: PictureFrame08
+    4300050: Picture
+    4300052: BackFrame
+    4300054: PictureFrame09
+    4300056: Picture
+    4300058: BackFrame
+    4300060: PictureFrame00
+    4300062: Picture
+    4300064: BackFrame
+    4300066: PictureFrame11
+    4300068: Picture
+    4300070: BackFrame
+    4300072: PictureFrame19
+    4300074: Picture
+    4300076: BackFrame
+    4300078: PictureFrame07
+    4300080: Picture
+    4300082: BackFrame
+    4300084: PictureFrame13
+    4300086: Picture
+    4300088: BackFrame
+    4300090: PictureFrame14
+    4300092: Picture
+    4300094: BackFrame
+    4300096: PictureFrame03
+    4300098: Picture
+    4300100: BackFrame
+    4300102: PictureFrame02
+    4300104: Picture
+    4300106: BackFrame
+    4300108: PictureFrame01
+    4300110: Picture
+    4300112: BackFrame
+    4300114: PictureFrame10
+    4300116: Picture
+    4300118: BackFrame
+    4300120: PictureFrame20
+    4300122: Picture
+    4300124: BackFrame
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frame_Picture00
+    second: {fileID: 2100000, guid: 92393aa3a56e23749a5c063f640f1be7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PaintingFrames00
+    second: {fileID: 2100000, guid: e70cd8522470bdb4185ad74bb860a3b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodPlanksDirty000
+    second: {fileID: 2100000, guid: 2ef74ff2e45d46941be88cce0960853b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

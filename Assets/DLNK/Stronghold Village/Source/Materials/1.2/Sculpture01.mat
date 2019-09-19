@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sculpture01
+  m_Shader: {fileID: 4800000, guid: fde06c1755c0a484ab3f03bcc7964aaa, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: c21dcd0525e44b848b6f87d9f2b932bf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: d7af0ab48ec2005468d38415726f7094, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecularMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 49ecd020c81f99a49bbd62ce66a78e44, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMap
+        second:
+          m_Texture: {fileID: 2800000, guid: d7af0ab48ec2005468d38415726f7094, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OclussionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: c21dcd0525e44b848b6f87d9f2b932bf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseMap
+        second:
+          m_Texture: {fileID: 2800000, guid: c33e14e373c476349a72b6a21373cce3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _GlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CustomAmbient
+        second:
+          m_Texture: {fileID: 2800000, guid: c21dcd0525e44b848b6f87d9f2b932bf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: 49ecd020c81f99a49bbd62ce66a78e44, type: 3}
+          m_Scale: {x: 2, y: 4}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _SpecularLevel
+        second: 1
+      data:
+        first:
+          name: _Gloss
+        second: .110714272
+      data:
+        first:
+          name: _Shininess
+        second: .0412517153
+      data:
+        first:
+          name: _NormalSmooth
+        second: -.529999971
+      data:
+        first:
+          name: _OclussionPower
+        second: 1.32000005
+      data:
+        first:
+          name: _UseGlossMap
+        second: 0
+      data:
+        first:
+          name: _TexturePower
+        second: 1
+      data:
+        first:
+          name: _SceneCustomAmbient
+        second: .303571433
+      data:
+        first:
+          name: _TransPower
+        second: 1
+      data:
+        first:
+          name: _TransFresnel
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .588, g: .588, b: .588, a: 1}
+      data:
+        first:
+          name: _ColorTint
+        second: {r: .676470578, g: .671496511, b: .671496511, a: 1}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .301470578, g: .301470578, b: .301470578, a: 1}
+      data:
+        first:
+          name: _TransColor
+        second: {r: .593425572, g: .641659677, b: .720588207, a: 1}
+      data:
+        first:
+          name: _AmbientColor
+        second: {r: .423875451, g: .439535856, b: .514705896, a: 1}

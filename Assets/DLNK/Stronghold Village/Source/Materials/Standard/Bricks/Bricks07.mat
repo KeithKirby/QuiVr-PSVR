@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Bricks07
+  m_Shader: {fileID: 4800000, guid: 7815f578684d7f9439315024c84b796b, type: 3}
+  m_ShaderKeywords: _DETAIL_MULX2 _INVERTAXIS_ON _INVERTDEPTH_ON _NORMALMAP _PARALLAXMAP
+    _USELOCALNORMALS_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: dddca9ce4ebbd324c8193257d6a38332, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cavity
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 5915596a5891a2f488669ab27f90d646, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 9a4a7f0db3e4155458666e6a4cb58f2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 744ecc16b5e19c5458828a6ca9d0c78a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 69b4a3289bb0bc94baf35fa26a9accb8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 69b4a3289bb0bc94baf35fa26a9accb8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 2800000, guid: bff728b612e24764ba0672729efd7926, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 17f2ae70c3d85c947abd4d4f6a9928df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TranslucencyMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _UpAlbedo
+      second:
+        m_Texture: {fileID: 2800000, guid: 69dd83014f2bc044487df3d2646e3396, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _UpAmbientOc
+      second:
+        m_Texture: {fileID: 2800000, guid: 4e426801d0ea0904881529727498d59a, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _UpMetalness
+      second:
+        m_Texture: {fileID: 2800000, guid: 75b64e108bed4bb49b103786da8a9e75, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _UpNormal
+      second:
+        m_Texture: {fileID: 2800000, guid: 48679a7136cb4de49862528970a4bdc3, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: Depth
+      second: -0.03
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _CavityMult
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailMaskMult
+      second: 0.38
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _EmissionLM
+      second: 0
+    - first:
+        name: _Glossiness
+      second: 0.48
+    - first:
+        name: _HgtMapSmooth
+      second: 5
+    - first:
+        name: _InvertAxis
+      second: 1
+    - first:
+        name: _InvertDepth
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0.74
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _NormalSmooth
+      second: -1
+    - first:
+        name: _OcclusionStrenght
+      second: 1
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.0528
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _TopBottom
+      second: 11.39
+    - first:
+        name: _TopBottomMult
+      second: -0.15
+    - first:
+        name: _TopBottomSmooth
+      second: 2
+    - first:
+        name: _TransMult
+      second: 0
+    - first:
+        name: _UVMasterTiling
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _UpAOMult
+      second: 1
+    - first:
+        name: _UpAlbPower
+      second: 1
+    - first:
+        name: _UpGloss
+      second: 0.53
+    - first:
+        name: _UpGlossSmooth
+      second: 0.68
+    - first:
+        name: _UpMetallic
+      second: 0
+    - first:
+        name: _UpNormalSmooth
+      second: 0
+    - first:
+        name: _UseLocalNormals
+      second: 1
+    - first:
+        name: _ZWrite
+      second: 1
+    m_Colors:
+    - first:
+        name: _CavityColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _UpColor
+      second: {r: 0.61764705, g: 0.5595156, b: 0.47231832, a: 1}

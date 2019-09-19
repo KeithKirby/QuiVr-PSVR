@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Trunk_Moss
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _EMISSION _LIGHTWRAP_ON _PARALLAXMAP _SPECULARIBL_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IBLMap:
+        m_Texture: {fileID: 8900000, guid: 522f3190ed4a3384ba9a182f6b53d4d0, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: d865fd71f3cb9944f9df2f4179cf12c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 7b9003c164940824ca89de6b313c959e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 2800000, guid: 9abea5a7f5100954fa2ad06869c3ceb2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopAO:
+        m_Texture: {fileID: 2800000, guid: 4e426801d0ea0904881529727498d59a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopBump:
+        m_Texture: {fileID: 2800000, guid: 48679a7136cb4de49862528970a4bdc3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopSpecTex:
+        m_Texture: {fileID: 2800000, guid: 75b64e108bed4bb49b103786da8a9e75, type: 3}
+        m_Scale: {x: 1, y: 13}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture:
+        m_Texture: {fileID: 2800000, guid: 69dd83014f2bc044487df3d2646e3396, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOBlendPower: 1.17
+    - _AOPower: 1
+    - _AmbientIBL: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Diffusepower: 1
+    - _DstBlend: 0
+    - _EmissionScaleUI: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IBLAmbient: 0
+    - _IBLPower: 1
+    - _LightWrap: 1
+    - _LightWrapPower: 2
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.01
+    - _Quality: 50
+    - _RimFresnel: 1.26
+    - _RimPower: 1
+    - _Shininess: 0.4316177
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpecularIBL: 1
+    - _SpecularPower: 0.34
+    - _SrcBlend: 1
+    - _TopAOPower: 0.39
+    - _TopBottomLevel: 0.33
+    - _TopBottomPower: 2.23
+    - _TopReliefPower: 1
+    - _TopShininess: 0.60714287
+    - _TopSpec: 1
+    - _UVSec: 0
+    - _WorldTiling: 5
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.5147059, g: 0.5147059, b: 0.5147059, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
+    - _LightWrapColor: {r: 0.9191176, g: 0.7636786, b: 0.7636786, a: 1}
+    - _RimLightColor: {r: 0.9852941, g: 0.97660035, b: 0.9635597, a: 1}
+    - _SpecColor: {r: 0.72794116, g: 0.6953093, b: 0.6369485, a: 1}
+    - _TopSpecColor: {r: 0.50640434, g: 0.8602941, b: 0.36689013, a: 1}
+    - _UpColor: {r: 1, g: 1, b: 1, a: 1}

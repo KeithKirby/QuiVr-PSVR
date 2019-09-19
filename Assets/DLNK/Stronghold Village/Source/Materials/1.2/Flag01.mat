@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Flag01
+  m_Shader: {fileID: 4800000, guid: 78ab27c15a2afce4a8bb6c9a876ab1af, type: 3}
+  m_ShaderKeywords: _MOVEMENTAFFECT_ON _USECUSTOMAMBIENT_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _DiffuseDetail
+      second:
+        m_Texture: {fileID: 2800000, guid: b7f0360399f720e4483827c0369dd5fa, type: 3}
+        m_Scale: {x: 3, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FlagMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 2a2b148f89d7930489b90c0daa16c350, type: 3}
+        m_Scale: {x: 1, y: 3.5}
+        m_Offset: {x: 0, y: -2}
+    - first:
+        name: _FlagShape
+      second:
+        m_Texture: {fileID: 2800000, guid: 8e8a25d9f553e4a4487225994b184409, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Flagmask
+      second:
+        m_Texture: {fileID: 2800000, guid: f1605cb747f9bd24aac85f053bb00125, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _IconMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 122436110778b3c4b80fd0d54ad2ec98, type: 3}
+        m_Scale: {x: 1, y: 4}
+        m_Offset: {x: 0, y: -0.48}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalMap
+      second:
+        m_Texture: {fileID: 2800000, guid: de321333385f8f845aa47fd64a29b1eb, type: 3}
+        m_Scale: {x: 3, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Waves
+      second:
+        m_Texture: {fileID: 2800000, guid: cae8fba1c8104db48b60a9bd78a72229, type: 3}
+        m_Scale: {x: 0.4, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_459
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AmbientPower
+      second: 8.52
+    - first:
+        name: _BaseAmbient
+      second: 0.03
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Cutout
+      second: 1.27
+    - first:
+        name: _DiffusePower
+      second: 1
+    - first:
+        name: _DirtIcon
+      second: -4.4
+    - first:
+        name: _DirtPower
+      second: 0.38
+    - first:
+        name: _Gloss
+      second: 0.55714285
+    - first:
+        name: _GlossIcon
+      second: 0.39
+    - first:
+        name: _MovementAffect
+      second: 1
+    - first:
+        name: _MovementPower
+      second: 0.57
+    - first:
+        name: _MultOffset
+      second: 1.01
+    - first:
+        name: _NormalSmooth
+      second: 0.7
+    - first:
+        name: _SpecA
+      second: 0.21
+    - first:
+        name: _SpecB
+      second: 0.45
+    - first:
+        name: _SpecC
+      second: 1.83
+    - first:
+        name: _SpecIcon
+      second: 3.63
+    - first:
+        name: _TexSpecular
+      second: 0.311
+    - first:
+        name: _UseCustomAmbient
+      second: 1
+    - first:
+        name: _VOffset
+      second: 0
+    - first:
+        name: _VOffsetRange
+      second: 0.1
+    - first:
+        name: _VOffsetVelocity
+      second: 3.38
+    m_Colors:
+    - first:
+        name: _AmbientColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorA
+      second: {r: 0.33823532, g: 0.13429932, b: 0.16383484, a: 1}
+    - first:
+        name: _ColorB
+      second: {r: 0.34256053, g: 0.38582507, b: 0.4705882, a: 1}
+    - first:
+        name: _ColorIcon
+      second: {r: 0.47925666, g: 0.49264705, b: 0.24994594, a: 1}

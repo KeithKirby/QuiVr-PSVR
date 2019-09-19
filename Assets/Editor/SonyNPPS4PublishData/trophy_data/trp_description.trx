@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trophytrp fmt_ver="3" service_label="0">
+ <file name="TROPCONF.SFM" path="">
+  <trophyconf version="1.1" platform="ps4" policy="small">
+   <npcommid>AAAA00000_00</npcommid>
+   <trophyset-version>01.00</trophyset-version>
+   <trophy id="000" hidden="no" ttype="B" pid="-1"/>
+   <trophy id="001" hidden="no" ttype="B" pid="-1"/>
+   <trophy id="002" hidden="no" ttype="B" pid="-1"/>
+   <trophy id="003" hidden="no" ttype="B" pid="-1"/>
+   <trophy id="004" hidden="no" ttype="B" pid="-1"/>
+   <trophy id="005" hidden="no" ttype="B" pid="-1"/>
+   <trophy id="006" hidden="no" ttype="B" pid="-1"/>
+   <trophy id="007" hidden="no" ttype="S" pid="-1"/>
+   <trophy id="008" hidden="no" ttype="S" pid="-1"/>
+   <trophy id="009" hidden="no" ttype="B" pid="-1"/>
+   <trophy id="010" hidden="no" ttype="B" pid="-1"/>
+   <trophy id="011" hidden="no" ttype="S" pid="-1"/>
+   <trophy id="012" hidden="no" ttype="G" pid="-1"/>
+  </trophyconf>
+ </file>
+ <file name="TROP.SFM" path="">
+  <trophyconf version="1.1" platform="ps4" policy="small">
+   <title-name>Unity Np Toolkit&#x0a;</title-name>
+   <title-detail>Unity Np Toolkit Test App.</title-detail>
+   <trophy id="000">
+    <name>Avian Invaders</name>
+    <detail>Shoot hidden purple gems at gate</detail>
+   </trophy>
+   <trophy id="001">
+    <name>Tidy Up</name>
+    <detail>Heal 250 Gate hp in a single game</detail>
+   </trophy>
+   <trophy id="002">
+    <name>Primordial</name>
+    <detail>Equip a Primordial Item</detail>
+   </trophy>
+   <trophy id="003">
+    <name>Opportunist</name>
+    <detail>Kill 5 enemies with a single Critical Strike</detail>
+   </trophy>
+   <trophy id="004">
+    <name>Home Improvement</name>
+    <detail>Heal 500 Gate hp in a single game</detail>
+   </trophy>
+   <trophy id="005">
+    <name>Rapid Fire</name>
+    <detail>Shoot 8 arrows in 1 second</detail>
+   </trophy>
+   <trophy id="006">
+    <name>Hallowed Ground</name>
+    <detail>Equip a Hallowed item in every slot</detail>
+   </trophy>
+   <trophy id="007">
+    <name>Careful Aim</name>
+    <detail>Make three 100m+ shots in a row</detail>
+   </trophy>
+   <trophy id="008">
+    <name>Critically Acclaimed</name>
+    <detail>Get 10 Critical Strikes in a row</detail>
+   </trophy>
+   <trophy id="009">
+    <name>Helping Hands</name>
+    <detail>Heal 1000 Gate hp in a single game</detail>
+   </trophy>
+   <trophy id="010">
+    <name>Eagle Eye</name>
+    <detail>Make five 100m+ shots in a row</detail>
+   </trophy>
+   <trophy id="011">
+    <name>Unyielding</name>
+    <detail>Reach a 100-Combo chain</detail>
+   </trophy>
+   <trophy id="012">
+    <name>Sniper</name>
+    <detail>Make ten 100m+ shots in a row</detail>
+   </trophy>
+  </trophyconf>
+ </file>
+ <file name="ICON0.PNG" path="ICON0.PNG" />
+ <file name="TROP000.PNG" path="TROP000.PNG" />
+ <file name="TROP001.PNG" path="TROP001.PNG" />
+ <file name="TROP002.PNG" path="TROP002.PNG" />
+ <file name="TROP003.PNG" path="TROP003.PNG" />
+ <file name="TROP004.PNG" path="TROP004.PNG" />
+ <file name="TROP005.PNG" path="TROP005.PNG" />
+ <file name="TROP006.PNG" path="TROP006.PNG" />
+ <file name="TROP007.PNG" path="TROP007.PNG" />
+ <file name="TROP008.PNG" path="TROP008.PNG" />
+ <file name="TROP009.PNG" path="TROP009.PNG" />
+ <file name="TROP010.PNG" path="TROP010.PNG" />
+ <file name="TROP011.PNG" path="TROP011.PNG" />
+ <file name="TROP012.PNG" path="TROP012.PNG" />
+</trophytrp>

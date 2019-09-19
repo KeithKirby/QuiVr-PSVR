@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WaterFlowBasic
+  m_Shader: {fileID: 4800000, guid: ef1ebc5120034be4aa9af8be3c044694, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _DiffuseMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 625431f7b67055845896e98f8c9d4aca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DiffuseSide
+      second:
+        m_Texture: {fileID: 2800000, guid: d2233f0af4a6afc4db1b77caa890a5ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DiffuseUp
+      second:
+        m_Texture: {fileID: 2800000, guid: d2233f0af4a6afc4db1b77caa890a5ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 36a8f9b5fcf33754387087ece5a99804, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalSide
+      second:
+        m_Texture: {fileID: 2800000, guid: 36a8f9b5fcf33754387087ece5a99804, type: 3}
+        m_Scale: {x: 2, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalUp
+      second:
+        m_Texture: {fileID: 2800000, guid: 47777d6a7a69f354e9f612c8a0599821, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_158
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _1stVelocity
+      second: 1
+    - first:
+        name: _2ndUVs
+      second: 2
+    - first:
+        name: _2ndVelocity
+      second: 6
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _FresnelPower
+      second: 1.35
+    - first:
+        name: _FresnelRim
+      second: 0.71
+    - first:
+        name: _Gloss
+      second: 0.71
+    - first:
+        name: _OpacityPower
+      second: 1
+    - first:
+        name: _RefractionPower
+      second: 0.005
+    - first:
+        name: _TopDownMask
+      second: 0.92857146
+    - first:
+        name: _UpMoveFresnel
+      second: 7.06
+    - first:
+        name: _UpMoveRange
+      second: 0.41
+    - first:
+        name: _UpVelocity
+      second: 0.2
+    - first:
+        name: _UpmoveMix
+      second: 0.5
+    - first:
+        name: _Velocity
+      second: 1
+    - first:
+        name: _node_64
+      second: 2.26
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0.3771626, g: 0.43192935, b: 0.4705882, a: 0.6117647}
+    - first:
+        name: _node_134
+      second: {r: 0, g: 1, b: 0, a: 0}
