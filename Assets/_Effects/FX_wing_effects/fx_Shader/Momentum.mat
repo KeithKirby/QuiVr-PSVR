@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Momentum
+  m_Shader: {fileID: 4800000, guid: b43218703b3a4ea41a1caacba0b4ee26, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _dust:
+        m_Texture: {fileID: 2800000, guid: 58cecdf7f0dbe154b92fa237c679e276, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask:
+        m_Texture: {fileID: 2800000, guid: 02178d1001db3f24ba197af4a3c6cc4c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wing:
+        m_Texture: {fileID: 2800000, guid: ff2e77283ac27c54d8b818dc6c5bfee8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _dust_UV: 4
+    - _dust_intensity: 1
+    - _dust_select: 0
+    - _dust_speed: 3
+    - _wing_UV: 1
+    - _wing_intensity: 1
+    - _wing_speed: 0.5
+    m_Colors:
+    - _dust_color: {r: 1, g: 0.43448275, b: 0, a: 1}
+    - _node_2884: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _wing_color: {r: 1, g: 0.4758621, b: 0, a: 1}
