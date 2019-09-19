@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1931e43e61e03f4f858c9e65b16479f, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  ResourceValues: 3200000064000000fa000000f4010000e80300002003000020030000
+  RarityPercents:
+  - -1
+  - 101
+  - 50
+  - 20
+  - 3
+  RarityColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 0.16911763, g: 0.48786134, b: 1, a: 1}
+  - {r: 0.49019623, g: 0, b: 1, a: 1}
+  - {r: 1, g: 0.4901961, b: 0, a: 1}
+  - {r: 0.9044118, g: 0.78575337, b: 0.43890572, a: 1}
+  - {r: 1, g: 0.03676468, b: 0.03676468, a: 1}
+  ResourceIcon: {fileID: 21300000, guid: 1088437ec43c7424b930cb764d8894fe, type: 3}
+  ItemIcons:
+  - {fileID: 21300000, guid: 8aa51a4f20e19bf48ae7f3656ae2f0d4, type: 3}
+  - {fileID: 21300000, guid: 70aa7ee698374ed4dbf139f3b937349b, type: 3}
+  - {fileID: 21300000, guid: ad4794a8920edbe4fb3344c0c2ff2ae4, type: 3}
+  - {fileID: 21300000, guid: ae032100bd30f7049aecb851937cf9ed, type: 3}
+  - {fileID: 21300000, guid: 4709152caed862844823a352fafdd40e, type: 3}
+  - {fileID: 21300000, guid: 4709152caed862844823a352fafdd40e, type: 3}
+  - {fileID: 21300000, guid: 2dbd5aacac0b8e24897ccc770d634cbc, type: 3}
+  - {fileID: 21300000, guid: 082fa85ae949df94499dfece1a76e11d, type: 3}
+  Helmets:
+  - {fileID: 1000011946244504, guid: ae8c9d96fadbd724d8804bbd187762cf, type: 2}
+  - {fileID: 1000013458413586, guid: 229770dc2cf762b479b462cad0f75f75, type: 2}
+  - {fileID: 1000010008279870, guid: e7a1a90f97c09ab4294cbb8a188eef04, type: 2}
+  - {fileID: 1000013845036604, guid: 6060123bf05e9ea48acb1a833bc1cf2e, type: 2}
+  - {fileID: 1000011213160616, guid: fd22fca6bf825854aa0934b19cf309bc, type: 2}
+  Arrows:
+  - {fileID: 1000010036634104, guid: 535afcaa9c3b4a94e9042723e887b6b0, type: 2}
+  - {fileID: 1000010036634104, guid: 535afcaa9c3b4a94e9042723e887b6b0, type: 2}
+  - {fileID: 1536093747112526, guid: fa17ece7c4e82344fa348d50896bbbe6, type: 2}
+  - {fileID: 1000013871458142, guid: 8c9eb6dfe8917b3418a50f9dcdae4776, type: 2}
+  - {fileID: 1000010558478844, guid: 4bf2d767a2bf8e34ab701a632f730221, type: 2}
+  - {fileID: 1579843266274526, guid: f6fc9fbc5910c6942955c17cb8c26b0e, type: 2}
+  - {fileID: 1000011019633940, guid: 94bf9cd8eb581784f9b6f00e01531598, type: 2}
+  - {fileID: 1323742888479872, guid: 07f6e037f5338db45b52d81d99db4742, type: 2}
+  Chestplates:
+  - {fileID: 1000010577355710, guid: d678306539498ac4598d20537be2a3f0, type: 2}
+  - {fileID: 1000013876345886, guid: 30f423728371f1d4b98a3130fc719619, type: 2}
+  - {fileID: 1000010898823942, guid: 9b7605a7f398f8d46953cde61b826248, type: 2}
+  - {fileID: 1563214929060572, guid: 53bf4676447bf954f8930b44bd8d34b2, type: 2}
+  - {fileID: 1710091832909914, guid: 235cfa3292b836e48bd725ebb3654e22, type: 2}
+  - {fileID: 1563214929060572, guid: 5120529d54fb4da4b9a13f6af7e302a4, type: 2}
+  - {fileID: 1901417363118790, guid: c35223d447c06b840b90c348620a7e24, type: 2}
+  - {fileID: 1032166246072276, guid: 8e3b3282f1ad9e44c936123db65b0d3d, type: 2}
+  - {fileID: 1963256221441530, guid: 80722c70fbd64c04b98d41aea0323501, type: 2}
+  Quivers:
+  - {fileID: 1000010319428380, guid: a868fda232462a54eb9c342f8de6a80e, type: 2}
+  - {fileID: 1000013804409618, guid: a995fbbef7dcdcd44ae6014f322b404c, type: 2}
+  - {fileID: 1000012336452620, guid: a06aca6857aceb844a6b711551840ca0, type: 2}
+  - {fileID: 1000013817018768, guid: f6ebf5aa002babb4ea588d8ac45b1bd6, type: 2}
+  - {fileID: 1000014292846064, guid: aa9f53dafab53a747bcdf8263053ed63, type: 2}
+  - {fileID: 1000011359193008, guid: 22220656645a75846b75f062ddee3600, type: 2}
+  - {fileID: 1000010478283604, guid: 4e36bcf0e5024264a8de049b2b78eca6, type: 2}
+  - {fileID: 1000011533705654, guid: b396c3ccb73a9d348883a30ee04ebe41, type: 2}
+  - {fileID: 1594614105859216, guid: 2691083a2bdbb3e4db4cdc4772a3e887, type: 2}
+  - {fileID: 1193407359874778, guid: 937f7aa38fa857845979be21de83893c, type: 2}
+  Bows:
+  - {fileID: 1000010826566254, guid: 5602a3bb35952164d8dcd3e611d8cdc5, type: 2}
+  - {fileID: 1000010826566254, guid: 5602a3bb35952164d8dcd3e611d8cdc5, type: 2}
+  - {fileID: 1000014006374956, guid: dbd0009b1b1e59b40b32fae97f364a66, type: 2}
+  - {fileID: 1709609468710178, guid: 0d32fcb8f2f7e3f448c31956d5adb633, type: 2}
+  - {fileID: 1281015095654108, guid: 52cf1ee0ec029094ea93c22a2b870359, type: 2}
+  - {fileID: 1731244847892850, guid: 6d10fbfcea45c0045935c79a29f8b054, type: 2}
+  - {fileID: 1666350863572824, guid: 4b3d062b46468ca458d825d71a2eb135, type: 2}
+  - {fileID: 1463033849699226, guid: 0336c560282e03646ba13177ba41a106, type: 2}
+  - {fileID: 1395034380602078, guid: 62c64c0d9fa03ed46ab53c1c92ed99af, type: 2}
+  - {fileID: 1140588331214074, guid: d6f45fc914cb1754b9605695fd89fecc, type: 2}
+  - {fileID: 1766836406279572, guid: efb9b68255a510c4a9753f1dc346eaee, type: 2}
+  - {fileID: 1334621145876582, guid: 284703cf7f6cdf84a89c2286301a4df5, type: 2}
+  - {fileID: 1759178825746788, guid: aadb7bbb98125174ba7be8db13da5f27, type: 2}
+  - {fileID: 1492134521399908, guid: eb2cb6aa0de44e0449534efda0ade347, type: 2}
+  Gloves:
+  - {fileID: 1000012193179386, guid: d3ba4529b77628643924a939b66227c4, type: 2}
+  - {fileID: 1000012193179386, guid: d3ba4529b77628643924a939b66227c4, type: 2}
+  - {fileID: 1000012055187192, guid: be0cffa4b75fe784d8faf8658d360290, type: 2}
+  - {fileID: 1000010269766914, guid: 8c4a76c23d50d6848b4e3788669ddb27, type: 2}
+  - {fileID: 1000011453207110, guid: 70f2f27e582010a4b960f2f940a693fd, type: 2}
+  - {fileID: 1000010211943834, guid: 776dcc6092d705848adc1c269c4ba418, type: 2}
+  - {fileID: 1000012793417072, guid: 49e366c64d197744ab7efc7f5fa34cd5, type: 2}
+  - {fileID: 1000011764284346, guid: 064555a7b39a47a49adcff795d879fd2, type: 2}
+  - {fileID: 1000012364404176, guid: 8c8c78e5b872bf246989a7d7ee809d16, type: 2}
+  - {fileID: 1000012119534370, guid: cb2a7aefb9fa39b4d9509ead0d860153, type: 2}
+  - {fileID: 1000012364404176, guid: 339c615029a340c488376e65bd522357, type: 2}
+  - {fileID: 1994703784974294, guid: 28f7eb75808dd7e448bf635573499868, type: 2}
+  BowDetails: []
+  Artists:
+  - Artist: Pengu
+    Works:
+    - {fileID: 1766836406279572, guid: efb9b68255a510c4a9753f1dc346eaee, type: 2}
+    - {fileID: 1579843266274526, guid: f6fc9fbc5910c6942955c17cb8c26b0e, type: 2}
+    - {fileID: 1666350863572824, guid: 4b3d062b46468ca458d825d71a2eb135, type: 2}
+    - {fileID: 1000011019633940, guid: 94bf9cd8eb581784f9b6f00e01531598, type: 2}
+  - Artist: Fliedihi
+    Works:
+    - {fileID: 1759178825746788, guid: aadb7bbb98125174ba7be8db13da5f27, type: 2}
+  WingOptions:
+  - WingMat: {fileID: 2100000, guid: 0e26eba953cd9b942ad34d5c28950d92, type: 2}
+  - WingMat: {fileID: 2100000, guid: 1c7ae539ec93aac4ca82cb23b78896b9, type: 2}
+  - WingMat: {fileID: 2100000, guid: c8d1c9656c2091e4cbe2004ddf8e52ed, type: 2}
+  - WingMat: {fileID: 2100000, guid: ba0bd942eff687a4990808322daf7297, type: 2}
+  - WingMat: {fileID: 2100000, guid: 2a04ada4f1a7a724b9db2271300b2865, type: 2}
+  - WingMat: {fileID: 2100000, guid: f513ab9bddbf05d4bbf01d40ee148d5f, type: 2}
+  - WingMat: {fileID: 2100000, guid: 1565a5b0e0868e84e88c5300ee52ce68, type: 2}
+  - WingMat: {fileID: 2100000, guid: f3d83613a3892144baf282facaba0578, type: 2}
+  - WingMat: {fileID: 2100000, guid: e2c99cb4355cb46459c6ac8dfc516808, type: 2}
+  - WingMat: {fileID: 2100000, guid: f8c4bc3ded2e08b4c808c3b0c2eb432c, type: 2}
+  - WingMat: {fileID: 2100000, guid: c5171f0c587c9294a9bf662cb146349d, type: 2}
+  - WingMat: {fileID: 2100000, guid: 7ca60b3570c960f459fa950bc308856b, type: 2}
+  - WingMat: {fileID: 2100000, guid: d966fa50ae9e5e94a89d1bec4e4e3085, type: 2}
+  - WingMat: {fileID: 2100000, guid: 3bec1f9efa7914540a599505b4cefd17, type: 2}
+  - WingMat: {fileID: 2100000, guid: b2750566ecfa1ef47a3ea9acf01dacdc, type: 2}
+  - WingMat: {fileID: 2100000, guid: 79097ae3086f3924b9bc91ed11fbbb49, type: 2}
+  - WingMat: {fileID: 2100000, guid: b65e94e3ca9da16449b0b4e390fa5c30, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3c454c53715154e8d19005c0dca04b, type: 3}
+  m_Name: PS4AchievementMapData
+  m_EditorClassIdentifier: 
+  Achievements:
+  - ID: OWL_GEMS
+  - ID: GATE_HEAL_1
+  - ID: PRIMORDIAL
+  - ID: CRIT_MULT_5
+  - ID: GATE_HEAL_2
+  - ID: RAPID_FIRE
+  - ID: ALL_HALLOWED
+  - ID: LONG_COMBO_1
+  - ID: CRIT_COMBO_10
+  - ID: GATE_HEAL_3
+  - ID: LONG_COMBO_2
+  - ID: COMBO_100
+  - ID: LONG_COMBO_3

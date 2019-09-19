@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2084bc985776b44be5a36b8feda507, type: 3}
+  m_Name: Achievements
+  m_EditorClassIdentifier: 
+  Achievements:
+  - Name: Avian Invaders
+    ID: OWL_GEMS
+    Icon: {fileID: 21300000, guid: fbe3d4c9f585ad24bb0075cf40102d63, type: 3}
+    Detail: What Gems?
+    rewardType: 1
+    TitleReward: 
+    ItemReward:
+      ItemName: Bow of the Brood
+      Type: 4
+      rarity: 5
+      ObjectID: 2
+      Colors:
+      - {r: 0.63699996, g: 0.13700001, b: 0.77900004, a: 1}
+      Effect: 13^0
+      ancient: 0
+    WingReward: {fileID: 0}
+  - Name: Tidy Up
+    ID: GATE_HEAL_1
+    Icon: {fileID: 21300000, guid: e5b8943055755f049b54f852beff343e, type: 3}
+    Detail: Heal 1000 Gate hp in a single game
+    rewardType: 0
+    TitleReward: 
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0,0
+      ancient: 0
+    WingReward: {fileID: 0}
+  - Name: Home Improvement
+    ID: GATE_HEAL_2
+    Icon: {fileID: 21300000, guid: e82f93ff357df4f418fd4d3b7d7cabba, type: 3}
+    Detail: Heal 2500 Gate hp in a single game
+    rewardType: 0
+    TitleReward: 
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0,0
+      ancient: 0
+    WingReward: {fileID: 0}
+  - Name: Helping Hands
+    ID: GATE_HEAL_3
+    Icon: {fileID: 21300000, guid: 5553aeacc72c685408f0f4110278b401, type: 3}
+    Detail: Heal 10000 Gate hp in a single game
+    rewardType: 2
+    TitleReward: Doctor %
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0,0
+      ancient: 0
+    WingReward: {fileID: 0}
+  - Name: Rapid Fire
+    ID: RAPID_FIRE
+    Icon: {fileID: 21300000, guid: 8c19d30fc03f2bb43968b6c3723a1be9, type: 3}
+    Detail: Shoot 12 arrows in 1 second
+    rewardType: 3
+    TitleReward: 
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0,0
+      ancient: 0
+    WingReward: {fileID: 2100000, guid: 79097ae3086f3924b9bc91ed11fbbb49, type: 2}
+  - Name: Careful Aim
+    ID: LONG_COMBO_1
+    Icon: {fileID: 21300000, guid: fc9731a8f0f54fd4ca6ed3f76374aca5, type: 3}
+    Detail: Make three 100m+ shots in a row
+    rewardType: 0
+    TitleReward: 
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0,0
+      ancient: 0
+    WingReward: {fileID: 0}
+  - Name: Eagle Eye
+    ID: LONG_COMBO_2
+    Icon: {fileID: 21300000, guid: 090ba614d64f9ad4ea834e50969b3c01, type: 3}
+    Detail: Make five 100m+ shots in a row
+    rewardType: 0
+    TitleReward: 
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0,0
+      ancient: 0
+    WingReward: {fileID: 0}
+  - Name: Sniper
+    ID: LONG_COMBO_3
+    Icon: {fileID: 21300000, guid: 27bc3e2c3110bae4bb676cc9530b56c7, type: 3}
+    Detail: Make ten 100m+ shots in a row
+    rewardType: 2
+    TitleReward: Sniper %
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0,0
+      ancient: 0
+    WingReward: {fileID: 0}
+  - Name: Primordial
+    ID: PRIMORDIAL
+    Icon: {fileID: 21300000, guid: 29dda2f98e0bf9e4d85b31b84a049673, type: 3}
+    Detail: Equip a Primordial Item
+    rewardType: 0
+    TitleReward: 
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0,0
+      ancient: 0
+    WingReward: {fileID: 0}
+  - Name: Hallowed Ground
+    ID: ALL_HALLOWED
+    Icon: {fileID: 21300000, guid: b81cdf0dd38be15458c0169d3a225ae6, type: 3}
+    Detail: Equip a Hallowed item in every slot
+    rewardType: 2
+    TitleReward: '% the Hallowed'
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0,0
+      ancient: 0
+    WingReward: {fileID: 0}
+  - Name: Testing Initiative
+    ID: BETA_TEST
+    Icon: {fileID: 21300000, guid: 91bc16e5c39dd3c4c85f2c2577c03221, type: 3}
+    Detail: Play a game in a Beta branch
+    rewardType: 0
+    TitleReward: 
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0,0
+      ancient: 0
+    WingReward: {fileID: 0}
+  - Name: Unyielding
+    ID: COMBO_100
+    Icon: {fileID: 21300000, guid: ebd2d23dd8f1b0d4a92568a4fcbc0e9d, type: 3}
+    Detail: Reach a 100-Combo chain
+    rewardType: 3
+    TitleReward: 
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0,0
+      ancient: 0
+    WingReward: {fileID: 2100000, guid: f3d83613a3892144baf282facaba0578, type: 2}
+  - Name: Critically Acclaimed
+    ID: CRIT_COMBO_10
+    Icon: {fileID: 21300000, guid: 96f6db0b137286e459681917a5910180, type: 3}
+    Detail: Get 10 Critical Strikes in a row
+    rewardType: 0
+    TitleReward: 
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0,0
+      ancient: 0
+    WingReward: {fileID: 0}
+  - Name: Opportunist
+    ID: CRIT_MULT_5
+    Icon: {fileID: 21300000, guid: a0bb44534d00a914bb6cf2fa2435e9bf, type: 3}
+    Detail: Kill 5 enemies with a single Critical Strike
+    rewardType: 0
+    TitleReward: 
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0,0
+      ancient: 0
+    WingReward: {fileID: 0}
+  - Name: Dynamic Support
+    ID: DYNAMIC_TESTING
+    Icon: {fileID: 21300000, guid: 91bc16e5c39dd3c4c85f2c2577c03221, type: 3}
+    Detail: 
+    rewardType: 3
+    TitleReward: 
+    ItemReward:
+      ItemName: None
+      Type: 4
+      rarity: 6
+      ObjectID: 0
+      Colors: []
+      Effect: 0^0
+      ancient: 0
+    WingReward: {fileID: 2100000, guid: b65e94e3ca9da16449b0b4e390fa5c30, type: 2}

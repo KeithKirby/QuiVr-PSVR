@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01000052aca98074baf1db9ae265b83e, type: 3}
+  m_Name: EnemyData
+  m_EditorClassIdentifier: 
+  Enemies:
+  - Name: Grub
+    type: 0
+    size: 1
+    status: 0
+    DifficultyThreshold: 0
+    Rarity: 64
+    HalfThreshold: 301
+    StopThreshold: 701
+    SPLimit: 0
+    MaxNum: 0
+    pvpResource: 5
+    EnergyMult: -1
+    prefab: {fileID: 1000011033177524, guid: d1290d807159296499ad05fd3f61c750, type: 2}
+    elitePrefab: {fileID: 1555041665468878, guid: 0522741509cdfee4199b92811c6589e1,
+      type: 2}
+    Weapons:
+    - {fileID: 1000011699214132, guid: b89683304732c0244a42394b7518dc94, type: 2}
+    - {fileID: 1000012523913252, guid: 496da72b99a34d1498d76ab51b896c77, type: 2}
+    BaseColors:
+    - {r: 0.11856618, g: 0.2476674, b: 0.375, a: 1}
+    - {r: 0.10899653, g: 0.2217158, b: 0.35294116, a: 1}
+    - {r: 0.18112023, g: 0.2673085, b: 0.36764705, a: 1}
+    DetailColors: []
+    ArmorColors:
+    - {r: 0.75686276, g: 0.7529412, b: 0.6117647, a: 1}
+    - {r: 0.8235294, g: 0.81763774, b: 0.60553634, a: 1}
+    - {r: 0.6838235, g: 0.6766211, b: 0.41733345, a: 1}
+    SpeedRange: {x: 3, y: 4}
+  - Name: Knight
+    type: 0
+    size: 1
+    status: 0
+    DifficultyThreshold: 101
+    Rarity: 40
+    HalfThreshold: 601
+    StopThreshold: 901
+    SPLimit: 0
+    MaxNum: 0
+    pvpResource: 8
+    EnergyMult: -1
+    prefab: {fileID: 1000012297636602, guid: 691927fe1dcf2974ca65d9ef9e1f9142, type: 2}
+    elitePrefab: {fileID: 1629271306968116, guid: 925ff8803f54efc4fa5848bbfa612569,
+      type: 2}
+    Weapons:
+    - {fileID: 1000013030342512, guid: 21f828ce06234504fb44a6eefba4948d, type: 2}
+    - {fileID: 1000011699214132, guid: b89683304732c0244a42394b7518dc94, type: 2}
+    - {fileID: 1000010757758498, guid: 4923605509946e74398bf75594a0a5a5, type: 2}
+    - {fileID: 1000012885789954, guid: fc32f3695a5cda94fbd8accc9c91b444, type: 2}
+    BaseColors:
+    - {r: 0.08801904, g: 0.20658639, b: 0.32352942, a: 1}
+    - {r: 0.0700692, g: 0.16703855, b: 0.39705884, a: 1}
+    DetailColors: []
+    ArmorColors:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 0.9117647, g: 0.7726882, b: 0.59666955, a: 1}
+    - {r: 0.6764706, g: 0.63901085, b: 0.5720156, a: 1}
+    SpeedRange: {x: 3, y: 5}
+  - Name: Sentry
+    type: 0
+    size: 1
+    status: 0
+    DifficultyThreshold: 501
+    Rarity: 24
+    HalfThreshold: 2000
+    StopThreshold: 99999
+    SPLimit: 0
+    MaxNum: 0
+    pvpResource: 15
+    EnergyMult: -1
+    prefab: {fileID: 1819253389870660, guid: 088420e8c91a6774a998110ba63c8b8e, type: 2}
+    elitePrefab: {fileID: 1382631460096062, guid: 4a85811c81417984494013e396bfa846,
+      type: 2}
+    Weapons: []
+    BaseColors:
+    - {r: 0.08801904, g: 0.20658639, b: 0.32352942, a: 1}
+    - {r: 0.0700692, g: 0.16703855, b: 0.39705884, a: 1}
+    DetailColors: []
+    ArmorColors:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 0.9117647, g: 0.7726882, b: 0.59666955, a: 1}
+    - {r: 0.6764706, g: 0.63901085, b: 0.5720156, a: 1}
+    SpeedRange: {x: 2.5, y: 3.75}
+  - Name: Warp
+    type: 0
+    size: 2
+    status: 0
+    DifficultyThreshold: 201
+    Rarity: 16
+    HalfThreshold: 5500
+    StopThreshold: 999999
+    SPLimit: 0
+    MaxNum: 0
+    pvpResource: 12
+    EnergyMult: -1
+    prefab: {fileID: 1000012853049872, guid: 03fae28e634cb274689624360ffdb587, type: 2}
+    elitePrefab: {fileID: 1130246222316782, guid: e9242f7f81b8b6343a5788c2bd285889,
+      type: 2}
+    Weapons:
+    - {fileID: 1000010110672052, guid: 32ceeb6496e986c428059f8d31d8f184, type: 2}
+    - {fileID: 1000012434449374, guid: f8f1449f09a914b4ebeaec86c4428af9, type: 2}
+    - {fileID: 1000012587224888, guid: 1bbaf25b99b027e4fab69de10910549a, type: 2}
+    - {fileID: 1000014195251898, guid: e224f575ba45f454684cee1144beff81, type: 2}
+    BaseColors:
+    - {r: 0.15500648, g: 0.25095457, b: 0.3455882, a: 1}
+    - {r: 0, g: 0.18534482, b: 0.625, a: 1}
+    - {r: 0.09083046, g: 0.13673782, b: 0.44117647, a: 1}
+    DetailColors: []
+    ArmorColors: []
+    SpeedRange: {x: 3, y: 5}
+  - Name: Pyre
+    type: 2
+    size: 2
+    status: 0
+    DifficultyThreshold: 301
+    Rarity: 32
+    HalfThreshold: 5000
+    StopThreshold: 999999
+    SPLimit: 0
+    MaxNum: 0
+    pvpResource: 15
+    EnergyMult: -1
+    prefab: {fileID: 1000010226833646, guid: edc60506216993544aa153b463fd3ebf, type: 2}
+    elitePrefab: {fileID: 1631245678249890, guid: 7d7b6a226afa32f4d8a1cf958fe6b561,
+      type: 2}
+    Weapons: []
+    BaseColors:
+    - {r: 0.2681661, g: 0.42930442, b: 0.58823526, a: 1}
+    - {r: 0.044279836, g: 0.28627026, b: 0.8602941, a: 1}
+    - {r: 0, g: 0.09056788, b: 0.6911765, a: 1}
+    DetailColors: []
+    ArmorColors:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 0.84353, g: 0.8455882, b: 0.6963667, a: 1}
+    - {r: 1, g: 0.98022306, b: 0.71323526, a: 1}
+    SpeedRange: {x: 5, y: 8}
+  - Name: Zephyr
+    type: 0
+    size: 0
+    status: 0
+    DifficultyThreshold: 101
+    Rarity: 32
+    HalfThreshold: 501
+    StopThreshold: 901
+    SPLimit: 0
+    MaxNum: 0
+    pvpResource: 6
+    EnergyMult: -1
+    prefab: {fileID: 1000011158990932, guid: 9698f21cd265d4e41a5c865057bdf822, type: 2}
+    elitePrefab: {fileID: 1672542956498362, guid: 9d143993ca913d04194f674c7536423b,
+      type: 2}
+    Weapons: []
+    BaseColors:
+    - {r: 0.35726643, g: 0.49553752, b: 0.8235294, a: 1}
+    - {r: 0.13554281, g: 0.27791354, b: 0.8014706, a: 1}
+    - {r: 0, g: 0.25517225, b: 1, a: 1}
+    DetailColors: []
+    ArmorColors:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 0.75686276, g: 0.7529412, b: 0.6117647, a: 1}
+    SpeedRange: {x: 4.5, y: 5.5}
+  - Name: Dusker
+    type: 0
+    size: 2
+    status: 0
+    DifficultyThreshold: 301
+    Rarity: 16
+    HalfThreshold: 901
+    StopThreshold: 2000
+    SPLimit: 0
+    MaxNum: 0
+    pvpResource: 10
+    EnergyMult: -1
+    prefab: {fileID: 1000013006566704, guid: d05d087ec9f1d31459e735810c5a7d8e, type: 2}
+    elitePrefab: {fileID: 1612563457449286, guid: d04d44de36f476d4f88caa274cce6eeb,
+      type: 2}
+    Weapons:
+    - {fileID: 1000010110672052, guid: 32ceeb6496e986c428059f8d31d8f184, type: 2}
+    - {fileID: 1000012434449374, guid: f8f1449f09a914b4ebeaec86c4428af9, type: 2}
+    - {fileID: 1000012587224888, guid: 1bbaf25b99b027e4fab69de10910549a, type: 2}
+    BaseColors:
+    - {r: 0.33215004, g: 0, b: 0.36764705, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+    - {r: 0.3339846, g: 0.16955015, b: 0.3602941, a: 1}
+    DetailColors:
+    - {r: 0.7938676, g: 0.21323532, b: 1, a: 1}
+    ArmorColors:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 0.84353, g: 0.8455882, b: 0.6963667, a: 1}
+    - {r: 1, g: 0.98022306, b: 0.71323526, a: 1}
+    SpeedRange: {x: 3, y: 4}
+  - Name: Maul
+    type: 0
+    size: 3
+    status: 0
+    DifficultyThreshold: 401
+    Rarity: 8
+    HalfThreshold: 7000
+    StopThreshold: 999999
+    SPLimit: 0
+    MaxNum: 0
+    pvpResource: 20
+    EnergyMult: -1
+    prefab: {fileID: 1000010425845750, guid: 84247662039f7974687f33bafb340719, type: 2}
+    elitePrefab: {fileID: 1187733654911564, guid: 76469836aa89a164a9ae0876371ab82d,
+      type: 2}
+    Weapons: []
+    BaseColors:
+    - {r: 0.1974481, g: 0.4052948, b: 0.6102941, a: 1}
+    - {r: 0.12456748, g: 0.36673427, b: 0.9411765, a: 1}
+    - {r: 0.09083046, g: 0.13673782, b: 0.44117647, a: 1}
+    DetailColors: []
+    ArmorColors: []
+    SpeedRange: {x: 6, y: 7}
+  - Name: Baron
+    type: 0
+    size: 3
+    status: 0
+    DifficultyThreshold: 501
+    Rarity: 10
+    HalfThreshold: 999999
+    StopThreshold: 9999999
+    SPLimit: 2
+    MaxNum: 0
+    pvpResource: 25
+    EnergyMult: -1
+    prefab: {fileID: 1090011800502378, guid: d15f6cc3f4d889c4d9282e8cf07704bc, type: 2}
+    elitePrefab: {fileID: 1812840442497050, guid: cd56223361d9dbc40b86a9e85e512ddd,
+      type: 2}
+    Weapons: []
+    BaseColors: []
+    DetailColors: []
+    ArmorColors: []
+    SpeedRange: {x: 3, y: 4}
+  - Name: Tyrant
+    type: 0
+    size: 3
+    status: 0
+    DifficultyThreshold: 701
+    Rarity: 8
+    HalfThreshold: 10000
+    StopThreshold: 9999999
+    SPLimit: 1
+    MaxNum: 3
+    pvpResource: 5
+    EnergyMult: -1
+    prefab: {fileID: 1252313630219690, guid: 707680ebfca9776479561ded82de7698, type: 2}
+    elitePrefab: {fileID: 1472224943124834, guid: 8d35005a73d648e45bb28089de817c0e,
+      type: 2}
+    Weapons: []
+    BaseColors: []
+    DetailColors: []
+    ArmorColors: []
+    SpeedRange: {x: 4, y: 5}
+  - Name: Escorts
+    type: 0
+    size: 1
+    status: 0
+    DifficultyThreshold: 301
+    Rarity: 12
+    HalfThreshold: 999999
+    StopThreshold: 999999
+    SPLimit: 3
+    MaxNum: 5
+    pvpResource: 5
+    EnergyMult: -1
+    prefab: {fileID: 1096973583024988, guid: 63dad580528b45a4eb750824d5fd3c7e, type: 2}
+    elitePrefab: {fileID: 1944240877938640, guid: 85a63364666a9e641a1a4b2207cc6fca,
+      type: 2}
+    Weapons:
+    - {fileID: 1000010110672052, guid: 32ceeb6496e986c428059f8d31d8f184, type: 2}
+    - {fileID: 1000012434449374, guid: f8f1449f09a914b4ebeaec86c4428af9, type: 2}
+    - {fileID: 1000012587224888, guid: 1bbaf25b99b027e4fab69de10910549a, type: 2}
+    BaseColors: []
+    DetailColors: []
+    ArmorColors: []
+    SpeedRange: {x: 3.25, y: 4}
+  - Name: Haunt
+    type: 2
+    size: 0
+    status: 0
+    DifficultyThreshold: 401
+    Rarity: 24
+    HalfThreshold: 5000
+    StopThreshold: 999999
+    SPLimit: 0
+    MaxNum: 0
+    pvpResource: 5
+    EnergyMult: 0.1
+    prefab: {fileID: 1628519321711096, guid: 9d80275cbc171e24aafbe48d58b38977, type: 2}
+    elitePrefab: {fileID: 0}
+    Weapons: []
+    BaseColors: []
+    DetailColors: []
+    ArmorColors: []
+    SpeedRange: {x: 0, y: 0}
+  Bosses:
+  - Name: CerberusBoss
+    type: 0
+    size: 4
+    status: 1
+    DifficultyThreshold: 0
+    Rarity: 1
+    HalfThreshold: 100
+    StopThreshold: 999999
+    SPLimit: 0
+    MaxNum: 0
+    pvpResource: 5
+    EnergyMult: -1
+    prefab: {fileID: 1000013653906082, guid: a84e4266da3f743418562a31da89028b, type: 2}
+    elitePrefab: {fileID: 0}
+    Weapons: []
+    BaseColors: []
+    DetailColors: []
+    ArmorColors: []
+    SpeedRange: {x: 5, y: 6}
+  - Name: StoneGolem
+    type: 0
+    size: 4
+    status: 1
+    DifficultyThreshold: 0
+    Rarity: 1
+    HalfThreshold: 100
+    StopThreshold: 999999
+    SPLimit: 0
+    MaxNum: 0
+    pvpResource: 5
+    EnergyMult: -1
+    prefab: {fileID: 1316326851647130, guid: ab3a88445fc244b44b70c0bf5826690f, type: 2}
+    elitePrefab: {fileID: 0}
+    Weapons: []
+    BaseColors: []
+    DetailColors: []
+    ArmorColors: []
+    SpeedRange: {x: 3, y: 3.5}
+  - Name: ArcaneGolem
+    type: 0
+    size: 4
+    status: 1
+    DifficultyThreshold: 0
+    Rarity: 1
+    HalfThreshold: 100
+    StopThreshold: 999999
+    SPLimit: 0
+    MaxNum: 0
+    pvpResource: 5
+    EnergyMult: -1
+    prefab: {fileID: 1513387244980302, guid: e0c1c32f96647244c95449183aa4ec49, type: 2}
+    elitePrefab: {fileID: 0}
+    Weapons: []
+    BaseColors: []
+    DetailColors: []
+    ArmorColors: []
+    SpeedRange: {x: 3, y: 3.5}
+  ComboMultiplier:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: -0.08539581
+      value: 0
+      inSlope: 1.1116682
+      outSlope: 1.1116682
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 199.99815
+      value: 126.5625
+      inSlope: -0
+      outSlope: -0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  SpeedMultiplier:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: -0.0034158838
+      value: 0.00000011920929
+      inSlope: 0.0000028965123
+      outSlope: 0.0000028965123
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 303.52005
+      value: 0.001739502
+      inSlope: -8.138949e-10
+      outSlope: 0.000024549137
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 1004.9876
+      value: 0.40146255
+      inSlope: 0.0010607864
+      outSlope: 0.0010648337
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 2000
+      value: 0.75
+      inSlope: 0.000048842547
+      outSlope: 0.000048842547
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  EnemyDensity: 1
+  DifficultyTimeMult: 1

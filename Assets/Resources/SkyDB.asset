@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5bed6d1f827654a83498d1eda1a884, type: 3}
+  m_Name: SkyDB
+  m_EditorClassIdentifier: 
+  SkyMat: {fileID: 2100000, guid: 96ece4b26dc95fc4884f74717beed832, type: 2}
+  Skies:
+  - Name: Incoming Snow
+    TopColor: {r: 0.7333333, g: 0.8196079, b: 0.8941177, a: 1}
+    BottomColor: {r: 0.45490193, g: 0.58431375, b: 0.6784314, a: 1}
+    FogColor: {r: 0.45490196, g: 0.58431375, b: 0.6784314, a: 1}
+    AmbientColor: {r: 0.4820637, g: 0.42766005, b: 0.5147059, a: 1}
+    SunColor: {r: 0.8308824, g: 0.83081216, b: 0.8003352, a: 1}
+    Environment: 0
+  - Name: Bright Day
+    TopColor: {r: 0.4290657, g: 0.6875598, b: 0.9411765, a: 1}
+    BottomColor: {r: 0.6691177, g: 0.83852947, b: 1, a: 1}
+    FogColor: {r: 0.6691177, g: 0.83852947, b: 1, a: 1}
+    AmbientColor: {r: 0.5803922, g: 0.5411765, b: 0.6039216, a: 1}
+    SunColor: {r: 0.9264706, g: 0.8992214, b: 0.84472317, a: 1}
+    Environment: 0
+  - Name: Whiteout
+    TopColor: {r: 0.63256913, g: 0.71282303, b: 0.73529416, a: 1}
+    BottomColor: {r: 0.63235295, g: 0.9183008, b: 1, a: 1}
+    FogColor: {r: 0.5736916, g: 0.9007615, b: 0.9632353, a: 1}
+    AmbientColor: {r: 0.62383085, g: 0.5973724, b: 0.6397059, a: 1}
+    SunColor: {r: 0.5808823, g: 0.5623738, b: 0.52535677, a: 1}
+    Environment: 0
+  - Name: Dark Horizon
+    TopColor: {r: 1, g: 1, b: 1, a: 1}
+    BottomColor: {r: 0.645824, g: 0.63256913, b: 0.73529416, a: 1}
+    FogColor: {r: 0.645824, g: 0.6325692, b: 0.7352941, a: 1}
+    AmbientColor: {r: 0.47311583, g: 0.39154413, b: 0.52205884, a: 1}
+    SunColor: {r: 0.73172575, g: 0.7381279, b: 0.74264705, a: 1}
+    Environment: 0
+  - Name: Clear Day
+    TopColor: {r: 0, g: 0.08965484, b: 1, a: 1}
+    BottomColor: {r: 0.54746974, g: 0.65116125, b: 0.8970588, a: 1}
+    FogColor: {r: 0.54746974, g: 0.6511613, b: 0.89705884, a: 1}
+    AmbientColor: {r: 0.89465755, g: 0.8090398, b: 0.9485294, a: 1}
+    SunColor: {r: 0.9264706, g: 0.9264706, b: 0.9264706, a: 1}
+    Environment: 0
+  - Name: Dry Heat
+    TopColor: {r: 0, g: 0.50476193, b: 1, a: 1}
+    BottomColor: {r: 0.7764706, g: 0.85490197, b: 0.8156863, a: 1}
+    FogColor: {r: 0.7764706, g: 0.85490197, b: 0.8156863, a: 1}
+    AmbientColor: {r: 0.5803922, g: 0.5411765, b: 0.6039216, a: 1}
+    SunColor: {r: 0.9191176, g: 0.88757926, b: 0.8245026, a: 1}
+    Environment: 2
+  - Name: Dust Storm
+    TopColor: {r: 0.47058815, g: 0.44902837, b: 0.37716258, a: 1}
+    BottomColor: {r: 0.8235294, g: 0.79428643, b: 0.69031143, a: 1}
+    FogColor: {r: 0.8235294, g: 0.79607844, b: 0.6901961, a: 1}
+    AmbientColor: {r: 0.5803922, g: 0.5411765, b: 0.6039216, a: 1}
+    SunColor: {r: 1, g: 0.98039216, b: 0.9411765, a: 1}
+    Environment: 2
+  - Name: Sandy Haze
+    TopColor: {r: 0.53514266, g: 0.5901369, b: 0.7205882, a: 1}
+    BottomColor: {r: 0.9098039, g: 0.8901961, b: 0.8117647, a: 1}
+    FogColor: {r: 0.9098039, g: 0.8901961, b: 0.8117647, a: 1}
+    AmbientColor: {r: 0.5803922, g: 0.5411765, b: 0.6039216, a: 1}
+    SunColor: {r: 0.8897059, g: 0.8569961, b: 0.79157656, a: 1}
+    Environment: 2
+  - Name: Lava_1
+    TopColor: {r: 0, g: 0, b: 0, a: 1}
+    BottomColor: {r: 0.30147055, g: 0.30147055, b: 0.30147055, a: 1}
+    FogColor: {r: 0.3019608, g: 0.3019608, b: 0.3019608, a: 1}
+    AmbientColor: {r: 0.31617647, g: 0.30268043, b: 0.25573096, a: 1}
+    SunColor: {r: 0.8308824, g: 0.83081216, b: 0.8003352, a: 1}
+    Environment: 3
+  - Name: Highlands_1
+    TopColor: {r: 0, g: 0.08965484, b: 1, a: 1}
+    BottomColor: {r: 0.54746974, g: 0.65116125, b: 0.8970588, a: 1}
+    FogColor: {r: 0.54746974, g: 0.6511613, b: 0.89705884, a: 1}
+    AmbientColor: {r: 0.89465755, g: 0.8090398, b: 0.9485294, a: 1}
+    SunColor: {r: 0.8161765, g: 0.7381184, b: 0.57012326, a: 1}
+    Environment: 4
+  - Name: CaveLighting_1
+    TopColor: {r: 0.8041739, g: 0.8428961, b: 0.98529404, a: 1}
+    BottomColor: {r: 0.22707605, g: 0.2414091, b: 0.2941176, a: 1}
+    FogColor: {r: 0.22707611, g: 0.24140912, b: 0.29411763, a: 1}
+    AmbientColor: {r: 0.30068013, g: 0.24329586, b: 0.33088237, a: 1}
+    SunColor: {r: 0.2884948, g: 0.31228375, b: 0.42647058, a: 1}
+    Environment: 1
+  - Name: Olympus
+    TopColor: {r: 0, g: 0.42068955, b: 1, a: 1}
+    BottomColor: {r: 0.31617644, g: 0.8479094, b: 1, a: 1}
+    FogColor: {r: 0.30364713, g: 0.28762975, b: 0.41176468, a: 1}
+    AmbientColor: {r: 0.47311583, g: 0.39154413, b: 0.52205884, a: 1}
+    SunColor: {r: 0.94684595, g: 0.9485294, b: 0.89970803, a: 1}
+    Environment: 5
+  - Name: Void
+    TopColor: {r: 0.30147058, g: 0.30147058, b: 0.30147058, a: 1}
+    BottomColor: {r: 0, g: 0, b: 0, a: 1}
+    FogColor: {r: 0, g: 0, b: 0, a: 1}
+    AmbientColor: {r: 0.125, g: 0.125, b: 0.125, a: 1}
+    SunColor: {r: 1, g: 1, b: 1, a: 1}
+    Environment: 6
+  ApplyIndex: 0

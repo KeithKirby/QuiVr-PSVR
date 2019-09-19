@@ -1,0 +1,1894 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1611777675087088}
+  m_IsPrefabAsset: 1
+--- !u!1 &1611777675087088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4246298828581564}
+  - component: {fileID: 114246295537473694}
+  m_Layer: 0
+  m_Name: I2Languages
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4246298828581564
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1611777675087088}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114246295537473694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1611777675087088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488051eaa73ba421e8fe4868f2e0f364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Google_WebServiceURL: https://script.google.com/macros/s/AKfycbzFrptF1Z0yKMhzCuR09x9nfEBM4mO_MYVE7tOScewsAf1Ns162/exec
+  Google_SpreadsheetKey: 1MGwoliQnT6FqTBnNue96DqycWC246e5gQU9eotEu3vc
+  Google_SpreadsheetName: I2Loc QuiVr Localization
+  Google_LastUpdatedVersion: 1508701057626
+  GoogleUpdateFrequency: 2
+  GoogleUpdateDelay: 5
+  mTerms:
+  - Term: GameMenu/MENUTITLE
+    TermType: 0
+    Description: 
+    Languages:
+    - Menu
+    - "Men\xFA"
+    - Menu
+    - "\u83DC\u5355"
+    - "\uBA54\uB274"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Multiplayer
+    TermType: 0
+    Description: 
+    Languages:
+    - Multiplayer
+    - Multijugador
+    - Multi-joueurs
+    - "\u591A\u4EBA"
+    - "\uBA40\uD2F0\uD50C\uB808\uC774\uC5B4"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Settings
+    TermType: 0
+    Description: 
+    Languages:
+    - Settings
+    - Ajustes
+    - "Param\xE8tres"
+    - "\u8BBE\u7F6E"
+    - "\uC138\uD305"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Tutorial
+    TermType: 0
+    Description: 
+    Languages:
+    - Tutorial
+    - Tutorial
+    - Didacticiel
+    - "\u6559\u7A0B"
+    - "\uC0AC\uC6A9\uBC95"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/ReturnArms
+    TermType: 0
+    Description: 
+    Languages:
+    - Reset Bow and Quiver
+    - Restablecer el arco y el carcaj
+    - "R\xE9initialiser arc et carquois"
+    - "\u590D\u4F4D\u5F13\u548C\u7BAD\u888B"
+    - "\uBB34\uAE30 \uB9AC\uC14B"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Quick Match
+    TermType: 0
+    Description: 
+    Languages:
+    - Quick Match
+    - "Partido R\xE1pido"
+    - Match Rapide
+    - "\u5FEB\u901F\u5339\u914D"
+    - "\uBE60\uB978 \uAC8C\uC784\uD558\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Play with Friends
+    TermType: 0
+    Description: 
+    Languages:
+    - Play With Friends
+    - Jugar Con Amigos
+    - Jouer Avec Des Amis
+    - "\u4E0E\u670B\u53CB\u4E00\u8D77\u73A9"
+    - "\uCE5C\uAD6C\uB4E4\uACFC \uAC8C\uC784\uD558\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Spectate
+    TermType: 0
+    Description: 
+    Languages:
+    - Spectate
+    - Spectate
+    - Spectate
+    - "\u65C1\u89C2"
+    - "\uAD00\uC804\uD558\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Gameplay
+    TermType: 0
+    Description: 
+    Languages:
+    - Gameplay
+    - Jugabilidad
+    - Gameplay
+    - "\u6E38\u620F"
+    - "\uAC8C\uC784 \uD50C\uB808\uC774"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Audio
+    TermType: 0
+    Description: 
+    Languages:
+    - Audio
+    - Audio
+    - L'audio
+    - "\u97F3\u9891"
+    - "\uC624\uB514\uC624"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Video
+    TermType: 0
+    Description: 
+    Languages:
+    - Video
+    - "V\xEDdeo"
+    - "Vid\xE9o"
+    - "\u89C6\u9891"
+    - "\uBE44\uB514\uC624"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/PlrProfiles
+    TermType: 0
+    Description: 
+    Languages:
+    - Player Profiles
+    - Jugadores
+    - Joueurs
+    - "\u7403\u5458\u4E2A\u4EBA\u8D44\u6599"
+    - "\uD50C\uB808\uC774\uC5B4 \uD504\uB85C\uD544"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Login
+    TermType: 0
+    Description: 
+    Languages:
+    - Profile Login
+    - "Inicio De Sesi\xF3n"
+    - Connexion Profil
+    - "\u4E2A\u4EBA\u8D44\u6599\u767B\u5F55"
+    - "\uB85C\uADF8\uC778"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/CreateProfile
+    TermType: 0
+    Description: 
+    Languages:
+    - Create New Profile
+    - Crear Nuevo Perfil
+    - "Cr\xE9er Nouveau"
+    - "\u521B\u5EFA\u65B0\u7684\u914D\u7F6E\u6587\u4EF6"
+    - "\uD504\uB85C\uD544 \uC0DD\uC131\uD558\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/SuperSample
+    TermType: 0
+    Description: 
+    Languages:
+    - Super Sampling
+    - "Muestreo S\xFAper"
+    - "\r\xC9chelle de r\xE9solution"
+    - "\u8D85\u7EA7\u91C7\u6837"
+    - "\uC288\uD37C \uC0D8\uD50C\uB9C1"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/HDR
+    TermType: 0
+    Description: 
+    Languages:
+    - HDR Glow
+    - HDR Brillo
+    - HDR Lueur
+    - "HDR \u5149\u6655"
+    - "HDR \uC12C\uAD11"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/ViewDist
+    TermType: 0
+    Description: 
+    Languages:
+    - View Distance
+    - Ver Distancia
+    - Distance Vue
+    - "\u53EF\u89C6\u8DDD\u79BB"
+    - "\uBA3C\uAC70\uB9AC \uBCF4\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/ShadowQuality
+    TermType: 0
+    Description: 
+    Languages:
+    - Shadow Quality
+    - Calidad Sombra
+    - "Qualit\xE9 L'ombre"
+    - "\u9634\u5F71\u8D28\u91CF"
+    - "\uADF8\uB9BC\uC790 \uD004\uB9AC\uD2F0"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/TextureQuality
+    TermType: 0
+    Description: 
+    Languages:
+    - Texture Quality
+    - Calidad Textura
+    - "Qualit\xE9 Texture"
+    - "\u7EB9\u7406\u8D28\u91CF"
+    - "\uD14D\uC2A4\uCCD0 \uD004\uB9AC\uD2F0"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/SoftParticles
+    TermType: 0
+    Description: 
+    Languages:
+    - Soft Particles
+    - "Part\xEDculas Blandas"
+    - Particules Molles
+    - "\u8F6F\u9897\u7C92"
+    - "\uBD80\uB4DC\uB7EC\uC6B4 \uC785\uC790"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/EffectQuality
+    TermType: 0
+    Description: 
+    Languages:
+    - Effect Quality
+    - Calidad Efecto
+    - "Qualit\xE9 L'effet"
+    - "\u8D28\u91CF\u6548\u5E94"
+    - "\uD6A8\uACFC \uD004\uB9AC\uD2F0"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/PersonalBubble
+    TermType: 0
+    Description: 
+    Languages:
+    - Personal Bubble
+    - Burbuja Personal
+    - Bulle Personnelle
+    - "\u79C1\u5BC6\u7A7A\u95F4"
+    - "\uAC1C\uC778 \uBC29\uC6B8"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Hands
+    TermType: 0
+    Description: 
+    Languages:
+    - Hands
+    - Manos
+    - Mains
+    - "\u624B"
+    - "\uC190"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Bow
+    TermType: 0
+    Description: 
+    Languages:
+    - Bow
+    - Arco
+    - Arc
+    - "\u5F13"
+    - "\uD65C"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Controls
+    TermType: 0
+    Description: 
+    Languages:
+    - Controls
+    - Controles
+    - "Contr\xF4les"
+    - "\u63A7\u5236"
+    - "\uCEE8\uD2B8\uB864"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Spectator
+    TermType: 0
+    Description: 
+    Languages:
+    - Spectator
+    - Espectador
+    - Spectateur
+    - "\u89C2\u4F17"
+    - "\uAD00\uC911\uBAA8\uB4DC"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/LockRotation
+    TermType: 0
+    Description: 
+    Languages:
+    - Lock Rotation
+    - "Bloquear Rotaci\xF3n"
+    - "\rVerrouiller Rotation"
+    - "\u65CB\u8F6C\u9501"
+    - "\uB77D \uB3CC\uB9AC\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Language
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Language:'
+    - 'Idioma:'
+    - 'Langue:'
+    - "\u8BED\u8A00\uFF1A"
+    - "\uC5B8\uC5B4"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/DrawLength
+    TermType: 0
+    Description: 
+    Languages:
+    - Bow Draw Length
+    - Arco Longitud Sorteo
+    - Arc Allonge
+    - "\u5F13\u62C9\u62D4\u957F\u5EA6"
+    - "\uD65C \uB2F9\uAE30\uB294 \uAC70\uB9AC"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/HipQuiver
+    TermType: 0
+    Description: 
+    Languages:
+    - Hip Quiver
+    - Aljaba Cadera
+    - Carquois Hanche
+    - "\u81C0\u90E8\u98A4\u52A8"
+    - "\uD799 \uD034\uBC84"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/DrawOffset
+    TermType: 0
+    Description: 
+    Languages:
+    - Draw Offset
+    - Dibujar Compensado
+    - "Dessiner D\xE9calage"
+    - "\u7ED8\u5236\u504F\u79FB"
+    - "\uB2F9\uAE30\uAE30 \uC624\uD504\uC14B"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/AimOffset
+    TermType: 0
+    Description: 
+    Languages:
+    - Aim Offset
+    - Lanzar Compensar
+    - "D\xE9pointage"
+    - "\u76EE\u6807\u504F\u79FB"
+    - "\uBAA9\uD45C\uC810 \uC624\uD504\uC14B"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Left
+    TermType: 0
+    Description: 
+    Languages:
+    - Left
+    - Izquierda
+    - Gauche
+    - "\u5269\u4E0B"
+    - "\uC67C\uCABD"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Right
+    TermType: 0
+    Description: 
+    Languages:
+    - Right
+    - Derecho
+    - Droite
+    - "\u5BF9"
+    - "\uC624\uB978\uCABD"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/Left Handed
+    TermType: 0
+    Description: 
+    Languages:
+    - Left Handed
+    - Zurdo
+    - Gaucher
+    - "\u5DE6\u6487\u5B50"
+    - "\uC67C\uC190 \uC0AC\uC6A9\uC790"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/SpectatorMovement
+    TermType: 0
+    Description: 
+    Languages:
+    - Movement Time
+    - Tiempo De Movimiento
+    - Temps De Mouvement
+    - "\u8FD0\u52A8\u65F6\u95F4"
+    - "\uC6C0\uC9C1\uC784 \uC2DC\uAC04"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/CalibrLeft
+    TermType: 0
+    Description: 
+    Languages:
+    - Calibrate Left
+    - Calibrar Izquierda
+    - Calibrer Gauche
+    - "\u6821\u51C6\u79BB\u5F00"
+    - "\uC67C\uCABD \uCE21\uC815"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/CalibRight
+    TermType: 0
+    Description: 
+    Languages:
+    - Calibrate Right
+    - Calibrar Derecha
+    - Calibrer Droite
+    - "\u6821\u51C6\u6743"
+    - "\uC624\uB978\uCABD \uCE21\uC815"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/ResetCalibr
+    TermType: 0
+    Description: 
+    Languages:
+    - Reset Calibration
+    - "Calibraci\xF3n Reset"
+    - "\xC9talonnage Remise"
+    - "\u590D\u4F4D\u6821\u51C6"
+    - "\uCE21\uC815 \uB9AC\uC14B"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/HandFilter
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Hand Position
+
+      Filter'
+    - "Mano \nFiltrar"
+    - "Main \nFiltre"
+    - "\u624B\u7684\u4F4D\u7F6E\n\u8FC7\u6EE4"
+    - "\uC190 \uC6C0\uC9C1\uC784 \uD544\uD130"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/CalibrSpace
+    TermType: 0
+    Description: 
+    Languages:
+    - "Calibrate Space \n(One Controller on Floor)"
+    - 'Calibrar Espacial
+
+      (Un controlador en suelo)'
+    - "Calibrer espace\n(Un contr\xF4leur sur le plancher)"
+    - "\u6821\u51C6\u7A7A\u95F4\n\uFF08\u4E0A\u697C\u5C42\u4E00\u4E2A\u63A7\u5236\u5668\uFF09"
+    - "\uBE48 \uACF5\uAC04 \uCE21\uC815"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/ResetCalib2
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Reset
+
+      Calibration'
+    - "Reiniciar\nCalibraci\xF3n"
+    - "R\xE9initialiser\n\xC9talonnage"
+    - "\u91CD\u542F\n\u6821\u51C6"
+    - "\uCE21\uC815 \uB9AC\uC14B"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/OculRotate
+    TermType: 0
+    Description: 
+    Languages:
+    - Oculus Rotate
+    - Girar Oculus
+    - Faire Tourner Oculus
+    - Oculus Rotate
+    - "\uC624\uD058\uB7EC\uC2A4 \uB3CC\uB9AC\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/QuickSpectate
+    TermType: 0
+    Description: 
+    Languages:
+    - Quick Spectate
+    - "Spectate R\xE1pida"
+    - Spectate Rapide
+    - "\u5FEB\u901F\u65C1\u89C2"
+    - "\uBE68\uB9AC \uAD00\uC804\uD558\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/QuickBowSwap
+    TermType: 0
+    Description: 
+    Languages:
+    - Quick Bow Swap
+    - "Intercambio R\xE1pida"
+    - Swap Arc Rapide
+    - "\u5FEB\u5F13\u4E92\u6362"
+    - "\uD65C \uBE68\uB9AC \uBC14\uAFB8\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/TouchpadOrb
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Touchpad Release
+
+      to Throw Orb'
+    - "Touchpad para \nLanzar Orbe"
+    - 'Touchpad Pour
+
+      Jeter Orbe'
+    - "\u89E6\u6478\u677F\u53D1\u5E03\n\u6254\u7403"
+    - "\uC624\uBE0C \uB358\uC9C0\uAE30 \uC704\uD55C \uD130\uCE58\uD328\uB4DC \uB193\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Ability/None
+    TermType: 0
+    Description: 
+    Languages:
+    - None
+    - Nada
+    - Rien
+    - "\u6CA1\u6709"
+    - "\uC5C6\uC74C"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Ability/None_Effect
+    TermType: 0
+    Description: 
+    Languages:
+    - No Effect
+    - Sin Efecto
+    - Aucun Effet
+    - "\u6CA1\u6709\u6548\u679C"
+    - "\uD6A8\uACFC \uC5C6\uC74C"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Ability/RandomChance
+    TermType: 0
+    Description: 
+    Languages:
+    - Random Chance
+    - Azar
+    - Hasard
+    - "\u968F\u673A\u673A\u4F1A"
+    - "\uBB34\uC791\uC704 \uAE30\uD68C"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Ability/Recharge
+    TermType: 0
+    Description: 
+    Languages:
+    - Recharge
+    - Recargar
+    - Recharger
+    - "\u5145\u503C"
+    - "\uC7AC\uCDA9\uC804"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Ability/Damage
+    TermType: 0
+    Description: 
+    Languages:
+    - Damage
+    - "Da\xF1ar"
+    - Dommage
+    - "\u635F\u4F24"
+    - "\uB300\uBBF8\uC9C0"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Ability/Healing
+    TermType: 0
+    Description: 
+    Languages:
+    - Healing
+    - "Curaci\xF3n"
+    - "Gu\xE9rison"
+    - "\u590D\u539F"
+    - "\uD790\uB9C1"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Ability/Duration
+    TermType: 0
+    Description: 
+    Languages:
+    - Duration
+    - "Duraci\xF3n"
+    - "Dur\xE9e"
+    - "\u6301\u7EED\u65F6\u95F4"
+    - "\uC2DC\uAC04"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Ability/Range
+    TermType: 0
+    Description: 
+    Languages:
+    - Range
+    - Distancia
+    - Gamme
+    - "\u8303\u56F4"
+    - "\uBC94\uC704"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Ability/Activation
+    TermType: 0
+    Description: 
+    Languages:
+    - Activation
+    - "Activaci\xF3n"
+    - Activation
+    - "\u6FC0\u6D3B"
+    - "\uD65C\uC131\uD654"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Ability/Passive
+    TermType: 0
+    Description: 
+    Languages:
+    - Passive
+    - Pasivo
+    - Passif
+    - "\u88AB\u52A8"
+    - "\uC218\uB3D9\uC801"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: LeaderboardMP
+    TermType: 0
+    Description: 
+    Languages:
+    - Leaderboard (Weekly)
+    - "Tabla De Clasificaci\xF3n (Semanal)"
+    - Leaderboard (Hebdomadaire)
+    - "\u6392\u884C\u699C\uFF08\u6BCF\u5468\uFF09"
+    - "\uC8FC\uAC04 \uB9AC\uB354\uBCF4\uB4DC"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Seconds
+    TermType: 0
+    Description: 
+    Languages:
+    - Seconds
+    - Segundos
+    - Secondes
+    - "\u79D2"
+    - "\uCD08"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Artist
+    TermType: 0
+    Description: 
+    Languages:
+    - Artist
+    - Artista
+    - Artiste
+    - "\u827A\u672F\u5BB6"
+    - "\uC544\uD2F0\uC2A4\uD2B8"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: NoneEquipped
+    TermType: 0
+    Description: 
+    Languages:
+    - Not Equipped
+    - No Equipada
+    - "Non \xC9quip\xE9e"
+    - "\u6CA1\u6709\u914D\u5907"
+    - "\uBBF8\uCC29\uC6A9"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Items/Tripwire Tunic
+    TermType: 0
+    Description: 
+    Languages:
+    - Tripwire Tunic
+    - "T\xFAnica Cable Trampa"
+    - Tunique Tripwire
+    - "\u7ECA\u4E2D\u5C71\u88C5"
+    - "\uD2B8\uB9BD\uC640\uC774\uC5B4 \uD29C\uB2C9"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: PlayerItems/Resource
+    TermType: 0
+    Description: 
+    Languages:
+    - Relic Fragments
+    - Fragmentos De Reliquias
+    - Fragments Relique
+    - "\u9057\u7269\u788E\u7247"
+    - "\uC720\uBB3C \uC870\uAC01"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/PTT
+    TermType: 0
+    Description: 
+    Languages:
+    - Grip Bow to Talk
+    - "Grip arco para Discusi\xF3n"
+    - Bow Grip to Talk
+    - "\u63E1\u5F13\u8C08"
+    - "\uD65C \uC7A1\uACE0 \uB300\uD654\uD558\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: GameMenu/MusicVolume
+    TermType: 0
+    Description: 
+    Languages:
+    - Music Volume
+    - "Volumen M\xFAsica"
+    - Volume Musique
+    - "\u97F3\u4E50\u97F3\u91CF"
+    - "\uC74C\uC545 \uBCFC\uB968"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: WorldUI/TrainingArea
+    TermType: 0
+    Description: 
+    Languages:
+    - Training Area
+    - "\xC1rea Entrenamiento"
+    - Domaine Formation
+    - "\u8BAD\u7EC3\u533A"
+    - "\uC5F0\uC2B5 \uC9C0\uC5ED"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: WorldUI/JoinMP
+    TermType: 0
+    Description: 
+    Languages:
+    - Join Multiplayer
+    - Unirse A Varios Jugadores
+    - Rejoindre Multijoueur
+    - "\u52A0\u5165\u591A\u4EBA"
+    - "\uBA40\uD2F0\uD50C\uB808\uC774 \uD558\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: WorldUI/LeaveMP
+    TermType: 0
+    Description: 
+    Languages:
+    - Leave Room
+    - "Dejar Habitaci\xF3n"
+    - "Quitter Pi\xE8ce"
+    - "\u7559\u6709\u4F59\u5730"
+    - "\uBC29 \uB5A0\uB098\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: WorldUI/EnterCanyon
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Enter Canyon
+
+      (Start Game)'
+    - "Introducir Ca\xF1\xF3n\n(Empezar Juego)"
+    - "Entrez Canyon\n(D\xE9marrer Jeu)"
+    - "\u8FDB\u5165\u5CE1\u8C37\n\uFF08\u5F00\u59CB\u6E38\u620F\uFF09"
+    - "\uAC8C\uC784 \uC2DC\uC791\uD558\uAE30"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: WorldUI/ShootToStart
+    TermType: 0
+    Description: 
+    Languages:
+    - Shoot to Start Game
+    - Disparar para abrir el partido
+    - "\rTirez pour commencer"
+    - "\u62CD\u6444\u5F00\u59CB\u6E38\u620F"
+    - "\uC5EC\uAE30\uB97C \uC3D8\uBA74 \uC2DC\uC791\uD569\uB2C8\uB2E4"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: WorldUI/ControlTitle
+    TermType: 0
+    Description: 
+    Languages:
+    - Controls
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: WorldUI/ControlsBody
+    TermType: 0
+    Description: 
+    Languages:
+    - '<color=white>-- Tower Menu --</color>
+
+      Change Selection: Arrow Keys
+
+      Interact: Spacebar
+
+      Rotate: Q/E
+
+
+      <color=white>-- Gameplay --</color>
+
+      Change View: Tab
+
+      Rotate: Q/E
+
+      Reset View: Left Shift + R
+
+      Shoot: LMB
+
+      Charge Arrow: Left Shift
+
+      Throw Orb: RMB
+
+      Push-To-Talk: `'
+    - 
+    - 
+    - 
+    - "--\uD0C0\uC6CC \uBA54\uB274--\n\uBC29\uD5A5 \uBC14\uAFB8\uAE30: \uD654\uC0B4\uD45C
+      \uD0A4\n\uC120\uD0DD\uD558\uAE30: \uC2A4\uD398\uC774\uC2A4\uBC14\n\uD654\uBA74
+      \uC804\uD658\uD558\uAE30: Q(\uC67C\uCABD)/E(\uC624\uB978\uCABD)\n\n--\uAC8C\uC784
+      \uD50C\uB808\uC774 \uBC29\uBC95--\n\uC778\uCE6D \uBCC0\uACBD: \uD0ED(tab)\n\uD654\uBA74
+      \uC88C\uC6B0 \uC804\uD658: Q/E\n\uD654\uBA74 \uC911\uC559 \uB9AC\uC14B: \uC67C\uCABD
+      \uC2DC\uD504\uD2B8+R\n\uC3D8\uAE30: \uC67C\uCABD \uB9C8\uC6B0\uC2A4\n\uD654\uC0B4
+      \uC7AC\uC7A5\uC804: \uC67C\uCABD \uC2DC\uD504\uD2B8\n\uC624\uBE0C(Orb) \uB358\uC9C0\uAE30:
+      \uC624\uB978\uCABD \uB9C8\uC6B0\uC2A4\n\uD478\uC26C-\uD22C-\uD1A0\uD06C: '"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: WorldUI/Loading
+    TermType: 0
+    Description: 
+    Languages:
+    - Loading...
+    - 
+    - 
+    - 
+    - "\uB85C\uB529 \uC911"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: WorldUI/GameBy
+    TermType: 0
+    Description: 
+    Languages:
+    - Game By
+    - 
+    - 
+    - 
+    - "\uB9CC\uB4E0 \uC0AC\uB78C"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: WorldUI/Thanks
+    TermType: 0
+    Description: 
+    Languages:
+    - Special Thanks To
+    - 
+    - 
+    - 
+    - "\uB3C4\uC6C0\uC744 \uC8FC\uC2E0 \uBD84\uB4E4"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: WorldUI/PoweredBy
+    TermType: 0
+    Description: 
+    Languages:
+    - Powered By
+    - 
+    - 
+    - 
+    - Powered By
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/Intro_Base
+    TermType: 0
+    Description: 
+    Languages:
+    - Welcome Ancestor, to the Aldurian Summit.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/BASE_INTRO
+    TermType: 0
+    Description: 
+    Languages:
+    - Welcome Ancestor, to the Aldurian Summit.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/BASE_TRAVEL
+    TermType: 0
+    Description: 
+    Languages:
+    - From here, you will travel to battlefields near and far
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/ENCROCHING_DARK
+    TermType: 0
+    Description: 
+    Languages:
+    - charged with repelling the encroaching dark.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/GOOD
+    TermType: 0
+    Description: 
+    Languages:
+    - Good.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/BASE_DRAW_ARROW
+    TermType: 0
+    Description: 
+    Languages:
+    - "So, draw your first arrow from the quiver on your back and we\u2019ll begin."
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/SHOOT_TARGET
+    TermType: 0
+    Description: 
+    Languages:
+    - Now, Loose an arrow into this target.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/SHOOT_TARGET_REPEAT
+    TermType: 0
+    Description: 
+    Languages:
+    - Loose an arrow into this target.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/SHOOT_TP
+    TermType: 0
+    Description: 
+    Languages:
+    - The next target is different - it will teleport you.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/SHOOT_TP_REPEAT
+    TermType: 0
+    Description: 
+    Languages:
+    - Shoot the teleport circle to travel great distances in an instant.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/WELL_DONE
+    TermType: 0
+    Description: 
+    Languages:
+    - Well done.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/WRIST_PANEL
+    TermType: 0
+    Description: 
+    Languages:
+    - The panel on your bow hand provides information about your effectiveness in
+      the the current battle.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/WRIST_PANEL_DELAYED
+    TermType: 0
+    Description: 
+    Languages:
+    - Hold out your bow hand and look at your wrist, arm parallel to the  ground.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/ATTACK_NUMBERS
+    TermType: 0
+    Description: 
+    Languages:
+    - "If you attack these targets, numbers will appear to indicate how much damage
+      you\u2019ve dealt."
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/ATTACK_SETTINGS
+    TermType: 0
+    Description: 
+    Languages:
+    - You can enable this feature in combat as well, using the settings menu.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/ATTACK_HOLD
+    TermType: 0
+    Description: 
+    Languages:
+    - To deal more damage with an arrow, draw it back and hold it before releasing.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/ATTACK_AIMED
+    TermType: 0
+    Description: 
+    Languages:
+    - "This is called an \u201CAimed Shot\u201D, try using it on a target."
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/ATTACK_AIMED_DELAYED
+    TermType: 0
+    Description: 
+    Languages:
+    - Nock and hold back an arrow until it glows, then fire it into a target.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/WELL_STRUCK
+    TermType: 0
+    Description: 
+    Languages:
+    - Well struck.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/ATTACK_ABILITIES
+    TermType: 0
+    Description: 
+    Languages:
+    - While the bow and arrow are your primary weapons - magical abilities await your
+      command as well.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/SUMMON_ORB
+    TermType: 0
+    Description: 
+    Languages:
+    - "One such power is your \u201COrb Ability\u201D, which can be summoned in your
+      free-hand."
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/SUMMON_ORB_DELAYED
+    TermType: 0
+    Description: 
+    Languages:
+    - Summon your Orb Ability using your free hand.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/ATTACK_THROW
+    TermType: 0
+    Description: 
+    Languages:
+    - Now throw the orb to damage the targets.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/ORB_THROW_DELAYED
+    TermType: 0
+    Description: 
+    Languages:
+    - Try throwing the orb at the targets.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/THESE_BASICS
+    TermType: 0
+    Description: 
+    Languages:
+    - These are merely the basics - there is always more to learn and discover.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/READY_TO_JOIN
+    TermType: 0
+    Description: 
+    Languages:
+    - You are, however, ready to join the fight.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/WHEN_CALLED
+    TermType: 0
+    Description: 
+    Languages:
+    - When called upon to battle, you must push the enemy back and seal the gates
+      behind you.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/YOU_REWARDED
+    TermType: 0
+    Description: 
+    Languages:
+    - You will be rewarded greatly for your successes.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/NEW_POWER
+    TermType: 0
+    Description: 
+    Languages:
+    - New bows, armor, and power await you.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/NOW_GO
+    TermType: 0
+    Description: 
+    Languages:
+    - Now go, and may you find victory.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/ALCHEMY_ALTER
+    TermType: 0
+    Description: 
+    Languages:
+    - Here, you may alter the potency of your equipment.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/ALCHEMY_GRAB_ITEM
+    TermType: 0
+    Description: 
+    Languages:
+    - Merely grab an item from the mannequin, and place it on the pedestal.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/ALCHEMY_RISKY
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Be warned, however: this is a risky venture - the power in your item may end
+      up weaker than it started.'
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: Tutorial/DRAW_ARRPOW_DELAYED
+    TermType: 0
+    Description: 
+    Languages:
+    - Draw an arrow from the quiver on your back.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  - Term: PS4InviteUserMessage
+    TermType: 0
+    Description: 
+    Languages:
+    - Join my QuiVR game.
+    - 
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+  mLanguages:
+  - Name: English
+    Code: en
+    Flags: 0
+  - Name: "Espa\xF1ol"
+    Code: es
+    Flags: 0
+  - Name: "Fran\xE7ais"
+    Code: fr
+    Flags: 0
+  - Name: "\u4E2D\u6587"
+    Code: zh
+    Flags: 0
+  - Name: " \uD55C\uAD6D\uC5B4"
+    Code: ko
+    Flags: 0
+  CaseInsensitiveTerms: 0
+  Assets: []
+  NeverDestroy: 1
+  UserAgreesToHaveItOnTheScene: 0
+  UserAgreesToHaveItInsideThePluginsFolder: 0
+  OnMissingTranslation: 1
+  mTerm_AppName: 
+  Spreadsheet_LocalFileName: 
+  Spreadsheet_LocalCSVSeparator: ','
+  Spreadsheet_LocalCSVEncoding: utf-8

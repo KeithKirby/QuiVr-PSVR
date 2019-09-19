@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39fe2897892dad4b9b4d567d40a1235, type: 3}
+  m_Name: ItemDropData
+  m_EditorClassIdentifier: 
+  Drops:
+  - Name: Ruby Studded Jerkin
+    Type: 1
+    EffectID: 10
+    Meshes: 0
+    Colors:
+    - {r: 1, g: 0.2, b: 0.2, a: 1}
+    Rarity: 1
+  - Name: Emerald Studded Jerkin
+    Type: 1
+    EffectID: 10
+    Meshes: 0
+    Colors:
+    - {r: 0.2, g: 1, b: 0.2, a: 1}
+    Rarity: 1
+  - Name: Diamond Studded Jerkin
+    Type: 1
+    EffectID: 10
+    Meshes: 0
+    Colors:
+    - {r: 1, g: 1, b: 1, a: 1}
+    Rarity: 1
+  - Name: Ruby Studded Mask
+    Type: 2
+    EffectID: 11
+    Meshes: 0
+    Colors:
+    - {r: 1, g: 0.2, b: 0.2, a: 1}
+    Rarity: 1
+  - Name: Emerald Studded Mask
+    Type: 2
+    EffectID: 11
+    Meshes: 0
+    Colors:
+    - {r: 0.2, g: 1, b: 0.2, a: 1}
+    Rarity: 1
+  - Name: Diamond Studded Mask
+    Type: 2
+    EffectID: 11
+    Meshes: 0
+    Colors:
+    - {r: 1, g: 1, b: 1, a: 1}
+    Rarity: 1
+  - Name: Green Leather Gloves
+    Type: 3
+    EffectID: 2
+    Meshes: 3
+    Colors: []
+    Rarity: 1
+  - Name: Red Leather Gloves
+    Type: 3
+    EffectID: 2
+    Meshes: 2
+    Colors: []
+    Rarity: 1
+  - Name: Blue Leather Gloves
+    Type: 3
+    EffectID: 2
+    Meshes: 4
+    Colors: []
+    Rarity: 1
+  - Name: Lightning Quiver
+    Type: 6
+    EffectID: 1
+    Meshes: 5
+    Colors: []
+    Rarity: 2
+  - Name: Scavengers Mask
+    Type: 2
+    EffectID: 6
+    Meshes: 1
+    Colors: []
+    Rarity: 2
+  - Name: Quiver of Wealth
+    Type: 6
+    EffectID: 8
+    Meshes: 2
+    Colors:
+    - {r: 1, g: 0.5, b: 0.2, a: 1}
+    Rarity: 2
+  - Name: Breastplate of Tendrils
+    Type: 1
+    EffectID: 4
+    Meshes: 1
+    Colors:
+    - {r: 0, g: 0.5, b: 1, a: 1}
+    Rarity: 2
+  - Name: Shard of Ra'Keth
+    Type: 0
+    EffectID: 15
+    Meshes: 4
+    Colors: []
+    Rarity: 2
+  - Name: Charged Bolt
+    Type: 0
+    EffectID: 9
+    Meshes: 2
+    Colors:
+    - {r: 0.5, g: 0.5, b: 1, a: 1}
+    Rarity: 2
+  - Name: Frigid Mitts
+    Type: 3
+    EffectID: 32
+    Meshes: 12
+    Colors: []
+    Rarity: 2
+  - Name: Conductive Quiver
+    Type: 6
+    EffectID: 36
+    Meshes: 1
+    Colors:
+    - {r: 0.2, g: 1, b: 0.2, a: 1}
+    Rarity: 2
+  - Name: Vest of Displacement
+    Type: 1
+    EffectID: 17
+    Meshes: 4
+    Colors: []
+    Rarity: 3
+  - Name: Corrosive Jerkin
+    Type: 1
+    EffectID: 3
+    Meshes: 1
+    Colors:
+    - {r: 0, g: 1, b: 0, a: 1}
+    Rarity: 3
+  - Name: Ricochet Armor
+    Type: 1
+    EffectID: 5
+    Meshes: 2
+    Colors: []
+    Rarity: 3
+  - Name: Mischief's Dart
+    Type: 0
+    EffectID: 14
+    Meshes: 3
+    Colors:
+    - {r: 1, g: 0.4, b: 0.4, a: 1}
+    Rarity: 3
+  - Name: Divine Wraps
+    Type: 3
+    EffectID: 16
+    Meshes: 5
+    Colors:
+    - {r: 0.65, g: 0.57, b: 1, a: 1}
+    - {r: 0, g: 1, b: 0.3, a: 1}
+    Rarity: 3
+  - Name: Tripwire Tunic
+    Type: 1
+    EffectID: 20
+    Meshes: 3
+    Colors: []
+    Rarity: 3
+  - Name: Static Wraps
+    Type: 3
+    EffectID: 22
+    Meshes: 8
+    Colors: []
+    Rarity: 3
+  - Name: Molten Gauntlets
+    Type: 3
+    EffectID: 23
+    Meshes: 10
+    Colors: []
+    Rarity: 3
+  - Name: Permafrost Quiver
+    Type: 6
+    EffectID: 24
+    Meshes: 8
+    Colors: []
+    Rarity: 3
+  - Name: Aldur Wards
+    Type: 3
+    EffectID: 26
+    Meshes: 11
+    Colors: []
+    Rarity: 3
+  - Name: Quiver of Embers
+    Type: 6
+    EffectID: 12
+    Meshes: 9
+    Colors: []
+    Rarity: 3
+  - Name: Seeker's Battleplate
+    Type: 1
+    EffectID: 27
+    Meshes: 8
+    Colors: []
+    Rarity: 3
+  - Name: Focused Visage
+    Type: 2
+    EffectID: 31
+    Meshes: 3
+    Colors: []
+    Rarity: 3
+  - Name: Patient Veil
+    Type: 2
+    EffectID: 37
+    Meshes: 5
+    Colors: []
+    Rarity: 3
+  - Name: Prophetic Furs
+    Type: 1
+    EffectID: 40
+    Meshes: 10
+    Colors: []
+    Rarity: 3
+  - Name: Divine Barb
+    Type: 0
+    EffectID: 39
+    Meshes: 6
+    Colors: []
+    Rarity: 3
+  - Name: Conductive Sleeve
+    Type: 6
+    EffectID: 42
+    Meshes: 3
+    Colors: []
+    Rarity: 3
+  - Name: Gloves of the Past
+    Type: 3
+    EffectID: 7
+    Meshes: 9
+    Colors: []
+    Rarity: 4
+  - Name: Cloak of the Inferno
+    Type: 1
+    EffectID: 21
+    Meshes: 5
+    Colors: []
+    Rarity: 4
+  - Name: Canine Overcoat
+    Type: 1
+    EffectID: 25
+    Meshes: 7
+    Colors: []
+    Rarity: 4
+  - Name: Oiled Bolt
+    Type: 0
+    EffectID: 38
+    Meshes: 5
+    Colors: []
+    Rarity: 4
+  - Name: Voidwraps
+    Type: 3
+    EffectID: 43
+    Meshes: 13
+    Colors: []
+    Rarity: 4
+  - Name: Necromantic Chestguard
+    Type: 1
+    EffectID: 41
+    Meshes: 9
+    Colors: []
+    Rarity: 4
+  - Name: TEST_BOW_ITEM
+    Type: 4
+    EffectID: 0
+    Meshes: 0
+    Colors: []
+    Rarity: 6

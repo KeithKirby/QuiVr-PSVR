@@ -1,0 +1,566 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8133d5c6a8e999042a93673bb1f5b2e8, type: 3}
+  m_Name: Abilities
+  m_EditorClassIdentifier: 
+  Effects:
+  - EffectName: None
+    EffectDetail: No Effect
+    EffectID: 0
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 0}
+    AncientRange: {x: 0, y: 0}
+    PrimalVal: 0
+    StaticValue: 0
+    VariableValue: 0
+    EffectActivation: {fileID: 0}
+    type: 0
+    activation: 0
+    randomType: 0
+  - EffectName: Chain Lightning
+    EffectDetail: Causes lightning to erupt from the stricken creature, chaining to
+      others nearby and doing damage based on distance.
+    EffectID: 1
+    Display:
+      TipEffect: {fileID: 1000013370581350, guid: 56ad814d004a06048a0c0183e0a4b665,
+        type: 2}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 5}
+    AncientRange: {x: 3, y: 8}
+    PrimalVal: 10
+    StaticValue: 20
+    VariableValue: 5
+    EffectActivation: {fileID: 1000010302019304, guid: 9cff90ae9cca7a14a9d48c6ae38eb4bb,
+      type: 2}
+    type: 1
+    activation: 1
+    randomType: 0
+  - EffectName: Blast Charge
+    EffectDetail: Explodes in a small area, doing damage to all enemies hit.
+    EffectID: 2
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 1000013151716078, guid: e6f6076927aec474da6819196fb24407,
+        type: 2}
+    Range: {x: 0, y: 10}
+    AncientRange: {x: 5, y: 15}
+    PrimalVal: 20
+    StaticValue: 45
+    VariableValue: 50
+    EffectActivation: {fileID: 1000011138478226, guid: 96f706b8d94690f438307a8edd5d2127,
+      type: 2}
+    type: 2
+    activation: 5
+    randomType: 3
+  - EffectName: Acid Pool
+    EffectDetail: Drops a pool of acid on the ground for %Value% seconds.
+    EffectID: 3
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 1000011004064442, guid: 3e96b810bc9b8e642b08532051e67207,
+        type: 2}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 4}
+    AncientRange: {x: 2, y: 6}
+    PrimalVal: 14
+    StaticValue: 30
+    VariableValue: 6
+    EffectActivation: {fileID: 1000011751512068, guid: e79bae15e22ee7c499cc805895000325,
+      type: 2}
+    type: 3
+    activation: 3
+    randomType: 4
+  - EffectName: Grasping Wisps
+    EffectDetail: Dark wisps sprout from the ground, slowing enemies for %Value% Seconds.
+    EffectID: 4
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 1000014086400096, guid: 3cc257dae9226fc42bcb78a96c1a33f2,
+        type: 2}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 4}
+    AncientRange: {x: 2, y: 6}
+    PrimalVal: 12
+    StaticValue: 20
+    VariableValue: 8
+    EffectActivation: {fileID: 1000010505517620, guid: 5ff68e305f6dd194a809708a968feb01,
+      type: 2}
+    type: 3
+    activation: 3
+    randomType: 4
+  - EffectName: Scatter Arrow
+    EffectDetail: Arrows erupt from the point of impact, dealing %Value% damage to
+      struck enemies.
+    EffectID: 5
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 1000011429390966, guid: 3bcc7dabcc2bd8242958ac3a44cc0fc7,
+        type: 2}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 8}
+    AncientRange: {x: 5, y: 10}
+    PrimalVal: 12
+    StaticValue: 15
+    VariableValue: 18
+    EffectActivation: {fileID: 1000012651483412, guid: fbe7be68b2943af42b4217c3e00c30d0,
+      type: 2}
+    type: 3
+    activation: 2
+    randomType: 1
+  - EffectName: Life Leech
+    EffectDetail: Critical Strikes on enemies heal your gate for a small amount.
+    EffectID: 6
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 2}
+    AncientRange: {x: 1, y: 3}
+    PrimalVal: 4
+    StaticValue: 1
+    VariableValue: 2
+    EffectActivation: {fileID: 1000013743302376, guid: a18a9ea94a7889f44936ee742dad7b7a,
+      type: 2}
+    type: 4
+    activation: 4
+    randomType: 2
+  - EffectName: Time Warp
+    EffectDetail: Distorts time in a small area for 15 seconds.
+    EffectID: 7
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 1000014262822788, guid: b2e018e5d8da7834786f4d98cd06d31d,
+        type: 2}
+    Range: {x: 0, y: 10}
+    AncientRange: {x: 8, y: 20}
+    PrimalVal: 30
+    StaticValue: 15
+    VariableValue: 60
+    EffectActivation: {fileID: 1000012146122950, guid: 0d701c5aeb77d0441b028eff343a72c0,
+      type: 2}
+    type: 2
+    activation: 5
+    randomType: 3
+  - EffectName: Siphon
+    EffectDetail: Enemies hit grant 1 Relic Fragment.
+    EffectID: 8
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 1000012213882058, guid: ff946f039b359c947942300a0d43477a,
+        type: 2}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 25}
+    AncientRange: {x: 15, y: 35}
+    PrimalVal: 75
+    StaticValue: 1
+    VariableValue: 15
+    EffectActivation: {fileID: 1000012962910906, guid: 8b046b4af141ff646bbe8ffab4e04a19,
+      type: 2}
+    type: 1
+    activation: 1
+    randomType: 0
+  - EffectName: Lightning Blast
+    EffectDetail: '%Value% chance on impacting ground to discharge electricity in
+      a small area.'
+    EffectID: 9
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 5}
+    AncientRange: {x: 3, y: 8}
+    PrimalVal: 10
+    StaticValue: 25
+    VariableValue: 5
+    EffectActivation: {fileID: 1000013265950540, guid: 68164e8cb81fbbe4fa9ec998d5a3055b,
+      type: 2}
+    type: 5
+    activation: 3
+    randomType: 0
+  - EffectName: Pressure Point
+    EffectDetail: Affected arrow will be an automatic critical hit.
+    EffectID: 10
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 1000011669200260, guid: faf5224311e22c641997c1ed39ec7975,
+        type: 2}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 5}
+    AncientRange: {x: 3, y: 8}
+    PrimalVal: 10
+    StaticValue: 1
+    VariableValue: 35
+    EffectActivation: {fileID: 0}
+    type: 3
+    activation: 0
+    randomType: 3
+  - EffectName: Supercharged
+    EffectDetail: Critical Strikes explode in a small area for %Value% damage.
+    EffectID: 11
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 10}
+    AncientRange: {x: 5, y: 15}
+    PrimalVal: 20
+    StaticValue: 1
+    VariableValue: 15
+    EffectActivation: {fileID: 1000011505220818, guid: 92d2f6aebc0eb914b896297a3d4991d1,
+      type: 2}
+    type: 4
+    activation: 4
+    randomType: 1
+  - EffectName: Firebrand
+    EffectDetail: '%Value%% chance to light your arrow on fire. Enemies hit take damage
+      over time.'
+    EffectID: 12
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 1419530070698968, guid: b624e96ab1a209d4e8fbe9f94fcd12b9,
+        type: 2}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 6}
+    AncientRange: {x: 5, y: 15}
+    PrimalVal: 21
+    StaticValue: 1
+    VariableValue: 4
+    EffectActivation: {fileID: 0}
+    type: 1
+    activation: 7
+    randomType: 0
+  - EffectName: 'Keystone: Avian'
+    EffectDetail: Squawk!
+    EffectID: 13
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 1}
+    AncientRange: {x: 0, y: 1}
+    PrimalVal: 0
+    StaticValue: 1
+    VariableValue: 1
+    EffectActivation: {fileID: 0}
+    type: 0
+    activation: 0
+    randomType: 0
+  - EffectName: 'Trap: Blast Charge'
+    EffectDetail: '%Value% chance on miss to create a Blast Charge trap at impact
+      point. Lasts 10 Seconds.'
+    EffectID: 14
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 4}
+    AncientRange: {x: 2, y: 6}
+    PrimalVal: 12
+    StaticValue: 1
+    VariableValue: 8
+    EffectActivation: {fileID: 1000011027808960, guid: 0b4e24f8845c5c34d9a9bfbdc3e5b0ac,
+      type: 2}
+    type: 5
+    activation: 3
+    randomType: 0
+  - EffectName: Shards
+    EffectDetail: '%Value% chance on miss to cause crystal spiked to erupt from the
+      ground and damage nearby enemies.'
+    EffectID: 15
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 4}
+    AncientRange: {x: 2, y: 6}
+    PrimalVal: 12
+    StaticValue: 1
+    VariableValue: 8
+    EffectActivation: {fileID: 1634494525783232, guid: 0420d2ca9ae5e7d4f865864fc1161477,
+      type: 2}
+    type: 5
+    activation: 3
+    randomType: 0
+  - EffectName: Regeneration Zone
+    EffectDetail: Creates a regeneration zone lasting %Value% seconds. Each enemy
+      killed inside the zone heals your gate for a small amount.
+    EffectID: 16
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 1000010423287998, guid: 917b91ce3e1062641b02d285e2cc1b1a,
+        type: 2}
+    Range: {x: 0, y: 5}
+    AncientRange: {x: 3, y: 8}
+    PrimalVal: 15
+    StaticValue: 60
+    VariableValue: 10
+    EffectActivation: {fileID: 1000013634535284, guid: 2f21d924a407a954bb46058fac93dc89,
+      type: 2}
+    type: 2
+    activation: 5
+    randomType: 4
+  - EffectName: Arcane Reaction
+    EffectDetail: Create a temporary teleporter at impact location for %Value% seconds.
+    EffectID: 17
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 1093041547006940, guid: 3bdf350ffc7d2334bbef72d82ca6b50f,
+        type: 2}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 5}
+    AncientRange: {x: 4, y: 10}
+    PrimalVal: 25
+    StaticValue: 30
+    VariableValue: 10
+    EffectActivation: {fileID: 1000012566265158, guid: 2f39bde3a68ed614ab4aed1469e8704e,
+      type: 2}
+    type: 3
+    activation: 3
+    randomType: 4
+  - EffectName: Retrograde
+    EffectDetail: Good thing you're immune to dysentery.
+    EffectID: 18
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 1}
+    AncientRange: {x: 0, y: 1}
+    PrimalVal: 0
+    StaticValue: 1
+    VariableValue: 1
+    EffectActivation: {fileID: 0}
+    type: 0
+    activation: 0
+    randomType: 0
+  - EffectName: Monochrome
+    EffectDetail: Where is Obra and what is his Dinn?
+    EffectID: 19
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 1}
+    AncientRange: {x: 0, y: 1}
+    PrimalVal: 0
+    StaticValue: 1
+    VariableValue: 1
+    EffectActivation: {fileID: 0}
+    type: 0
+    activation: 0
+    randomType: 0
+  - EffectName: 'Trap: Blast Charge'
+    EffectDetail: Creates a Blast Charge trap at impact point. Lasts 10 Seconds.
+    EffectID: 20
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 1364479834415076, guid: c85997c96a5965a46969bb6f31f60b87,
+        type: 2}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 8}
+    AncientRange: {x: 4, y: 12}
+    PrimalVal: 15
+    StaticValue: 1
+    VariableValue: 30
+    EffectActivation: {fileID: 1690320474348542, guid: a342621d3b19fd3488728e1e7a0f7850,
+      type: 2}
+    type: 3
+    activation: 2
+    randomType: 3
+  - EffectName: Swirling Inferno
+    EffectDetail: Creates a Fire Tornado at impact point lasting %Value% seconds and
+      dealing massive damage to enemies within.
+    EffectID: 21
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 1623527801331736, guid: 3fd9f06245ecae641897abba0f99b20c,
+        type: 2}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 4}
+    AncientRange: {x: 3, y: 10}
+    PrimalVal: 12
+    StaticValue: 50
+    VariableValue: 8
+    EffectActivation: {fileID: 1755667776861276, guid: 3489d806b3c09f940b35c72940ab7cbc,
+      type: 2}
+    type: 3
+    activation: 2
+    randomType: 4
+  - EffectName: Lightning Rod
+    EffectDetail: Creates an electric field at impact point lasting 10 seconds and
+      10 damage per second to enemies within.
+    EffectID: 22
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 1661361432576936, guid: c55db9ed73004aa4bbcfc5df29d8d3e0,
+        type: 2}
+    Range: {x: 0, y: 5}
+    AncientRange: {x: 3, y: 8}
+    PrimalVal: 15
+    StaticValue: 10
+    VariableValue: 60
+    EffectActivation: {fileID: 1710542610728834, guid: 487e365d2f5141b4fba971d8d4f7ab5a,
+      type: 2}
+    type: 2
+    activation: 2
+    randomType: 3
+  - EffectName: Eruption
+    EffectDetail: Magma erupts from the impact point, dealing massive damage to enemies
+      nearby.
+    EffectID: 23
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 1504248911407574, guid: a66fcbd0479dad249b7e5a6c8ac0795f,
+        type: 2}
+    Range: {x: 0, y: 10}
+    AncientRange: {x: 6, y: 18}
+    PrimalVal: 25
+    StaticValue: 100
+    VariableValue: 65
+    EffectActivation: {fileID: 1995462248235550, guid: b147c6c189b0ed74cacf73f916007d9c,
+      type: 2}
+    type: 2
+    activation: 2
+    randomType: 3
+  - EffectName: Flash Freeze
+    EffectDetail: Enemies struck are encased in ice for 5 seconds.
+    EffectID: 24
+    Display:
+      TipEffect: {fileID: 1000013810901374, guid: e3b6873b6045ab44d8aa618efbb0c890,
+        type: 2}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 6}
+    AncientRange: {x: 3, y: 11}
+    PrimalVal: 21
+    StaticValue: 5
+    VariableValue: 4
+    EffectActivation: {fileID: 1871451215571008, guid: a3ac7b9fbea86dc488a9d434e1c9535f,
+      type: 2}
+    type: 1
+    activation: 1
+    randomType: 0
+  - EffectName: Pack Mentality
+    EffectDetail: Increases arrow damage when more players wear this item.
+    EffectID: 25
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 0}
+    Range: {x: 3, y: 5}
+    AncientRange: {x: 4, y: 6}
+    PrimalVal: 8
+    StaticValue: 0
+    VariableValue: 0
+    EffectActivation: {fileID: 0}
+    type: 4
+    activation: 8
+    randomType: 1
+  - EffectName: Defensive Perimeter
+    EffectDetail: Creates a protective barrier that blocks incoming enemy attacks.
+    EffectID: 26
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 0}
+      OrbEffect: {fileID: 1362249547426026, guid: 96c4b7e48994fe24fb96dbd21fa46c41,
+        type: 2}
+    Range: {x: 0, y: 6}
+    AncientRange: {x: 4, y: 10}
+    PrimalVal: 15
+    StaticValue: 40
+    VariableValue: 10
+    EffectActivation: {fileID: 1657967152112588, guid: 9d8cc5d50d8c23a4fa9c1b553ae5f196,
+      type: 2}
+    type: 2
+    activation: 5
+    randomType: 4
+  - EffectName: Seeker Arrow
+    EffectDetail: After hitting an enemy, seeks out and damages others in a %Value%
+      meter radius.
+    EffectID: 27
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 1184699629447504, guid: f7024c150ad03484186cb0bc57e4f287,
+        type: 2}
+      OrbEffect: {fileID: 0}
+    Range: {x: 10, y: 14}
+    AncientRange: {x: 13, y: 18}
+    PrimalVal: 25
+    StaticValue: 30
+    VariableValue: 10
+    EffectActivation: {fileID: 1795931976785304, guid: 428fb271b2fedcc47bd0c66e8a72d847,
+      type: 2}
+    type: 3
+    activation: 1
+    randomType: 5
+  - EffectName: Powerup_Fire
+    EffectDetail: Fire Powerup
+    EffectID: 28
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 1419530070698968, guid: b624e96ab1a209d4e8fbe9f94fcd12b9,
+        type: 2}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 0}
+    AncientRange: {x: 0, y: 0}
+    PrimalVal: 0
+    StaticValue: 0
+    VariableValue: 0
+    EffectActivation: {fileID: 1632350051154114, guid: dd543400ea81d76419725dcd2a0b31f5,
+      type: 2}
+    type: 1
+    activation: 2
+    randomType: 0
+  - EffectName: Powerup_Electric
+    EffectDetail: 
+    EffectID: 29
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 1150034146094442, guid: 1a93910a8bc192444a46befca03f5a23,
+        type: 2}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 0}
+    AncientRange: {x: 0, y: 0}
+    PrimalVal: 0
+    StaticValue: 0
+    VariableValue: 0
+    EffectActivation: {fileID: 1502232991497254, guid: a014edafec35f4242ace0fb0ed0e48f4,
+      type: 2}
+    type: 1
+    activation: 2
+    randomType: 0
+  - EffectName: Powerup_Acid
+    EffectDetail: 
+    EffectID: 30
+    Display:
+      TipEffect: {fileID: 0}
+      ShaftEffect: {fileID: 1645393279024808, guid: ed0aea050085c0a4da9aa8ce04d81be1,
+        type: 2}
+      OrbEffect: {fileID: 0}
+    Range: {x: 0, y: 0}
+    AncientRange: {x: 0, y: 0}
+    PrimalVal: 0
+    StaticValue: 0
+    VariableValue: 0
+    EffectActivation: {fileID: 1952877861101584, guid: cab9e2b47d332874c99b7de24d07e633,
+      type: 2}
+    type: 1
+    activation: 2
+    randomType: 0

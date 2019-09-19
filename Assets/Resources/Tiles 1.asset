@@ -1,0 +1,666 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52046546181f9724c9736f46d39ecd19, type: 3}
+  m_Name: Tiles 1
+  m_EditorClassIdentifier: 
+  TransitionTiles:
+  - tile:
+      Name: Snow-to-Desert
+      Prefab: {fileID: 1805870949846006, guid: e0a58e1332056da4a9393d6dbefee368, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    To: 2
+    From: 0
+  - tile:
+      Name: Desert-to-Snow
+      Prefab: {fileID: 1384361822481276, guid: bb4562542d7cd864181d1e6ebcccb53f, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    To: 0
+    From: 2
+  - tile:
+      Name: SnowToHighlands
+      Prefab: {fileID: 1928042617567770, guid: 2f3080ea22193b24f816860df1239d4b, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    To: 4
+    From: 0
+  - tile:
+      Name: HighlandsToSnow
+      Prefab: {fileID: 1429190079518474, guid: 738ef1d5bce08d64c87cf3f02271606c, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    To: 0
+    From: 4
+  - tile:
+      Name: CaveToSnow
+      Prefab: {fileID: 1761893914908686, guid: c39c832faff07494bb9a548537370411, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    To: 0
+    From: 1
+  - tile:
+      Name: SnowToCave
+      Prefab: {fileID: 1193216418943596, guid: 8b26a2cd156699545a4fe092e89987a7, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    To: 1
+    From: 0
+  - tile:
+      Name: CaveToHighlands
+      Prefab: {fileID: 1634258563334134, guid: 7371c77f7f3187c47871355d13e1e904, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    To: 4
+    From: 1
+  - tile:
+      Name: HighlandsToCave
+      Prefab: {fileID: 1083620936378122, guid: 1acde27dd13b9024ca123d298cd83d35, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    To: 1
+    From: 4
+  - tile:
+      Name: Snow to Void
+      Prefab: {fileID: 1279026690855382, guid: 1e1b5000e6fa92246b402e88c1ba438b, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    To: 6
+    From: 0
+  - tile:
+      Name: Void to Snow
+      Prefab: {fileID: 1876060248076824, guid: 4b1bfae8999ae9945af05a9e0a1edcc9, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 6
+    To: 0
+    From: 6
+  Snow:
+    Links:
+    - Name: StraightBase
+      Prefab: {fileID: 1453641459107042, guid: 6ab2b8cac173aff479006c292970f0f1, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    - Name: LavaCenter
+      Prefab: {fileID: 1728899932731784, guid: 6eb87d21fcecf4b4897587470fd2396e, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 2
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    - Name: CornerFlat
+      Prefab: {fileID: 1775684261668532, guid: f6d2a86ff22f2104e9889aa9e0680712, type: 2}
+      type: 0
+      Direction: 90
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    - Name: CornerReverseFlat
+      Prefab: {fileID: 1128098749673956, guid: d237da1fd275f614bac1053868eb3a60, type: 2}
+      type: 0
+      Direction: -90
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    - Name: AngleFlat
+      Prefab: {fileID: 1844997369909932, guid: 949f0d4b8bf1b264fb6880802cc12f88, type: 2}
+      type: 0
+      Direction: 45
+      Value: 0.5
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    - Name: AngleReverseFlat
+      Prefab: {fileID: 1269631451443026, guid: 5b38b2244573f2942bc97b364200cd58, type: 2}
+      type: 0
+      Direction: -45
+      Value: 0.5
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    - Name: ShearLong
+      Prefab: {fileID: 1303139061645310, guid: d5151af8fb462ba4b97a7faf9472ff6b, type: 2}
+      type: 0
+      Direction: 45
+      Value: 2
+      Rarity: 1
+      Unique: 1
+      HeightChange: 0
+      env: 0
+    Gates:
+    - Name: RampGate
+      Prefab: {fileID: 1560319544430594, guid: d3c6a6d0d1540e049ab3d97d61990651, type: 2}
+      type: 1
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 10
+      env: 0
+    - Name: StraigntGate
+      Prefab: {fileID: 1830925145671104, guid: 50f5cfc4e499fbc4fa19cd30a2161d4e, type: 2}
+      type: 1
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    - Name: CornerGate
+      Prefab: {fileID: 1327442768110876, guid: 3bb8862f3f0c79a44bc7b78c6c17903b, type: 2}
+      type: 1
+      Direction: 90
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    EndCaps:
+    - Name: BaseFlat
+      Prefab: {fileID: 1918067061182730, guid: 83c40ca68badfcc42aa87e9d37c95bd4, type: 2}
+      type: 2
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+    - Name: Base2Raised
+      Prefab: {fileID: 1076781102139038, guid: aea3fc93c28610041896847e867e1ce2, type: 2}
+      type: 2
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+  Desert:
+    Links:
+    - Name: Straight1
+      Prefab: {fileID: 1224234261320936, guid: 7d8381ab61a081049bca98a6d73d5e6a, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 2
+    - Name: Corner
+      Prefab: {fileID: 1820194545726656, guid: e29eaf9a122b32a4baac9b4ecb5f450b, type: 2}
+      type: 0
+      Direction: 90
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 2
+    - Name: CornerInvert
+      Prefab: {fileID: 1609711075562370, guid: 895437b6bbe64fd48b3313203e3361f1, type: 2}
+      type: 0
+      Direction: -90
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 2
+    Gates:
+    - Name: StraightGate
+      Prefab: {fileID: 1891917998050898, guid: d6900a0d0ffc57242b43447997dfe1b3, type: 2}
+      type: 1
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 2
+    EndCaps:
+    - Name: Cap1
+      Prefab: {fileID: 1387230443037386, guid: 3917ddee400cd0d448de1097197bb3d2, type: 2}
+      type: 2
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 0
+  Highlands:
+    Links:
+    - Name: Straight
+      Prefab: {fileID: 1501097837470700, guid: b7bec94db5f2ceb4fbcdc6e28c38db46, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 4
+    - Name: Corner
+      Prefab: {fileID: 1326800772542984, guid: e0d79efedd1ae7b43866b866efd7c5cd, type: 2}
+      type: 0
+      Direction: 90
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 4
+    - Name: Corner Invert
+      Prefab: {fileID: 1134682850642802, guid: 2500a5cd7670e4249bf0e4f967e0b5ae, type: 2}
+      type: 0
+      Direction: -90
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 4
+    Gates:
+    - Name: Straight Gate
+      Prefab: {fileID: 1532398506874430, guid: cc10a335617fef24a9a09c98f6f742fc, type: 2}
+      type: 1
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 4
+    EndCaps: []
+  Cave:
+    Links:
+    - Name: StraightTile
+      Prefab: {fileID: 1804979393845058, guid: 5411544adfab0e1439def6dd9de8972c, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 1
+    - Name: CornerTileInvert
+      Prefab: {fileID: 1409529093853644, guid: 09e7eb2c9d847514d91f6abb067b5948, type: 2}
+      type: 0
+      Direction: -90
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 1
+    - Name: CornerTile
+      Prefab: {fileID: 1222436003377464, guid: ff8cf3487b006f84a81d7791c5882f69, type: 2}
+      type: 0
+      Direction: 90
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 1
+    Gates:
+    - Name: StraightGate1
+      Prefab: {fileID: 1370964480291894, guid: f468aee68de24f948af926a8a822d71b, type: 2}
+      type: 1
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 1
+    EndCaps: []
+  Void:
+    Links:
+    - Name: StraigntVoid
+      Prefab: {fileID: 1668630869975736, guid: 2c5613148b341534bb84046e88705fcc, type: 2}
+      type: 0
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 6
+    - Name: Corner
+      Prefab: {fileID: 1207397731619306, guid: 758c6560b6b90f04db507ed8d0147439, type: 2}
+      type: 0
+      Direction: 90
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 6
+    - Name: Corner Invert
+      Prefab: {fileID: 1968503866030308, guid: e2995efb44c92354a99ab5e07b3dd936, type: 2}
+      type: 0
+      Direction: -90
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 6
+    Gates:
+    - Name: Straight Gate
+      Prefab: {fileID: 1445465140833274, guid: d76ef7a87a1234b46be84cb683944daf, type: 2}
+      type: 1
+      Direction: 0
+      Value: 1
+      Rarity: 0
+      Unique: 0
+      HeightChange: 0
+      env: 6
+    EndCaps: []
+  EventTiles:
+  - Name: CupEvent
+    EventObject: {fileID: 1086136540839290, guid: cbfec781a386eb6448a2ce14dd9e7515,
+      type: 2}
+    Rarity: 0
+    MinDifficulty: 0
+    MaxDifficulty: 0
+    TileRequirement: {fileID: 1170225494787384, guid: 9bd00454457a5ea468bc61cae8aeeec5,
+      type: 2}
+    Available: 1
+  - Name: WormBoss
+    EventObject: {fileID: 1731080089671018, guid: 6c5b02767f0ff6948932ad78cce76a5a,
+      type: 2}
+    Rarity: 0
+    MinDifficulty: 0
+    MaxDifficulty: 0
+    TileRequirement: {fileID: 1180988411941164, guid: 2259deccb5796a04b96ea859ba444808,
+      type: 2}
+    Available: 1
+  - Name: MountainClimb
+    EventObject: {fileID: 1777947806136422, guid: d7a1e6a1f78fcad4ba8cabdb73b0025a,
+      type: 2}
+    Rarity: 0
+    MinDifficulty: 1200
+    MaxDifficulty: 0
+    TileRequirement: {fileID: 1429265347589330, guid: 15fef9ee445a50245a3e5bb26aae8365,
+      type: 2}
+    Available: 1
+  - Name: FlowerBoss
+    EventObject: {fileID: 1293241827862224, guid: 82faa97a0c04d1248b648795592432da,
+      type: 2}
+    Rarity: 0
+    MinDifficulty: 1200
+    MaxDifficulty: 0
+    TileRequirement: {fileID: 1180988411941164, guid: 2259deccb5796a04b96ea859ba444808,
+      type: 2}
+    Available: 1
+  RockMaterials:
+  - Snow: {fileID: 2100000, guid: 7f89adeba51b1c748a6220fe68a90123, type: 2}
+    Sand: {fileID: 2100000, guid: f73fb178fb5407f4ebb923e3911c6b93, type: 2}
+    Moss: {fileID: 2100000, guid: a66b6f79f8a9a01478c59b65f2201b78, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 1cd1ba3fc1711dd4b93ab6fa9839519b, type: 2}
+    Cave: {fileID: 2100000, guid: dba66f37b552a1249bc51ec38af55517, type: 2}
+    Void: {fileID: 2100000, guid: a1dc5655b1eba7243bd7595a79647adb, type: 2}
+  - Snow: {fileID: 2100000, guid: 0cf08f04c690ba241860f7327eb8aed9, type: 2}
+    Sand: {fileID: 2100000, guid: 2a5bd7bf7c0800f408ab232a93796eea, type: 2}
+    Moss: {fileID: 2100000, guid: acb9d0c12c3eb464b9fcb454dab2dbd7, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 96ad2f6238c95594ca53bca14f30a011, type: 2}
+    Cave: {fileID: 2100000, guid: 9c01dbaadcab233498cc3a6895d8151c, type: 2}
+    Void: {fileID: 2100000, guid: d453af460ea6ec547a2c19859fcded09, type: 2}
+  - Snow: {fileID: 2100000, guid: 9a66e5d7e5712e843a07e751ba2513e6, type: 2}
+    Sand: {fileID: 2100000, guid: 709d80f8a460fcd4db7e1e5067cc8ebf, type: 2}
+    Moss: {fileID: 2100000, guid: 23e57ecb9fa03a2498ec958a009d6c16, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 5c1972d9017e1b743a99a91a01bc4eb0, type: 2}
+    Cave: {fileID: 2100000, guid: da5db515fd99c8e49966a6a386056cc8, type: 2}
+    Void: {fileID: 2100000, guid: 04732cda6e6855545b060dd2e6a7e435, type: 2}
+  - Snow: {fileID: 2100000, guid: fb4ad9ff9621a924593362723e54efa9, type: 2}
+    Sand: {fileID: 2100000, guid: fdbdc60ad42e11440a494bfd56c67ddf, type: 2}
+    Moss: {fileID: 2100000, guid: 031b38f8a31a19a4b8fd1e9bcc8f694b, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 5c0492146b199e84baf6dfef3e8c8952, type: 2}
+    Cave: {fileID: 2100000, guid: 140cb44b1507565459f81ab81539d6ee, type: 2}
+    Void: {fileID: 2100000, guid: 9020a6548b162a74691cf7f3c64b444b, type: 2}
+  - Snow: {fileID: 2100000, guid: 84427ccc61a1f9e47a728acec1ae6c0a, type: 2}
+    Sand: {fileID: 2100000, guid: 4c6f35798fe65b5469952efbc3279537, type: 2}
+    Moss: {fileID: 2100000, guid: 9bc8b1a4a226d0e4cb5d4ed5136a018b, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 9d4e01a9b76cbe645a7cfba4958477ed, type: 2}
+    Cave: {fileID: 2100000, guid: 7360ef6b9553a874daa9c6e8f5a1d7b0, type: 2}
+    Void: {fileID: 2100000, guid: 4a05029c4a85e7e4bbd791229f2404a3, type: 2}
+  - Snow: {fileID: 2100000, guid: 6e589123a121f974f814a8aac0b22501, type: 2}
+    Sand: {fileID: 2100000, guid: e1da7963c758840409f34e8a5e71516d, type: 2}
+    Moss: {fileID: 2100000, guid: 57ae2447ca1669e42ae3c4c12d34defe, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 35c41bc0fe42e6a4eb434375e8aa1e71, type: 2}
+    Cave: {fileID: 2100000, guid: 0728d988b0a533f4ab7742d0bb2821ae, type: 2}
+    Void: {fileID: 2100000, guid: 4565bcd5f6a1ede4d9a257c8146ebd1f, type: 2}
+  - Snow: {fileID: 2100000, guid: d3cd96e8c53e5fb4f9cb72bebe8923b7, type: 2}
+    Sand: {fileID: 2100000, guid: d03a1bbee22cfe149b5f4b1c7441f0ec, type: 2}
+    Moss: {fileID: 2100000, guid: 6fc8333c42e19a443ae5c1ab4595b2de, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 20967f080d80f4c4cba7e4e32d0b62f2, type: 2}
+    Cave: {fileID: 2100000, guid: d99039fe8b7be6f4abb08113c92f1311, type: 2}
+    Void: {fileID: 2100000, guid: c6d3c2c729930494fb21bd008e415795, type: 2}
+  - Snow: {fileID: 2100000, guid: 3e1284570fd879e4ca6dd7ba0113bd26, type: 2}
+    Sand: {fileID: 2100000, guid: 0350c9bf71e144446b0713faa8659a03, type: 2}
+    Moss: {fileID: 2100000, guid: 48bb9ec067c4fed4a8dfcbb729c4d9b0, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 3198e5a7e6110994d9c97a189e9421e9, type: 2}
+    Cave: {fileID: 2100000, guid: 56cce95f3f6ef5f47865d98ae3f74d99, type: 2}
+    Void: {fileID: 2100000, guid: 9fc6f5627311206449e241ac5ea7f792, type: 2}
+  - Snow: {fileID: 2100000, guid: b29fd5fa46ca48e479b398194bf6207f, type: 2}
+    Sand: {fileID: 2100000, guid: ce5dcfb807d14f4418d00fa04018ca44, type: 2}
+    Moss: {fileID: 2100000, guid: bd3497500cd1122499be6e26acb9e22c, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 540dd50eb9438f14ab4e0cba3aa886b4, type: 2}
+    Cave: {fileID: 2100000, guid: 850fb2abc6ce90e46ac17148ec154f70, type: 2}
+    Void: {fileID: 2100000, guid: 3fc1558ddecd52044bdb631aa7d4067e, type: 2}
+  - Snow: {fileID: 2100000, guid: 437db6007c1a3dd4993d9ba5425f80c4, type: 2}
+    Sand: {fileID: 2100000, guid: c23a43096e35a0b47a6081cadd606428, type: 2}
+    Moss: {fileID: 2100000, guid: 8424d1e760e15f34e8a8a7fc54fe7d9f, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: a53a703649079f148874046735001372, type: 2}
+    Cave: {fileID: 2100000, guid: 0aa040e4f11504548b709f813c3401ee, type: 2}
+    Void: {fileID: 2100000, guid: 460778bafbb1e9643a7e75c1d9e6e5cd, type: 2}
+  - Snow: {fileID: 2100000, guid: 9aea5116a84f3d54f9b70826a7bc28b9, type: 2}
+    Sand: {fileID: 2100000, guid: 4ab38c9890294cf45b9a2467086d552c, type: 2}
+    Moss: {fileID: 2100000, guid: ff6dad7d1ae92384091474bb9b1a55b4, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: f392e6da90b802d42bd3da8d4e8bb20c, type: 2}
+    Cave: {fileID: 2100000, guid: 2c09f55b1619010468accd80b0deec29, type: 2}
+    Void: {fileID: 2100000, guid: 523f9887dc0f7334ebfbb8a775610ced, type: 2}
+  - Snow: {fileID: 2100000, guid: fe508b5a1cc3a4c4f8d1ca4c5075ef87, type: 2}
+    Sand: {fileID: 2100000, guid: d75753fb43b9fe343ba828a66db28da7, type: 2}
+    Moss: {fileID: 2100000, guid: a7dde04fc0d658f46bb905f1b8f17ea7, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 88837ff84ff79344b95650ce1c8ce7a1, type: 2}
+    Cave: {fileID: 2100000, guid: 5ceec4a9fe19fe84b979d00208d4987e, type: 2}
+    Void: {fileID: 2100000, guid: dfb571d6df478b84982811a7c68c03e1, type: 2}
+  - Snow: {fileID: 2100000, guid: 72f7657e4cbc92d42adec6a13d4c6bf4, type: 2}
+    Sand: {fileID: 2100000, guid: a6bb3f6e2d0ef8c43960e75cdb5a4cda, type: 2}
+    Moss: {fileID: 2100000, guid: 61287bc2d96850749972193b75a329ee, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: e6c6d8c64b79c534cb4da906ec80c24d, type: 2}
+    Cave: {fileID: 2100000, guid: 475b3768a1f578c48b55a7bef9aa6d1c, type: 2}
+    Void: {fileID: 2100000, guid: fcbd4b00142fab84fad2418d58be2de5, type: 2}
+  - Snow: {fileID: 2100000, guid: 81ca4355da235fc46aa46423ce4f4525, type: 2}
+    Sand: {fileID: 2100000, guid: 4080256c6f288eb4ca807941d608d559, type: 2}
+    Moss: {fileID: 2100000, guid: d0c3251b633b68841bdff62f4658fbb3, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 6f1a53ac2501c7e49a6d36adf45b74c0, type: 2}
+    Cave: {fileID: 2100000, guid: dca3c0eb21c87004ca9bdfef869e01ad, type: 2}
+    Void: {fileID: 2100000, guid: 68a75275761141e43b16cd9f4ba12c2b, type: 2}
+  - Snow: {fileID: 2100000, guid: 2b9ab277cd18d6846b453422b8e28a59, type: 2}
+    Sand: {fileID: 2100000, guid: 0c1d1ecb3bdca794ca997401a625bad5, type: 2}
+    Moss: {fileID: 2100000, guid: b7e8b1247bfc445499b96aa436b26af0, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 14f171d002fccfd4dab5fada63403f53, type: 2}
+    Cave: {fileID: 2100000, guid: 5c14b52e3a54f054caf6a7efb6a2fe1b, type: 2}
+    Void: {fileID: 2100000, guid: 693e243c07faa43429e8b11dba50c057, type: 2}
+  - Snow: {fileID: 2100000, guid: c94cc2e790abc954ea7c8df35c518472, type: 2}
+    Sand: {fileID: 2100000, guid: 0c1d1ecb3bdca794ca997401a625bad5, type: 2}
+    Moss: {fileID: 2100000, guid: b7e8b1247bfc445499b96aa436b26af0, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: ac65d7f33df87ec4585468b5a858635c, type: 2}
+    Cave: {fileID: 2100000, guid: beba3b25d186fdf4896d2821fd082481, type: 2}
+    Void: {fileID: 2100000, guid: 693e243c07faa43429e8b11dba50c057, type: 2}
+  - Snow: {fileID: 2100000, guid: 799a95ab11f406c4cbcab82b3800c718, type: 2}
+    Sand: {fileID: 2100000, guid: 14923f75abd887445a0c72248dddd17c, type: 2}
+    Moss: {fileID: 2100000, guid: 186c51bb1ae78d949977660f7972bc9e, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 6929ae3b4eadccd4f940b87957aaec34, type: 2}
+    Cave: {fileID: 2100000, guid: af22a20c936692f43bef9a6b54a8d51e, type: 2}
+    Void: {fileID: 2100000, guid: a7b43a3066e3fd0428eb7f3363db6787, type: 2}
+  - Snow: {fileID: 2100000, guid: ca10dde0be06c4e4dbef313f462212ed, type: 2}
+    Sand: {fileID: 2100000, guid: bd9ed9982609b7e46b12412969120ebb, type: 2}
+    Moss: {fileID: 2100000, guid: a37c5fd7371a5fd4895918abd2b007d8, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 368d3fea1514c504baa8f914f907d63c, type: 2}
+    Cave: {fileID: 2100000, guid: 63ea483ece5f24c45b275077be096683, type: 2}
+    Void: {fileID: 2100000, guid: ba50adbc9a78bca4ea2ab92a365d18a7, type: 2}
+  - Snow: {fileID: 2100000, guid: 5f34130c7d6d3064f80a63ea0015c514, type: 2}
+    Sand: {fileID: 2100000, guid: c1a8ec10f793c034c9a189176cb39808, type: 2}
+    Moss: {fileID: 2100000, guid: b9c58d7483d94da468556416b3501845, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: bf193db073adbb64882c46f0f9eb7a77, type: 2}
+    Cave: {fileID: 2100000, guid: 227a499386008484fb58ce68aced62f3, type: 2}
+    Void: {fileID: 2100000, guid: abb2d02f728e43a4780aa8cf987eb17f, type: 2}
+  - Snow: {fileID: 2100000, guid: dd1a939d2a9a2dc46b2ae6a6377632bf, type: 2}
+    Sand: {fileID: 2100000, guid: 8e4078a5ec0dbd64dbb1f73c156f71e4, type: 2}
+    Moss: {fileID: 2100000, guid: 9fa0e433b85b3de47a349209efdc7f5c, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: bf59720f9cf5e954bb72b5bb5ac778d1, type: 2}
+    Cave: {fileID: 2100000, guid: 406b70db94041124b8cdaf8ce0275aea, type: 2}
+    Void: {fileID: 2100000, guid: ac94a50e4ec49dd469c7f632d13fa878, type: 2}
+  - Snow: {fileID: 2100000, guid: f5d43dde70cad3943866192e3fc37bd4, type: 2}
+    Sand: {fileID: 2100000, guid: 997e71efc1402564d800fbe605374bed, type: 2}
+    Moss: {fileID: 2100000, guid: 6bee0b0d42b43fc4183d72315c121fb1, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: fb3d907a4e7bb6148a68b27538db4e1e, type: 2}
+    Cave: {fileID: 2100000, guid: 8a4a7f964d9af3a43883b0bf0c85bde6, type: 2}
+    Void: {fileID: 2100000, guid: 19b4a97a9caaa184cb847df7e7b76703, type: 2}
+  - Snow: {fileID: 2100000, guid: a95aef8bd1eb1804b8721f35b4be1fea, type: 2}
+    Sand: {fileID: 2100000, guid: 1c53c5b11b67d09459dc7b739d0f03c0, type: 2}
+    Moss: {fileID: 2100000, guid: 390aec11ed486ac47a473a31dbaa0609, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 9359104280d90094997a5059b9566de9, type: 2}
+    Cave: {fileID: 2100000, guid: 916cbc836c56b5a4a8aa0859dc51ba31, type: 2}
+    Void: {fileID: 2100000, guid: 18f97afdaacaed141a673d5d08185f7e, type: 2}
+  - Snow: {fileID: 2100000, guid: 9cb2e4dbda3443b46ac118c4b7f6e2ed, type: 2}
+    Sand: {fileID: 2100000, guid: 7323bb223155a6b4d802be9f5e6611db, type: 2}
+    Moss: {fileID: 2100000, guid: 9782138f6ad96f44dba79ea175ec4c41, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 3799aac92a14cca43a04fde836b7ba10, type: 2}
+    Cave: {fileID: 2100000, guid: 39d0ae446eddcd84db45ef6315ba9952, type: 2}
+    Void: {fileID: 2100000, guid: aa6a08c4ab54e014a938d5662eda2251, type: 2}
+  - Snow: {fileID: 2100000, guid: 9fe27555acf8aa34c8af9e41f637f5fc, type: 2}
+    Sand: {fileID: 2100000, guid: baf7df10219278a4ba9090ea8ea2eee1, type: 2}
+    Moss: {fileID: 2100000, guid: e57f3db818243e2478be58913636f065, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 2e010012baca26f4889426d268057e83, type: 2}
+    Cave: {fileID: 2100000, guid: 4a94e437a8e738545a67d6ee61dff617, type: 2}
+    Void: {fileID: 2100000, guid: e5e3e4a44a8bba24896f188acf38b141, type: 2}
+  - Snow: {fileID: 2100000, guid: bebc1f9c6dc01104794e6b5d97be0c47, type: 2}
+    Sand: {fileID: 2100000, guid: 51ee0330fa9da4f40b77922045f2e9d5, type: 2}
+    Moss: {fileID: 2100000, guid: 972ba00e164ea34469ba818724a4f7ad, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: c92a303ced238f74c855595352f9a835, type: 2}
+    Cave: {fileID: 2100000, guid: 9d52fd0b15607df4982e2953bb80a787, type: 2}
+    Void: {fileID: 2100000, guid: 24849c17c4d748c46b636bfb8d5cbe0d, type: 2}
+  - Snow: {fileID: 2100000, guid: 4160883da601f4241a5866b4013d3f13, type: 2}
+    Sand: {fileID: 2100000, guid: fdbdc60ad42e11440a494bfd56c67ddf, type: 2}
+    Moss: {fileID: 2100000, guid: 031b38f8a31a19a4b8fd1e9bcc8f694b, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: fe844d0f02012a445a606a308402d00d, type: 2}
+    Cave: {fileID: 2100000, guid: 1f5b2113282017545aea5d2f82fbba3d, type: 2}
+    Void: {fileID: 2100000, guid: 89b5de9153e224d48b869267a2a4943c, type: 2}
+  - Snow: {fileID: 2100000, guid: 913be9698a820384b92f0c815d5695f9, type: 2}
+    Sand: {fileID: 2100000, guid: 1c6bd26f5375ddb4cb77a0ff1f57f63f, type: 2}
+    Moss: {fileID: 0}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 0}
+    Cave: {fileID: 0}
+    Void: {fileID: 0}
+  - Snow: {fileID: 2100000, guid: 7e21c5826f5e22f40ab6a6532a58913f, type: 2}
+    Sand: {fileID: 0}
+    Moss: {fileID: 2100000, guid: 3b4520ae34312004a840dcad0bd0b483, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 2100000, guid: 047e5b8e568caa741a6905f374751f04, type: 2}
+    Cave: {fileID: 2100000, guid: b1059e8537075c645803eaf896251422, type: 2}
+    Void: {fileID: 2100000, guid: c54d55fcfa670e846971456399ec058d, type: 2}
+  - Snow: {fileID: 2100000, guid: 913be9698a820384b92f0c815d5695f9, type: 2}
+    Sand: {fileID: 2100000, guid: 1c6bd26f5375ddb4cb77a0ff1f57f63f, type: 2}
+    Moss: {fileID: 2100000, guid: d9fd945d60fc21041942f5d5f67cbc5c, type: 2}
+    Swamp: {fileID: 0}
+    Lava: {fileID: 0}
+    Cave: {fileID: 2100000, guid: 4c449e2d6f950bd4ca44d02b740e20b0, type: 2}
+    Void: {fileID: 2100000, guid: c54d55fcfa670e846971456399ec058d, type: 2}
+  usedTiles:
+  - Name: FlowerBoss
+    EventObject: {fileID: 1293241827862224, guid: 82faa97a0c04d1248b648795592432da,
+      type: 2}
+    Rarity: 0
+    MinDifficulty: 100
+    MaxDifficulty: 0
+    TileRequirement: {fileID: 1180988411941164, guid: 2259deccb5796a04b96ea859ba444808,
+      type: 2}
+    Available: 1
