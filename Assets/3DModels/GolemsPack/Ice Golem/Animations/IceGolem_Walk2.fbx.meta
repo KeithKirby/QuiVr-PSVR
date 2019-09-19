@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 2b72f7bdd9e5f89499481abbac201bd6
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: _Rig_IceGolem
+    100002: _Rig_IceGolemChest
+    100004: _Rig_IceGolemCrest
+    100006: _Rig_IceGolemFist_L_
+    100008: _Rig_IceGolemFist_R_
+    100010: _Rig_IceGolemFoot_L_
+    100012: _Rig_IceGolemFoot_R_
+    100014: _Rig_IceGolemHand_L_
+    100016: _Rig_IceGolemHand_R_
+    100018: _Rig_IceGolemHead
+    100020: _Rig_IceGolemLeg_L_
+    100022: _Rig_IceGolemLeg_R_
+    100024: _Rig_IceGolemPalm_L_
+    100026: _Rig_IceGolemPalm_R_
+    100028: IceGolem_Body_
+    100030: IceGolem_Fists_
+    100032: IceGolem_Foots_
+    100034: IceGolem_Hands_
+    100036: IceGolem_Head_
+    100038: IceGolem_Legs_
+    100040: IceGolem_Mesh_
+    100042: //RootNode
+    400000: _Rig_IceGolem
+    400002: _Rig_IceGolemChest
+    400004: _Rig_IceGolemCrest
+    400006: _Rig_IceGolemFist_L_
+    400008: _Rig_IceGolemFist_R_
+    400010: _Rig_IceGolemFoot_L_
+    400012: _Rig_IceGolemFoot_R_
+    400014: _Rig_IceGolemHand_L_
+    400016: _Rig_IceGolemHand_R_
+    400018: _Rig_IceGolemHead
+    400020: _Rig_IceGolemLeg_L_
+    400022: _Rig_IceGolemLeg_R_
+    400024: _Rig_IceGolemPalm_L_
+    400026: _Rig_IceGolemPalm_R_
+    400028: IceGolem_Body_
+    400030: IceGolem_Fists_
+    400032: IceGolem_Foots_
+    400034: IceGolem_Hands_
+    400036: IceGolem_Head_
+    400038: IceGolem_Legs_
+    400040: IceGolem_Mesh_
+    400042: //RootNode
+    4300000: IceGolem_Body_
+    4300002: IceGolem_Head_
+    4300004: IceGolem_Hands_
+    4300006: IceGolem_Fists_
+    4300008: IceGolem_Legs_
+    4300010: IceGolem_Foots_
+    7400000: Walk2
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: IceGolem_Body_
+    13700002: IceGolem_Fists_
+    13700004: IceGolem_Foots_
+    13700006: IceGolem_Hands_
+    13700008: IceGolem_Head_
+    13700010: IceGolem_Legs_
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: f1a0b35b1b15d294096f4da7e2a33ae8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk2
+      takeName: Main
+      firstFrame: 1
+      lastFrame: 33
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _Rig_IceGolem
+        weight: 1
+      - path: _Rig_IceGolemChest
+        weight: 1
+      - path: _Rig_IceGolemChest/_Rig_IceGolemCrest
+        weight: 1
+      - path: _Rig_IceGolemChest/_Rig_IceGolemFoot_L_
+        weight: 1
+      - path: _Rig_IceGolemChest/_Rig_IceGolemFoot_L_/_Rig_IceGolemLeg_L_
+        weight: 1
+      - path: _Rig_IceGolemChest/_Rig_IceGolemFoot_R_
+        weight: 1
+      - path: _Rig_IceGolemChest/_Rig_IceGolemFoot_R_/_Rig_IceGolemLeg_R_
+        weight: 1
+      - path: _Rig_IceGolemChest/_Rig_IceGolemHand_L_
+        weight: 1
+      - path: _Rig_IceGolemChest/_Rig_IceGolemHand_L_/_Rig_IceGolemPalm_L_
+        weight: 1
+      - path: _Rig_IceGolemChest/_Rig_IceGolemHand_L_/_Rig_IceGolemPalm_L_/_Rig_IceGolemFist_L_
+        weight: 1
+      - path: _Rig_IceGolemChest/_Rig_IceGolemHand_R_
+        weight: 1
+      - path: _Rig_IceGolemChest/_Rig_IceGolemHand_R_/_Rig_IceGolemPalm_R_
+        weight: 1
+      - path: _Rig_IceGolemChest/_Rig_IceGolemHand_R_/_Rig_IceGolemPalm_R_/_Rig_IceGolemFist_R_
+        weight: 1
+      - path: _Rig_IceGolemChest/_Rig_IceGolemHead
+        weight: 1
+      - path: IceGolem_Mesh_
+        weight: 1
+      - path: IceGolem_Mesh_/IceGolem_Body_
+        weight: 1
+      - path: IceGolem_Mesh_/IceGolem_Fists_
+        weight: 1
+      - path: IceGolem_Mesh_/IceGolem_Foots_
+        weight: 1
+      - path: IceGolem_Mesh_/IceGolem_Hands_
+        weight: 1
+      - path: IceGolem_Mesh_/IceGolem_Head_
+        weight: 1
+      - path: IceGolem_Mesh_/IceGolem_Legs_
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

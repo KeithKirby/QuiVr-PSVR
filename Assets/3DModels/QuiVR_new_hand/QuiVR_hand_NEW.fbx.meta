@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: fbd53643fc4b9b640b43993e888be18c
+timeCreated: 1468353582
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Hand
+    100002: L_index_a
+    100004: L_index_b
+    100006: L_index_c
+    100008: L_index_end
+    100010: L_index_meta
+    100012: L_middle_a
+    100014: L_middle_b
+    100016: L_middle_c
+    100018: L_middle_end
+    100020: L_middle_meta
+    100022: L_Palm
+    100024: L_pinky_a
+    100026: L_pinky_b
+    100028: L_pinky_c
+    100030: L_pinky_end
+    100032: L_pinky_meta
+    100034: L_ring_a
+    100036: L_ring_b
+    100038: L_ring_c
+    100040: L_ring_end
+    100042: L_ring_meta
+    100044: L_thumb_a
+    100046: L_thumb_b
+    100048: L_thumb_end
+    100050: L_thumb_meta
+    100052: L_Wrist
+    100054: LoPoly_Hand_Mesh_Left_NEW
+    100056: //RootNode
+    100058: NEW
+    100060: NEW1
+    100062: QuiVR_hand_NEW
+    400000: Hand
+    400002: L_index_a
+    400004: L_index_b
+    400006: L_index_c
+    400008: L_index_end
+    400010: L_index_meta
+    400012: L_middle_a
+    400014: L_middle_b
+    400016: L_middle_c
+    400018: L_middle_end
+    400020: L_middle_meta
+    400022: L_Palm
+    400024: L_pinky_a
+    400026: L_pinky_b
+    400028: L_pinky_c
+    400030: L_pinky_end
+    400032: L_pinky_meta
+    400034: L_ring_a
+    400036: L_ring_b
+    400038: L_ring_c
+    400040: L_ring_end
+    400042: L_ring_meta
+    400044: L_thumb_a
+    400046: L_thumb_b
+    400048: L_thumb_end
+    400050: L_thumb_meta
+    400052: L_Wrist
+    400054: LoPoly_Hand_Mesh_Left_NEW
+    400056: //RootNode
+    400058: NEW
+    400060: NEW1
+    400062: QuiVR_hand_NEW
+    4300000: LoPoly_Hand_Mesh_Left_NEW
+    4300002: NEW
+    4300004: NEW1
+    4300006: QuiVR_hand_NEW
+    7400000: Grab
+    7400002: Nock
+    7400004: Grabbed
+    7400006: Nocked
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: LoPoly_Hand_Mesh_Left_NEW
+    13700002: NEW
+    13700004: NEW1
+    13700006: QuiVR_hand_NEW
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Grab
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Hand/L_Wrist
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a/L_index_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a/L_index_b/L_index_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a/L_index_b/L_index_c/L_index_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a/L_middle_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a/L_middle_b/L_middle_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a/L_middle_b/L_middle_c/L_middle_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a/L_pinky_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a/L_pinky_b/L_pinky_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a/L_pinky_b/L_pinky_c/L_pinky_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a/L_ring_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a/L_ring_b/L_ring_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a/L_ring_b/L_ring_c/L_ring_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta/L_thumb_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta/L_thumb_a/L_thumb_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta/L_thumb_a/L_thumb_b/L_thumb_end
+        weight: 1
+      - path: QuiVR_hand_NEW
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Nock
+      takeName: Take 001
+      firstFrame: 34
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Hand/L_Wrist
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a/L_index_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a/L_index_b/L_index_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a/L_index_b/L_index_c/L_index_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a/L_middle_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a/L_middle_b/L_middle_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a/L_middle_b/L_middle_c/L_middle_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a/L_pinky_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a/L_pinky_b/L_pinky_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a/L_pinky_b/L_pinky_c/L_pinky_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a/L_ring_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a/L_ring_b/L_ring_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a/L_ring_b/L_ring_c/L_ring_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta/L_thumb_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta/L_thumb_a/L_thumb_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta/L_thumb_a/L_thumb_b/L_thumb_end
+        weight: 1
+      - path: QuiVR_hand_NEW
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grabbed
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Hand/L_Wrist
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a/L_index_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a/L_index_b/L_index_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a/L_index_b/L_index_c/L_index_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a/L_middle_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a/L_middle_b/L_middle_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a/L_middle_b/L_middle_c/L_middle_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a/L_pinky_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a/L_pinky_b/L_pinky_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a/L_pinky_b/L_pinky_c/L_pinky_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a/L_ring_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a/L_ring_b/L_ring_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a/L_ring_b/L_ring_c/L_ring_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta/L_thumb_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta/L_thumb_a/L_thumb_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta/L_thumb_a/L_thumb_b/L_thumb_end
+        weight: 1
+      - path: QuiVR_hand_NEW
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Nocked
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Hand/L_Wrist
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a/L_index_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a/L_index_b/L_index_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_index_meta/L_index_a/L_index_b/L_index_c/L_index_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a/L_middle_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a/L_middle_b/L_middle_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_middle_meta/L_middle_a/L_middle_b/L_middle_c/L_middle_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a/L_pinky_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a/L_pinky_b/L_pinky_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_pinky_meta/L_pinky_a/L_pinky_b/L_pinky_c/L_pinky_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a/L_ring_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a/L_ring_b/L_ring_c
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_ring_meta/L_ring_a/L_ring_b/L_ring_c/L_ring_end
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta/L_thumb_a
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta/L_thumb_a/L_thumb_b
+        weight: 1
+      - path: Hand/L_Wrist/L_Palm/L_thumb_meta/L_thumb_a/L_thumb_b/L_thumb_end
+        weight: 1
+      - path: QuiVR_hand_NEW
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

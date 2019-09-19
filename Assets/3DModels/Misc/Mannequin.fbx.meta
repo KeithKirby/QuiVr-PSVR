@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 0f6e000e2f71c3a43b399ce9742c222a
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: abdomen
+    100002: abdomen2
+    100004: Chest
+    100006: chest
+    100008: Feet
+    100010: foot_L
+    100012: foot_R
+    100014: forearm_L
+    100016: forearm_R
+    100018: Forearms
+    100020: hand_L
+    100022: hand_R
+    100024: Hands
+    100026: Head
+    100028: head
+    100030: hips
+    100032: LowerLeg
+    100034: //RootNode
+    100036: neck
+    100038: shin_L
+    100040: shin_R
+    100042: shoulder_L
+    100044: shoulder_R
+    100046: Shoulders
+    100048: SkeletonBase
+    100050: thigh_L
+    100052: thigh_R
+    100054: Thighs
+    100056: toe_L
+    100058: toe_R
+    100060: Toes
+    100062: upper_arm_L
+    100064: upper_arm_R
+    100066: UpperArms
+    400000: abdomen
+    400002: abdomen2
+    400004: Chest
+    400006: chest
+    400008: Feet
+    400010: foot_L
+    400012: foot_R
+    400014: forearm_L
+    400016: forearm_R
+    400018: Forearms
+    400020: hand_L
+    400022: hand_R
+    400024: Hands
+    400026: Head
+    400028: head
+    400030: hips
+    400032: LowerLeg
+    400034: //RootNode
+    400036: neck
+    400038: shin_L
+    400040: shin_R
+    400042: shoulder_L
+    400044: shoulder_R
+    400046: Shoulders
+    400048: SkeletonBase
+    400050: thigh_L
+    400052: thigh_R
+    400054: Thighs
+    400056: toe_L
+    400058: toe_R
+    400060: Toes
+    400062: upper_arm_L
+    400064: upper_arm_R
+    400066: UpperArms
+    4300000: Chest
+    4300002: Head
+    4300004: Shoulders
+    4300006: UpperArms
+    4300008: Forearms
+    4300010: Hands
+    4300012: Thighs
+    4300014: LowerLeg
+    4300016: Feet
+    4300018: Toes
+    9500000: //RootNode
+    13700000: Chest
+    13700002: Feet
+    13700004: Forearms
+    13700006: Hands
+    13700008: Head
+    13700010: LowerLeg
+    13700012: Shoulders
+    13700014: Thighs
+    13700016: Toes
+    13700018: UpperArms
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mannequin
+    second: {fileID: 2100000, guid: 4cc5797f1655c20478c1fe86b821dae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mannequin.1
+    second: {fileID: 2100000, guid: 4cc5797f1655c20478c1fe86b821dae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mannequin.2
+    second: {fileID: 2100000, guid: 4cc5797f1655c20478c1fe86b821dae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mannequin.3
+    second: {fileID: 2100000, guid: 4cc5797f1655c20478c1fe86b821dae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mannequin.4
+    second: {fileID: 2100000, guid: 4cc5797f1655c20478c1fe86b821dae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mannequin.5
+    second: {fileID: 2100000, guid: 4cc5797f1655c20478c1fe86b821dae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mannequin.6
+    second: {fileID: 2100000, guid: 4cc5797f1655c20478c1fe86b821dae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mannequin.7
+    second: {fileID: 2100000, guid: 4cc5797f1655c20478c1fe86b821dae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mannequin.8
+    second: {fileID: 2100000, guid: 4cc5797f1655c20478c1fe86b821dae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mannequin.9
+    second: {fileID: 2100000, guid: 4cc5797f1655c20478c1fe86b821dae2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

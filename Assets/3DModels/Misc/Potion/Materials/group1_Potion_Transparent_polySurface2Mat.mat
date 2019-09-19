@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: group1_Potion_Transparent_polySurface2Mat
+  m_Shader: {fileID: 4800000, guid: 69671000ad675cf41b829a10771253c8, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _DISSOLVEMAP _EMISSION _METALLICGLOSSMAP
+    _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 8dd1b1b6e5d15ba43802c7daff3fb8f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirectionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 2800000, guid: 7eb12f861da7e9b44acb91971a1cb209, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeColorRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 1674fe73f0100604e97e970eb07fb56d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c504f7457857fc1469b75975d32f7833, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 0fb29aa2686f84ad197296dea6a4a903, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 0.1
+    - _ColorBlending: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DissolveAmount: -0
+    - _DissolveGlow: 0
+    - _DstBlend: 10
+    - _EdgeGlow: 1
+    - _GlossMapScale: 0.867
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GlowFollow: 0
+    - _GlowIntensity: 7
+    - _InnerEdgeThickness: 0.04
+    - _Metallic: 0
+    - _Mode: 3
+    - _OcclusionStrength: 1
+    - _OuterEdgeThickness: 0.02
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TilingX: 1
+    - _TilingY: 1
+    - _UVSec: 0
+    - _UseEdgeColorRamp: 0
+    - _ZWrite: 0
+    m_Colors:
+    - _Color: {r: 0.2279411, g: 0.2279411, b: 0.2279411, a: 0.653}
+    - _EmissionColor: {r: 1.25, g: 1.5034484, b: 2, a: 1}
+    - _GlowColor: {r: 1, g: 0.5, b: 0, a: 1}
+    - _InnerEdgeColor: {r: 0, g: 0.13103437, b: 1, a: 1}
+    - _OuterEdgeColor: {r: 1, g: 1, b: 1, a: 1}

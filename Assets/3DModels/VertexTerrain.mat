@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: VertexTerrain
+  m_Shader: {fileID: 4800000, guid: 0ed9eb58d6f494e06abe4d788e9fa754, type: 3}
+  m_ShaderKeywords: _EMISSION _USEDRIFT2_ON _USEDRIFT3_ON _USEP1_2_ON _USEP1_3_ON
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 44d3a482f6458264dacb42954f760454, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap2
+      second:
+        m_Texture: {fileID: 2800000, guid: 08de99761d0c4c84dba67f45415107ba, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap3
+      second:
+        m_Texture: {fileID: 2800000, guid: 368d5420dd17b0245adb45a2866573ff, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _CombinedMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _CombinedMap2
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _CombinedMap3
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: c8ad69516f4c73341aa744653ac11175, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex2
+      second:
+        m_Texture: {fileID: 2800000, guid: 85205436312faca479f5f745fbc9e6f3, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex3
+      second:
+        m_Texture: {fileID: 2800000, guid: 15bfeb28ca04ab24d9506318dc20067e, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecularTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecularTex2
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecularTex3
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BaseHeight2
+      second: 0
+    - first:
+        name: _BaseHeight3
+      second: 0
+    - first:
+        name: _BlendSmooth2
+      second: 0.5
+    - first:
+        name: _BlendSmooth3
+      second: 0.5
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DepthBias
+      second: 50
+    - first:
+        name: _DepthBiasPower
+      second: 2
+    - first:
+        name: _DepthBiasThreshold
+      second: 0
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _Emission
+      second: 0
+    - first:
+        name: _Emission2
+      second: 0
+    - first:
+        name: _Emission3
+      second: 0
+    - first:
+        name: _FlowSpeed2
+      second: 0.25
+    - first:
+        name: _FlowSpeed3
+      second: 0.25
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _HeightBasedTransparency2
+      second: 0.5
+    - first:
+        name: _HeightBasedTransparency3
+      second: 0.5
+    - first:
+        name: _HeightmapFactor2
+      second: 0.5
+    - first:
+        name: _HeightmapFactor3
+      second: 0.5
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _Occlusion
+      second: 1
+    - first:
+        name: _Occlusion2
+      second: 0
+    - first:
+        name: _Occlusion3
+      second: 1
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Parallax2
+      second: -0.01
+    - first:
+        name: _Parallax3
+      second: -0.01
+    - first:
+        name: _ParallaxInterpolation
+      second: 15
+    - first:
+        name: _Smoothness
+      second: 0.5
+    - first:
+        name: _Smoothness2
+      second: 0.2
+    - first:
+        name: _Smoothness3
+      second: 0.5
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _Specular
+      second: 0
+    - first:
+        name: _Specular2
+      second: 0
+    - first:
+        name: _Specular3
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 1
+    - first:
+        name: _flowOnlyNormal
+      second: 0
+    - first:
+        name: _showAlpha
+      second: 0
+    - first:
+        name: _showBlue
+      second: 0
+    - first:
+        name: _showGeneral
+      second: 0
+    - first:
+        name: _showGreen
+      second: 1
+    - first:
+        name: _showParallax
+      second: 1
+    - first:
+        name: _showRed
+      second: 0
+    - first:
+        name: _showVertexColor
+      second: 0
+    - first:
+        name: _showVertexFlow
+      second: 0
+    - first:
+        name: _useDepthBias
+      second: 0
+    - first:
+        name: _useDrift2
+      second: 1
+    - first:
+        name: _useDrift3
+      second: 1
+    - first:
+        name: _useFlowMap2
+      second: 0
+    - first:
+        name: _useFlowMap3
+      second: 0
+    - first:
+        name: _useFlowMapGlobal
+      second: 0
+    - first:
+        name: _useHeightBasedBlending
+      second: 0
+    - first:
+        name: _useP1_2
+      second: 1
+    - first:
+        name: _useP1_3
+      second: 1
+    - first:
+        name: _useParallax
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _EmissionColor2
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _EmissionColor3
+      second: {r: 0, g: 0, b: 0, a: 1}
