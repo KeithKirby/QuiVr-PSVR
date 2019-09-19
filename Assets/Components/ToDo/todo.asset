@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33714207ad0202c419142573e6e74a38, type: 3}
+  m_Name: todo
+  m_EditorClassIdentifier: 
+  Entries:
+  - Text: ': autodetect not yet done, it''s a bit more difficult to get it right'
+    Note: 
+    Tag: TODO
+    File: C:\Users\Jonathan Schenker\Desktop\Unity Projects\QuiVr\Assets\VR\SteamVR_Unity_Toolkit\Scripts\Controls\3D\VRTK_Knob.cs
+    Line: 9
+    PathToShow: Assets/VR/SteamVR_Unity_Toolkit/Scripts/Controls/3D/VRTK_Knob.cs(9)
+  - Text: ': not yet the right decision strategy, works only partially'
+    Note: 
+    Tag: TODO
+    File: C:\Users\Jonathan Schenker\Desktop\Unity Projects\QuiVr\Assets\VR\SteamVR_Unity_Toolkit\Scripts\Controls\3D\VRTK_Knob.cs
+    Line: 122
+    PathToShow: Assets/VR/SteamVR_Unity_Toolkit/Scripts/Controls/3D/VRTK_Knob.cs(122)
+  - Text: ': there is no direct setter, one recommendation by Unity staff is to "abuse"
+      min/max which seems the most reliable but not working so far'
+    Note: 
+    Tag: TODO
+    File: C:\Users\Jonathan Schenker\Desktop\Unity Projects\QuiVr\Assets\VR\SteamVR_Unity_Toolkit\Scripts\Controls\3D\VRTK_Lever.cs
+    Line: 112
+    PathToShow: Assets/VR/SteamVR_Unity_Toolkit/Scripts/Controls/3D/VRTK_Lever.cs(112)
+  TagsList:
+  - TODO
+  - BUG
