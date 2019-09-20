@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7fc9a4beaa17b549936afaa76c86be3, type: 3}
+  m_Name: RockMeshValues
+  m_EditorClassIdentifier: 
+  RockMat: {fileID: 13400000, guid: af9a76ea83ab0e1478738991a22e2d90, type: 2}
+  Rocks:
+  - Meshes:
+    - Side: 0
+      BaseMesh: {fileID: 4300002, guid: 0b028dd6054db9e4482356ab2d4059aa, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: d7eca29f223546849989a86b5d83ea5b, type: 2}
+      - {fileID: 4300000, guid: c43bf6120f5525c438d4f1577ef9ad7b, type: 2}
+    - Side: 1
+      BaseMesh: {fileID: 4300000, guid: fb45a1fbd166fe940be0ebef5e9d07b1, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 95de36338cdcbef49b79f41bd41935d9, type: 2}
+      - {fileID: 4300000, guid: ddd17201df347f94bb81117dd3c524e7, type: 2}
+    - Side: 2
+      BaseMesh: {fileID: 4300000, guid: f36b1ca568bc1674a9fc233b5a356f2f, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 25ad230cfc0b75f4c9b04793783528a9, type: 2}
+      - {fileID: 4300000, guid: 6b6c325904293da43914d2cc989ac880, type: 2}
+    - Side: 3
+      BaseMesh: {fileID: 4300000, guid: bde8541b030f78842b412886adb10749, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 13c808f21de77cb489611fbed5daf3b0, type: 2}
+      - {fileID: 4300000, guid: e9bead658344e2f468a3fc0b4ea12130, type: 2}
+    - Side: 4
+      BaseMesh: {fileID: 4300000, guid: e25fa93ba5e99fa47884529e07651515, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 7b8aa00082446554b9944f6bbd3c0033, type: 2}
+      - {fileID: 4300000, guid: 6a21ae1cd428c5146aa0fa13c673daa5, type: 2}
+  - Meshes:
+    - Side: 0
+      BaseMesh: {fileID: 4300004, guid: e277b91c6c24d264584edf6b7b35ffa3, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: cfcde9cc1cba55041943d71b4bb25ccb, type: 2}
+      - {fileID: 4300000, guid: 9da09955b17f4c04cba7457c863c8367, type: 2}
+    - Side: 1
+      BaseMesh: {fileID: 4300000, guid: dbbce5466ef712d46b692b18d99b02cc, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 00b5bfa8092e2da47800cefd58be3766, type: 2}
+      - {fileID: 4300000, guid: c0d81bc6a2bbf3048a766f7eb563d3cb, type: 2}
+    - Side: 2
+      BaseMesh: {fileID: 4300000, guid: 7e7dfa97ae354344b95f0d637c02dc30, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: a76e36d5735c9714a91834bc105a6f04, type: 2}
+      - {fileID: 4300000, guid: f6f073d5fca69db45a64956732553f63, type: 2}
+    - Side: 3
+      BaseMesh: {fileID: 4300000, guid: a2b92c96b95e81642849755ab734b3e7, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 7bb2212c6ddb37d4ebbe38549c8de8b0, type: 2}
+      - {fileID: 4300000, guid: 83512701c7efddf4a835c81412ca899c, type: 2}
+    - Side: 4
+      BaseMesh: {fileID: 4300000, guid: da4b02a3a9200cd469d6bbdbfcf4728e, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 6c43956a841dc474cb907351fac032e0, type: 2}
+      - {fileID: 4300000, guid: e248fe5b50236644ba3f15b8eb2e14b0, type: 2}
+  - Meshes:
+    - Side: 0
+      BaseMesh: {fileID: 4300000, guid: 122823d82f633b041b4d849703df8f9e, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 12b5bc625b0e7b24e8825bd1d87e6c60, type: 2}
+      - {fileID: 4300000, guid: ecfd82b7762d9de48a96303bafb61b5b, type: 2}
+    - Side: 1
+      BaseMesh: {fileID: 4300000, guid: a3c204aa1bded6f4b8e377b3cdf2224e, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: e5f2cb99545d02949aaa6bb392c8e5ab, type: 2}
+      - {fileID: 4300000, guid: 31f2e7d8070c90645a087e3ff8895c40, type: 2}
+    - Side: 2
+      BaseMesh: {fileID: 4300000, guid: 274ec00cd34bf9d4cab6f3528662b335, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: a6f60351b07ae4343b35ddae247cff51, type: 2}
+      - {fileID: 4300000, guid: 4d8ecf05b6c64594dbf75411a4a5227a, type: 2}
+    - Side: 3
+      BaseMesh: {fileID: 4300000, guid: 915ee19ad8c80b84a92e17450068f9b7, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: dd5286264102c414a800160e33f132ca, type: 2}
+      - {fileID: 4300000, guid: 813d33677bbce5848a39ae9da40892f0, type: 2}
+    - Side: 4
+      BaseMesh: {fileID: 4300000, guid: a55991df3797cec4e9ba1adb4ed37602, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 8c73528340c785f47acefdb530563d6d, type: 2}
+      - {fileID: 4300000, guid: 8fcec4b111a5d7146893301cd36fdd54, type: 2}
+  - Meshes:
+    - Side: 0
+      BaseMesh: {fileID: 4300000, guid: 1c17c287064905744a7bef81d432c82a, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 7a8f70b6d5e00a8418623fb2fc87cf9d, type: 2}
+      - {fileID: 4300000, guid: 6e5b262c6033ebb49a6a8a7ce2e228f0, type: 2}
+    - Side: 1
+      BaseMesh: {fileID: 4300000, guid: b5e2cf55b8c36d9448b6ef1693f7f6f2, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 980c16457512df3448f3b95e1c15fe81, type: 2}
+      - {fileID: 4300000, guid: eab38f9c03cedf346ba1af2c5d58d8e9, type: 2}
+    - Side: 2
+      BaseMesh: {fileID: 4300000, guid: 4e9eaea77f9e4ec499e530ef12b4901e, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 9cab4aca28af0454fad57a34114e261c, type: 2}
+      - {fileID: 4300000, guid: ec796395003745547a89fe3840de728a, type: 2}
+    - Side: 3
+      BaseMesh: {fileID: 4300000, guid: 83e47f978a7aba04287dbddfac8e0c16, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 0be6b5677e5e04941b3fe70ff556de43, type: 2}
+      - {fileID: 4300000, guid: 4f5b4ad9b76a6794abbf721c3b9067d5, type: 2}
+    - Side: 4
+      BaseMesh: {fileID: 4300000, guid: b084879ec13368649b618f70eb7f7132, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 0169ff5d3c1dcdc47949c4b7da7ff0c4, type: 2}
+      - {fileID: 4300000, guid: 18eab9ba294e5a54db9ef7d95e60d9b2, type: 2}
+  - Meshes:
+    - Side: 0
+      BaseMesh: {fileID: 4300000, guid: 5972e9527969d8f4a94ef7452d991e1c, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 4ed750b9ee42e8c4ab3e6357055e8caf, type: 2}
+      - {fileID: 4300000, guid: e67c3dcb0a106af468ff3a9ae7d61d7b, type: 2}
+    - Side: 1
+      BaseMesh: {fileID: 4300000, guid: 075afba6ae74f984a88387dce192274a, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 9358c56b2c6a9ad4f8116f3b7976d8ba, type: 2}
+      - {fileID: 4300000, guid: 20e02e8aba9138443a57ecd241175370, type: 2}
+    - Side: 2
+      BaseMesh: {fileID: 4300000, guid: 5697f245b5fd6994ba4f90de104525c6, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: af0e196fb1307c644a22d8d24c81a800, type: 2}
+      - {fileID: 4300000, guid: 94696f1be2848e741ac94c378bc1b6eb, type: 2}
+    - Side: 3
+      BaseMesh: {fileID: 4300000, guid: 93e313c4f94a173448795d13faf8ac35, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: a0ea5814810046f43bb62e75bffe741e, type: 2}
+      - {fileID: 4300000, guid: 83b9059da9846b043aeb52dcee103caa, type: 2}
+    - Side: 4
+      BaseMesh: {fileID: 4300000, guid: 69cf2c55bdadf534f9df3cb7a04fe424, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: e555a03e367d8be46b8aa4568438e1c8, type: 2}
+      - {fileID: 4300000, guid: 51fe03abca8fa804086ee3262fb08657, type: 2}
+  - Meshes:
+    - Side: 0
+      BaseMesh: {fileID: 4300000, guid: 0cf5aa20cf6884447b8e6dee425b7d64, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: ebf305d846cb8a746a86aef216bb8725, type: 2}
+      - {fileID: 4300000, guid: 6998646ed1131fc40b7f21e714bd4204, type: 2}
+    - Side: 1
+      BaseMesh: {fileID: 4300000, guid: f490dd94d6bc0bb45872c3533785d07c, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: fa5c96e78741ebf4183bffb53bf34a69, type: 2}
+      - {fileID: 4300000, guid: 5a63868ad8970f947b8c976688b049a8, type: 2}
+    - Side: 2
+      BaseMesh: {fileID: 4300000, guid: b6c6c17097ed0d04ead0038841069ac1, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 1bbdd92383e0a20478f18f7a2498f009, type: 2}
+      - {fileID: 4300000, guid: 4fd650f71db197a43b8324246f95029e, type: 2}
+    - Side: 3
+      BaseMesh: {fileID: 4300000, guid: 2c6fc104cdfc0af4eb3df3e5fcf92fd2, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 6166d9f713bf2de459848de424a360e5, type: 2}
+      - {fileID: 4300000, guid: 693692a9feffbe84eae8cd6fe33e5153, type: 2}
+    - Side: 4
+      BaseMesh: {fileID: 4300000, guid: 3736fd54fc9d22949a463789742183ff, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 009300af4582f264589368f15dff1aed, type: 2}
+      - {fileID: 4300000, guid: 5111a32710b7c544e8b918b57d21d9e3, type: 2}
+  - Meshes:
+    - Side: 0
+      BaseMesh: {fileID: 4300002, guid: 757a12b486402e94db2b87c17996e1f4, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 08f5f1355f7beab4aaf9d3863d613689, type: 2}
+      - {fileID: 4300000, guid: e85659fe559839849bc6d6efa3b51b6f, type: 2}
+    - Side: 1
+      BaseMesh: {fileID: 4300000, guid: d4ebe02372a09ac4dace0bb59d8ee352, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: e6d53f02e463be24f8f93eb0ffeb437b, type: 2}
+      - {fileID: 4300000, guid: 3890c77ac23829745b22b8d5981f0c8e, type: 2}
+    - Side: 2
+      BaseMesh: {fileID: 4300000, guid: 52c4607e9c39cf24bb10756cb5208af0, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 88dedea430a93c444a054e48310eaa92, type: 2}
+      - {fileID: 4300000, guid: 14edf1c58612ac54abe614be559bc609, type: 2}
+    - Side: 3
+      BaseMesh: {fileID: 4300000, guid: e13a485b4f4a9ac4cbaa98b8debb718b, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: e79dd1b783c39d6428e36364c31f3fc2, type: 2}
+      - {fileID: 4300000, guid: 8f108751afc407a4897a7a7bac5b7a25, type: 2}
+    - Side: 4
+      BaseMesh: {fileID: 4300000, guid: 6794c0d7e7dfad149ade50e1d96e1e3f, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 694d55377ae3b824e84114e0b7ec0655, type: 2}
+      - {fileID: 4300000, guid: 0c94ff7a121fcef4fbb9b01896dca248, type: 2}
+  - Meshes:
+    - Side: 0
+      BaseMesh: {fileID: 4300002, guid: 85a37c8b5dc39774fb0ca0a0302cb0d8, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: efc8d017860fa2b4f83bfa16c85c3f3f, type: 2}
+      - {fileID: 4300000, guid: 67a7a79c83e4e894eb3fdd7ebdb5997e, type: 2}
+    - Side: 1
+      BaseMesh: {fileID: 4300000, guid: 550119272d123f14a870cd08d6f3736e, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: edf4914269f37d542a76a7e6206ae3bf, type: 2}
+      - {fileID: 4300000, guid: 8c42868c17528a348b5e66239c3acdfc, type: 2}
+    - Side: 2
+      BaseMesh: {fileID: 4300000, guid: 979bf0acba4e35942b98a2cdc01f291b, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 541a6995f11691446a72401417def146, type: 2}
+      - {fileID: 4300000, guid: ab45037f887472f4ca0e0f408dc22177, type: 2}
+    - Side: 3
+      BaseMesh: {fileID: 4300000, guid: bd1947caa59884b40a951babb9574872, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 2271459b7d04dc64d9295e1f772df575, type: 2}
+      - {fileID: 4300000, guid: b1056fd52ffbb434e9b59b513b57f579, type: 2}
+    - Side: 4
+      BaseMesh: {fileID: 4300000, guid: b61be25e5aff29e4a9f339c1359812bb, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 9914c4bd5b37f09438f98fe04d8de7b9, type: 2}
+      - {fileID: 4300000, guid: c652efc20f506f043880f52b37abf148, type: 2}
+  - Meshes:
+    - Side: 0
+      BaseMesh: {fileID: 4300002, guid: 952318197fc56a240b93a9217b51ace5, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: ba452dd6734018d47b52fd098a2a0253, type: 2}
+      - {fileID: 4300000, guid: c93d8ffa8c8f8fd4cb33096132f8a002, type: 2}
+    - Side: 1
+      BaseMesh: {fileID: 4300000, guid: 607522e1718d3dd40a60d7c5b84155e3, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 7ffd7299c63f3ac43bcf4b88eea7b7a2, type: 2}
+      - {fileID: 4300000, guid: 1f3b025c603a55a4581b816d6a215679, type: 2}
+    - Side: 2
+      BaseMesh: {fileID: 4300000, guid: 5a7d0a8f7d94092458396ae2d6137643, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: f68d2dc677edd3e4ca681609e9d8b371, type: 2}
+      - {fileID: 4300000, guid: f68656abc2033274d9448bde1a3bcf75, type: 2}
+    - Side: 3
+      BaseMesh: {fileID: 4300000, guid: 45a91b2202864924d950bd53ae134f50, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: fc8990e48dac4de4dabcfb882eae901f, type: 2}
+      - {fileID: 4300000, guid: ebab86a9eadf6c543a501d25276d671b, type: 2}
+    - Side: 4
+      BaseMesh: {fileID: 4300000, guid: 04b80e7fb3c8c6f4a8f6ab682b06bb3d, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: d175dced87b6567468d0cba087ac322c, type: 2}
+      - {fileID: 4300000, guid: 685c6692c1020a344ad38ff038615e3b, type: 2}
+  - Meshes:
+    - Side: 0
+      BaseMesh: {fileID: 4300004, guid: 195f61d7f86c18b41a0fc4412d2e1ede, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 7fda468207e122e42beacc7633c0c2dc, type: 2}
+      - {fileID: 4300000, guid: 36ebe8926fcdd2147bd69741e29c019f, type: 2}
+    - Side: 1
+      BaseMesh: {fileID: 4300000, guid: 198101d7997682940aef5e6975f8b918, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: c0b796c5a68040849aab2725d81a1537, type: 2}
+      - {fileID: 4300000, guid: 32420cb49d419c149a208fb72cfcc110, type: 2}
+    - Side: 2
+      BaseMesh: {fileID: 4300000, guid: 773aed35372afb7468ab4be897c7badb, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 091b159f587d5b949b24582be8f87fd0, type: 2}
+      - {fileID: 4300000, guid: e873919474aa69645be11a2f4f91c439, type: 2}
+    - Side: 3
+      BaseMesh: {fileID: 4300000, guid: 1351904a9bc842444ab940900391b31e, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 6ef9fe08237f7ff4fbcf029d42aeff9b, type: 2}
+      - {fileID: 4300000, guid: aa802d4f5d1da524ea64e877d8d5c5e7, type: 2}
+    - Side: 4
+      BaseMesh: {fileID: 4300000, guid: fad0b7150c4c0db4a88317aa3eaf014d, type: 3}
+      LODS:
+      - {fileID: 4300000, guid: 2ad8f1ef348495a4d8f2017c8ae61d9c, type: 2}
+      - {fileID: 4300000, guid: 1415af64955f48645ac419622f5f9628, type: 2}
