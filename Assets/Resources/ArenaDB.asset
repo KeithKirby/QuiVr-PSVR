@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d58bde2532c2ffb4983ec2a16374769e, type: 3}
+  m_Name: ArenaDB
+  m_EditorClassIdentifier: 
+  waveDelay:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 15
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 10.0207615
+      value: 23.246054
+      inSlope: 0.9471586
+      outSlope: 0.9471586
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 30
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  bossWave: 10
+  itemWave: 3
+  WaveEnmCount:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 5
+      inSlope: 2.1093626
+      outSlope: 2.1093626
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 5
+      value: 15
+      inSlope: 1.1094009
+      outSlope: 1.1094009
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 14.940794
+      value: 20.068247
+      inSlope: 0.29366538
+      outSlope: 0.29366538
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 100
+      value: 50
+      inSlope: 0.71081287
+      outSlope: 0.71081287
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  enmCountMPMult:
+  - 1
+  - 1
+  - 1.75
+  - 2.4
+  - 3
+  - 3.4
+  - 3.8
+  - 4.2
+  - 4.5
+  WaitingPhrases:
+  - The enemy forces regroup...
+  - The hordes will return...
+  - Rest heroes...
+  - Rest your bows...
+  ItemPhrases:
+  - The Ancient's bestow gifts...
+  - The light shines through...
+  - It's dangerous to go alone...
+  - Your courage is rewarded...
+  HealAfterWave: 100
+  rewardTiers:
+  - itype: 1
+    minRarity: 1
+    maxRarity: 2
+    itype2: 0
+    minRarity2: 1
+    maxRarity2: 2
+    itype3: 2
+    minRarity3: 1
+    maxRarity3: 1
+  - itype: 0
+    minRarity: 1
+    maxRarity: 3
+    itype2: 3
+    minRarity2: 1
+    maxRarity2: 3
+    itype3: 6
+    minRarity3: 1
+    maxRarity3: 3
+  - itype: 6
+    minRarity: 2
+    maxRarity: 4
+    itype2: 2
+    minRarity2: 1
+    maxRarity2: 3
+    itype3: 2
+    minRarity3: 1
+    maxRarity3: 3
+  - itype: 3
+    minRarity: 2
+    maxRarity: 4
+    itype2: 0
+    minRarity2: 2
+    maxRarity2: 4
+    itype3: 0
+    minRarity3: 1
+    maxRarity3: 3
+  - itype: 1
+    minRarity: 2
+    maxRarity: 4
+    itype2: 3
+    minRarity2: 2
+    maxRarity2: 4
+    itype3: 2
+    minRarity3: 2
+    maxRarity3: 4
+  - itype: 0
+    minRarity: 2
+    maxRarity: 4
+    itype2: 1
+    minRarity2: 2
+    maxRarity2: 4
+    itype3: 6
+    minRarity3: 2
+    maxRarity3: 4
+  - itype: 1
+    minRarity: 3
+    maxRarity: 4
+    itype2: 3
+    minRarity2: 3
+    maxRarity2: 4
+    itype3: 6
+    minRarity3: 3
+    maxRarity3: 4
+  - itype: 2
+    minRarity: 4
+    maxRarity: 4
+    itype2: 1
+    minRarity2: 4
+    maxRarity2: 4
+    itype3: 3
+    minRarity3: 4
+    maxRarity3: 4
+  - itype: 6
+    minRarity: 2
+    maxRarity: 4
+    itype2: 1
+    minRarity2: 2
+    maxRarity2: 4
+    itype3: 3
+    minRarity3: 2
+    maxRarity3: 4

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1371233228, guid: c76b1364a35f5fc4486a2828256b8ea4, type: 3}
+  m_Name: ObserVR_ProjectSettings
+  m_EditorClassIdentifier: 
+  applicationID: c03d85d2-767e-4bb9-a185-e52b9ba9c810
+  initialSetupDone: 1
+  batchSize: 50
+  offlineMode: 0
+  debugMode: 0
+  prettyDebug: 0
+  sendEventsOnDebugMode: 0
+  generalFOVInterval: 1
+  generalFOVMaxDistance: 30
+  useTeleportation: 0
+  positionalTrackingInterval: 1
+  framerateThreshold: 60
+  savedMats: []
