@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 5b8eaf7ecef6d4646bca9e6c353c7a51
+timeCreated: 1480711984
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: small_enemies_01_body
+    100002: //RootNode
+    100004: small_enemy_01_armor
+    100006: small_enemy_01_Head
+    100008: small_enemy_01_LCalf
+    100010: small_enemy_01_LCollarbone
+    100012: small_enemy_01_LFoot
+    100014: small_enemy_01_LForearm
+    100016: small_enemy_01_LIndex1
+    100018: small_enemy_01_LIndex2
+    100020: small_enemy_01_LIndex3
+    100022: small_enemy_01_LMiddle1
+    100024: small_enemy_01_LMiddle2
+    100026: small_enemy_01_LMiddle3
+    100028: small_enemy_01_LPalm
+    100030: small_enemy_01_LPinky1
+    100032: small_enemy_01_LPinky2
+    100034: small_enemy_01_LPinky3
+    100036: small_enemy_01_LThigh
+    100038: small_enemy_01_LThumb1
+    100040: small_enemy_01_LThumb2
+    100042: small_enemy_01_LThumb3
+    100044: small_enemy_01_LToe1
+    100046: small_enemy_01_LToe2
+    100048: small_enemy_01_LUpperarm
+    100050: small_enemy_01_mask
+    100052: small_enemy_01_Neck1
+    100054: small_enemy_01_Neck2
+    100056: small_enemy_01_Pelvis
+    100058: small_enemy_01_RCalf
+    100060: small_enemy_01_RCollarbone
+    100062: small_enemy_01_RFoot
+    100064: small_enemy_01_RForearm
+    100066: small_enemy_01_Ribcage
+    100068: small_enemy_01_RIndex1
+    100070: small_enemy_01_RIndex2
+    100072: small_enemy_01_RIndex3
+    100074: small_enemy_01_RMiddle1
+    100076: small_enemy_01_RMiddle2
+    100078: small_enemy_01_RMiddle3
+    100080: small_enemy_01_RPalm
+    100082: small_enemy_01_RPinky1
+    100084: small_enemy_01_RPinky2
+    100086: small_enemy_01_RPinky3
+    100088: small_enemy_01_RThigh
+    100090: small_enemy_01_RThumb1
+    100092: small_enemy_01_RThumb2
+    100094: small_enemy_01_RThumb3
+    100096: small_enemy_01_RToe1
+    100098: small_enemy_01_RToe2
+    100100: small_enemy_01_RUpperarm
+    100102: small_enemy_01_Spine1
+    100104: small_enemy_01_Spine2
+    100106: small_enemy_01_Spine3
+    400000: small_enemies_01_body
+    400002: //RootNode
+    400004: small_enemy_01_armor
+    400006: small_enemy_01_Head
+    400008: small_enemy_01_LCalf
+    400010: small_enemy_01_LCollarbone
+    400012: small_enemy_01_LFoot
+    400014: small_enemy_01_LForearm
+    400016: small_enemy_01_LIndex1
+    400018: small_enemy_01_LIndex2
+    400020: small_enemy_01_LIndex3
+    400022: small_enemy_01_LMiddle1
+    400024: small_enemy_01_LMiddle2
+    400026: small_enemy_01_LMiddle3
+    400028: small_enemy_01_LPalm
+    400030: small_enemy_01_LPinky1
+    400032: small_enemy_01_LPinky2
+    400034: small_enemy_01_LPinky3
+    400036: small_enemy_01_LThigh
+    400038: small_enemy_01_LThumb1
+    400040: small_enemy_01_LThumb2
+    400042: small_enemy_01_LThumb3
+    400044: small_enemy_01_LToe1
+    400046: small_enemy_01_LToe2
+    400048: small_enemy_01_LUpperarm
+    400050: small_enemy_01_mask
+    400052: small_enemy_01_Neck1
+    400054: small_enemy_01_Neck2
+    400056: small_enemy_01_Pelvis
+    400058: small_enemy_01_RCalf
+    400060: small_enemy_01_RCollarbone
+    400062: small_enemy_01_RFoot
+    400064: small_enemy_01_RForearm
+    400066: small_enemy_01_Ribcage
+    400068: small_enemy_01_RIndex1
+    400070: small_enemy_01_RIndex2
+    400072: small_enemy_01_RIndex3
+    400074: small_enemy_01_RMiddle1
+    400076: small_enemy_01_RMiddle2
+    400078: small_enemy_01_RMiddle3
+    400080: small_enemy_01_RPalm
+    400082: small_enemy_01_RPinky1
+    400084: small_enemy_01_RPinky2
+    400086: small_enemy_01_RPinky3
+    400088: small_enemy_01_RThigh
+    400090: small_enemy_01_RThumb1
+    400092: small_enemy_01_RThumb2
+    400094: small_enemy_01_RThumb3
+    400096: small_enemy_01_RToe1
+    400098: small_enemy_01_RToe2
+    400100: small_enemy_01_RUpperarm
+    400102: small_enemy_01_Spine1
+    400104: small_enemy_01_Spine2
+    400106: small_enemy_01_Spine3
+    4300000: small_enemies_01_body
+    4300002: small_enemy_01_mask
+    4300004: small_enemy_01_armor
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: small_enemies_01_body
+    13700002: small_enemy_01_armor
+    13700004: small_enemy_01_mask
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

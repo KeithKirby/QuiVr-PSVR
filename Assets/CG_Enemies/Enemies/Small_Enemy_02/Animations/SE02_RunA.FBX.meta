@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 986814e847146eb40ac0496055315135
+timeCreated: 1480034741
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: small_enemy_02_BackSpineA1
+    100002: small_enemy_02_BackSpineA2
+    100004: small_enemy_02_BackSpineA3
+    100006: small_enemy_02_BackSpineA4
+    100008: small_enemy_02_BackSpineA5
+    100010: small_enemy_02_BackSpineB1
+    100012: small_enemy_02_BackSpineB2
+    100014: small_enemy_02_BackSpineB3
+    100016: small_enemy_02_BackSpineB4
+    100018: small_enemy_02_BackSpineB5
+    100020: small_enemy_02_BackSpineC1
+    100022: small_enemy_02_BackSpineC2
+    100024: small_enemy_02_BackSpineC3
+    100026: small_enemy_02_BackSpineC4
+    100028: small_enemy_02_BackSpineC5
+    100030: small_enemy_02_LCalf
+    100032: small_enemy_02_LCollarbone
+    100034: small_enemy_02_LFoot
+    100036: small_enemy_02_LForearm
+    100038: small_enemy_02_LIndex1
+    100040: small_enemy_02_LIndex2
+    100042: small_enemy_02_LIndex3
+    100044: small_enemy_02_LPalm
+    100046: small_enemy_02_LPinky1
+    100048: small_enemy_02_LPinky2
+    100050: small_enemy_02_LPinky3
+    100052: small_enemy_02_LThigh
+    100054: small_enemy_02_LThumb1
+    100056: small_enemy_02_LThumb2
+    100058: small_enemy_02_LThumb3
+    100060: small_enemy_02_LToe1
+    100062: small_enemy_02_LUpperarm1
+    100064: small_enemy_02_LUpperarm2
+    100066: small_enemy_02_LWAttach
+    100068: small_enemy_02_Pelvis
+    100070: small_enemy_02_RCalf
+    100072: small_enemy_02_RCollarbone
+    100074: small_enemy_02_RFoot
+    100076: small_enemy_02_RForearm
+    100078: small_enemy_02_Ribcage
+    100080: small_enemy_02_RIndex1
+    100082: small_enemy_02_RIndex2
+    100084: small_enemy_02_RIndex3
+    100086: small_enemy_02_RPalm
+    100088: small_enemy_02_RPinky1
+    100090: small_enemy_02_RPinky2
+    100092: small_enemy_02_RPinky3
+    100094: small_enemy_02_RThigh
+    100096: small_enemy_02_RThumb1
+    100098: small_enemy_02_RThumb2
+    100100: small_enemy_02_RThumb3
+    100102: small_enemy_02_RToe1
+    100104: //RootNode
+    100106: small_enemy_02_RUpperarm
+    100108: small_enemy_02_RWAttach
+    100110: small_enemy_02_Spine1
+    100112: small_enemy_02_Spine2
+    100114: small_enemy_02_Spine3
+    400000: small_enemy_02_BackSpineA1
+    400002: small_enemy_02_BackSpineA2
+    400004: small_enemy_02_BackSpineA3
+    400006: small_enemy_02_BackSpineA4
+    400008: small_enemy_02_BackSpineA5
+    400010: small_enemy_02_BackSpineB1
+    400012: small_enemy_02_BackSpineB2
+    400014: small_enemy_02_BackSpineB3
+    400016: small_enemy_02_BackSpineB4
+    400018: small_enemy_02_BackSpineB5
+    400020: small_enemy_02_BackSpineC1
+    400022: small_enemy_02_BackSpineC2
+    400024: small_enemy_02_BackSpineC3
+    400026: small_enemy_02_BackSpineC4
+    400028: small_enemy_02_BackSpineC5
+    400030: small_enemy_02_LCalf
+    400032: small_enemy_02_LCollarbone
+    400034: small_enemy_02_LFoot
+    400036: small_enemy_02_LForearm
+    400038: small_enemy_02_LIndex1
+    400040: small_enemy_02_LIndex2
+    400042: small_enemy_02_LIndex3
+    400044: small_enemy_02_LPalm
+    400046: small_enemy_02_LPinky1
+    400048: small_enemy_02_LPinky2
+    400050: small_enemy_02_LPinky3
+    400052: small_enemy_02_LThigh
+    400054: small_enemy_02_LThumb1
+    400056: small_enemy_02_LThumb2
+    400058: small_enemy_02_LThumb3
+    400060: small_enemy_02_LToe1
+    400062: small_enemy_02_LUpperarm1
+    400064: small_enemy_02_LUpperarm2
+    400066: small_enemy_02_LWAttach
+    400068: small_enemy_02_Pelvis
+    400070: small_enemy_02_RCalf
+    400072: small_enemy_02_RCollarbone
+    400074: small_enemy_02_RFoot
+    400076: small_enemy_02_RForearm
+    400078: small_enemy_02_Ribcage
+    400080: small_enemy_02_RIndex1
+    400082: small_enemy_02_RIndex2
+    400084: small_enemy_02_RIndex3
+    400086: small_enemy_02_RPalm
+    400088: small_enemy_02_RPinky1
+    400090: small_enemy_02_RPinky2
+    400092: small_enemy_02_RPinky3
+    400094: small_enemy_02_RThigh
+    400096: small_enemy_02_RThumb1
+    400098: small_enemy_02_RThumb2
+    400100: small_enemy_02_RThumb3
+    400102: small_enemy_02_RToe1
+    400104: //RootNode
+    400106: small_enemy_02_RUpperarm
+    400108: small_enemy_02_RWAttach
+    400110: small_enemy_02_Spine1
+    400112: small_enemy_02_Spine2
+    400114: small_enemy_02_Spine3
+    7400000: Run_A
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 2
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run_A
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: small_enemy_02_Pelvis
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_LThigh
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_LThigh/small_enemy_02_LCalf
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_LThigh/small_enemy_02_LCalf/small_enemy_02_LFoot
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_LThigh/small_enemy_02_LCalf/small_enemy_02_LFoot/small_enemy_02_LToe1
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_RThigh
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_RThigh/small_enemy_02_RCalf
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_RThigh/small_enemy_02_RCalf/small_enemy_02_RFoot
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_RThigh/small_enemy_02_RCalf/small_enemy_02_RFoot/small_enemy_02_RToe1
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineA1
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineA1/small_enemy_02_BackSpineA2
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineA1/small_enemy_02_BackSpineA2/small_enemy_02_BackSpineA3
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineA1/small_enemy_02_BackSpineA2/small_enemy_02_BackSpineA3/small_enemy_02_BackSpineA4
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineA1/small_enemy_02_BackSpineA2/small_enemy_02_BackSpineA3/small_enemy_02_BackSpineA4/small_enemy_02_BackSpineA5
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineB1
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineB1/small_enemy_02_BackSpineB2
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineB1/small_enemy_02_BackSpineB2/small_enemy_02_BackSpineB3
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineB1/small_enemy_02_BackSpineB2/small_enemy_02_BackSpineB3/small_enemy_02_BackSpineB4
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineB1/small_enemy_02_BackSpineB2/small_enemy_02_BackSpineB3/small_enemy_02_BackSpineB4/small_enemy_02_BackSpineB5
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineC1
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineC1/small_enemy_02_BackSpineC2
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineC1/small_enemy_02_BackSpineC2/small_enemy_02_BackSpineC3
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineC1/small_enemy_02_BackSpineC2/small_enemy_02_BackSpineC3/small_enemy_02_BackSpineC4
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_BackSpineC1/small_enemy_02_BackSpineC2/small_enemy_02_BackSpineC3/small_enemy_02_BackSpineC4/small_enemy_02_BackSpineC5
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1/small_enemy_02_LUpperarm2
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1/small_enemy_02_LUpperarm2/small_enemy_02_LForearm
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1/small_enemy_02_LUpperarm2/small_enemy_02_LForearm/small_enemy_02_LPalm
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1/small_enemy_02_LUpperarm2/small_enemy_02_LForearm/small_enemy_02_LPalm/small_enemy_02_LIndex1
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1/small_enemy_02_LUpperarm2/small_enemy_02_LForearm/small_enemy_02_LPalm/small_enemy_02_LIndex1/small_enemy_02_LIndex2
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1/small_enemy_02_LUpperarm2/small_enemy_02_LForearm/small_enemy_02_LPalm/small_enemy_02_LIndex1/small_enemy_02_LIndex2/small_enemy_02_LIndex3
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1/small_enemy_02_LUpperarm2/small_enemy_02_LForearm/small_enemy_02_LPalm/small_enemy_02_LPinky1
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1/small_enemy_02_LUpperarm2/small_enemy_02_LForearm/small_enemy_02_LPalm/small_enemy_02_LPinky1/small_enemy_02_LPinky2
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1/small_enemy_02_LUpperarm2/small_enemy_02_LForearm/small_enemy_02_LPalm/small_enemy_02_LPinky1/small_enemy_02_LPinky2/small_enemy_02_LPinky3
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1/small_enemy_02_LUpperarm2/small_enemy_02_LForearm/small_enemy_02_LPalm/small_enemy_02_LThumb1
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1/small_enemy_02_LUpperarm2/small_enemy_02_LForearm/small_enemy_02_LPalm/small_enemy_02_LThumb1/small_enemy_02_LThumb2
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1/small_enemy_02_LUpperarm2/small_enemy_02_LForearm/small_enemy_02_LPalm/small_enemy_02_LThumb1/small_enemy_02_LThumb2/small_enemy_02_LThumb3
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_LCollarbone/small_enemy_02_LUpperarm1/small_enemy_02_LUpperarm2/small_enemy_02_LForearm/small_enemy_02_LPalm/small_enemy_02_LWAttach
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone/small_enemy_02_RUpperarm
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone/small_enemy_02_RUpperarm/small_enemy_02_RForearm
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone/small_enemy_02_RUpperarm/small_enemy_02_RForearm/small_enemy_02_RPalm
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone/small_enemy_02_RUpperarm/small_enemy_02_RForearm/small_enemy_02_RPalm/small_enemy_02_RIndex1
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone/small_enemy_02_RUpperarm/small_enemy_02_RForearm/small_enemy_02_RPalm/small_enemy_02_RIndex1/small_enemy_02_RIndex2
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone/small_enemy_02_RUpperarm/small_enemy_02_RForearm/small_enemy_02_RPalm/small_enemy_02_RIndex1/small_enemy_02_RIndex2/small_enemy_02_RIndex3
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone/small_enemy_02_RUpperarm/small_enemy_02_RForearm/small_enemy_02_RPalm/small_enemy_02_RPinky1
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone/small_enemy_02_RUpperarm/small_enemy_02_RForearm/small_enemy_02_RPalm/small_enemy_02_RPinky1/small_enemy_02_RPinky2
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone/small_enemy_02_RUpperarm/small_enemy_02_RForearm/small_enemy_02_RPalm/small_enemy_02_RPinky1/small_enemy_02_RPinky2/small_enemy_02_RPinky3
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone/small_enemy_02_RUpperarm/small_enemy_02_RForearm/small_enemy_02_RPalm/small_enemy_02_RThumb1
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone/small_enemy_02_RUpperarm/small_enemy_02_RForearm/small_enemy_02_RPalm/small_enemy_02_RThumb1/small_enemy_02_RThumb2
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone/small_enemy_02_RUpperarm/small_enemy_02_RForearm/small_enemy_02_RPalm/small_enemy_02_RThumb1/small_enemy_02_RThumb2/small_enemy_02_RThumb3
+        weight: 1
+      - path: small_enemy_02_Pelvis/small_enemy_02_Spine1/small_enemy_02_Spine2/small_enemy_02_Spine3/small_enemy_02_Ribcage/small_enemy_02_RCollarbone/small_enemy_02_RUpperarm/small_enemy_02_RForearm/small_enemy_02_RPalm/small_enemy_02_RWAttach
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

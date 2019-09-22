@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: 27f3d746afa6345408b5b06df0c2bef3
+timeCreated: 1480469278
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: small_enemy_03__Loincloth_Back1
+    100002: small_enemy_03__Loincloth_Back2
+    100004: small_enemy_03__Loincloth_Back3
+    100006: small_enemy_03__Loincloth_Front1
+    100008: small_enemy_03__Loincloth_Front2
+    100010: small_enemy_03__Loincloth_Front3
+    100012: small_enemy_03_LCalf
+    100014: small_enemy_03_LCalfB
+    100016: small_enemy_03_LCollarbone
+    100018: small_enemy_03_LFoot
+    100020: small_enemy_03_LForearm
+    100022: small_enemy_03_LIndex1
+    100024: small_enemy_03_LIndex2
+    100026: small_enemy_03_LIndex3
+    100028: small_enemy_03_LPalm
+    100030: small_enemy_03_LPinky1
+    100032: small_enemy_03_LPinky2
+    100034: small_enemy_03_LPinky3
+    100036: small_enemy_03_LThigh
+    100038: small_enemy_03_LThumb1
+    100040: small_enemy_03_LThumb2
+    100042: small_enemy_03_LThumb3
+    100044: small_enemy_03_LToe1
+    100046: small_enemy_03_LToe2
+    100048: small_enemy_03_LUpperarm
+    100050: small_enemy_03_LWAttach
+    100052: small_enemy_03_Pelvis
+    100054: small_enemy_03_RCalf
+    100056: small_enemy_03_RCalfB
+    100058: small_enemy_03_RCollarbone
+    100060: small_enemy_03_RFoot
+    100062: small_enemy_03_RForearm
+    100064: small_enemy_03_Ribcage
+    100066: small_enemy_03_RIndex1
+    100068: small_enemy_03_RIndex2
+    100070: small_enemy_03_RIndex3
+    100072: small_enemy_03_RPalm
+    100074: small_enemy_03_RPinky1
+    100076: small_enemy_03_RPinky2
+    100078: small_enemy_03_RPinky3
+    100080: small_enemy_03_RThigh
+    100082: small_enemy_03_RThumb1
+    100084: small_enemy_03_RThumb2
+    100086: small_enemy_03_RThumb3
+    100088: small_enemy_03_RToe1
+    100090: small_enemy_03_RToe2
+    100092: //RootNode
+    100094: small_enemy_03_RUpperarm
+    100096: small_enemy_03_RWAttach
+    100098: small_enemy_03_Spine1
+    100100: small_enemy_03_Spine2
+    400000: small_enemy_03__Loincloth_Back1
+    400002: small_enemy_03__Loincloth_Back2
+    400004: small_enemy_03__Loincloth_Back3
+    400006: small_enemy_03__Loincloth_Front1
+    400008: small_enemy_03__Loincloth_Front2
+    400010: small_enemy_03__Loincloth_Front3
+    400012: small_enemy_03_LCalf
+    400014: small_enemy_03_LCalfB
+    400016: small_enemy_03_LCollarbone
+    400018: small_enemy_03_LFoot
+    400020: small_enemy_03_LForearm
+    400022: small_enemy_03_LIndex1
+    400024: small_enemy_03_LIndex2
+    400026: small_enemy_03_LIndex3
+    400028: small_enemy_03_LPalm
+    400030: small_enemy_03_LPinky1
+    400032: small_enemy_03_LPinky2
+    400034: small_enemy_03_LPinky3
+    400036: small_enemy_03_LThigh
+    400038: small_enemy_03_LThumb1
+    400040: small_enemy_03_LThumb2
+    400042: small_enemy_03_LThumb3
+    400044: small_enemy_03_LToe1
+    400046: small_enemy_03_LToe2
+    400048: small_enemy_03_LUpperarm
+    400050: small_enemy_03_LWAttach
+    400052: small_enemy_03_Pelvis
+    400054: small_enemy_03_RCalf
+    400056: small_enemy_03_RCalfB
+    400058: small_enemy_03_RCollarbone
+    400060: small_enemy_03_RFoot
+    400062: small_enemy_03_RForearm
+    400064: small_enemy_03_Ribcage
+    400066: small_enemy_03_RIndex1
+    400068: small_enemy_03_RIndex2
+    400070: small_enemy_03_RIndex3
+    400072: small_enemy_03_RPalm
+    400074: small_enemy_03_RPinky1
+    400076: small_enemy_03_RPinky2
+    400078: small_enemy_03_RPinky3
+    400080: small_enemy_03_RThigh
+    400082: small_enemy_03_RThumb1
+    400084: small_enemy_03_RThumb2
+    400086: small_enemy_03_RThumb3
+    400088: small_enemy_03_RToe1
+    400090: small_enemy_03_RToe2
+    400092: //RootNode
+    400094: small_enemy_03_RUpperarm
+    400096: small_enemy_03_RWAttach
+    400098: small_enemy_03_Spine1
+    400100: small_enemy_03_Spine2
+    7400000: Charge
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 2
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Charge
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: small_enemy_03_Pelvis
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03__Loincloth_Back1
+        weight: 0
+      - path: small_enemy_03_Pelvis/small_enemy_03__Loincloth_Back1/small_enemy_03__Loincloth_Back2
+        weight: 0
+      - path: small_enemy_03_Pelvis/small_enemy_03__Loincloth_Back1/small_enemy_03__Loincloth_Back2/small_enemy_03__Loincloth_Back3
+        weight: 0
+      - path: small_enemy_03_Pelvis/small_enemy_03__Loincloth_Front1
+        weight: 0
+      - path: small_enemy_03_Pelvis/small_enemy_03__Loincloth_Front1/small_enemy_03__Loincloth_Front2
+        weight: 0
+      - path: small_enemy_03_Pelvis/small_enemy_03__Loincloth_Front1/small_enemy_03__Loincloth_Front2/small_enemy_03__Loincloth_Front3
+        weight: 0
+      - path: small_enemy_03_Pelvis/small_enemy_03_LThigh
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_LThigh/small_enemy_03_LCalf
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_LThigh/small_enemy_03_LCalf/small_enemy_03_LCalfB
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_LThigh/small_enemy_03_LCalf/small_enemy_03_LCalfB/small_enemy_03_LFoot
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_LThigh/small_enemy_03_LCalf/small_enemy_03_LCalfB/small_enemy_03_LFoot/small_enemy_03_LToe1
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_LThigh/small_enemy_03_LCalf/small_enemy_03_LCalfB/small_enemy_03_LFoot/small_enemy_03_LToe1/small_enemy_03_LToe2
+        weight: 0
+      - path: small_enemy_03_Pelvis/small_enemy_03_RThigh
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_RThigh/small_enemy_03_RCalf
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_RThigh/small_enemy_03_RCalf/small_enemy_03_RCalfB
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_RThigh/small_enemy_03_RCalf/small_enemy_03_RCalfB/small_enemy_03_RFoot
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_RThigh/small_enemy_03_RCalf/small_enemy_03_RCalfB/small_enemy_03_RFoot/small_enemy_03_RToe1
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_RThigh/small_enemy_03_RCalf/small_enemy_03_RCalfB/small_enemy_03_RFoot/small_enemy_03_RToe1/small_enemy_03_RToe2
+        weight: 0
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone/small_enemy_03_LUpperarm
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone/small_enemy_03_LUpperarm/small_enemy_03_LForearm
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone/small_enemy_03_LUpperarm/small_enemy_03_LForearm/small_enemy_03_LPalm
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone/small_enemy_03_LUpperarm/small_enemy_03_LForearm/small_enemy_03_LPalm/small_enemy_03_LIndex1
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone/small_enemy_03_LUpperarm/small_enemy_03_LForearm/small_enemy_03_LPalm/small_enemy_03_LIndex1/small_enemy_03_LIndex2
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone/small_enemy_03_LUpperarm/small_enemy_03_LForearm/small_enemy_03_LPalm/small_enemy_03_LIndex1/small_enemy_03_LIndex2/small_enemy_03_LIndex3
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone/small_enemy_03_LUpperarm/small_enemy_03_LForearm/small_enemy_03_LPalm/small_enemy_03_LPinky1
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone/small_enemy_03_LUpperarm/small_enemy_03_LForearm/small_enemy_03_LPalm/small_enemy_03_LPinky1/small_enemy_03_LPinky2
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone/small_enemy_03_LUpperarm/small_enemy_03_LForearm/small_enemy_03_LPalm/small_enemy_03_LPinky1/small_enemy_03_LPinky2/small_enemy_03_LPinky3
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone/small_enemy_03_LUpperarm/small_enemy_03_LForearm/small_enemy_03_LPalm/small_enemy_03_LThumb1
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone/small_enemy_03_LUpperarm/small_enemy_03_LForearm/small_enemy_03_LPalm/small_enemy_03_LThumb1/small_enemy_03_LThumb2
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone/small_enemy_03_LUpperarm/small_enemy_03_LForearm/small_enemy_03_LPalm/small_enemy_03_LThumb1/small_enemy_03_LThumb2/small_enemy_03_LThumb3
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_LCollarbone/small_enemy_03_LUpperarm/small_enemy_03_LForearm/small_enemy_03_LPalm/small_enemy_03_LWAttach
+        weight: 0
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone/small_enemy_03_RUpperarm
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone/small_enemy_03_RUpperarm/small_enemy_03_RForearm
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone/small_enemy_03_RUpperarm/small_enemy_03_RForearm/small_enemy_03_RPalm
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone/small_enemy_03_RUpperarm/small_enemy_03_RForearm/small_enemy_03_RPalm/small_enemy_03_RIndex1
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone/small_enemy_03_RUpperarm/small_enemy_03_RForearm/small_enemy_03_RPalm/small_enemy_03_RIndex1/small_enemy_03_RIndex2
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone/small_enemy_03_RUpperarm/small_enemy_03_RForearm/small_enemy_03_RPalm/small_enemy_03_RIndex1/small_enemy_03_RIndex2/small_enemy_03_RIndex3
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone/small_enemy_03_RUpperarm/small_enemy_03_RForearm/small_enemy_03_RPalm/small_enemy_03_RPinky1
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone/small_enemy_03_RUpperarm/small_enemy_03_RForearm/small_enemy_03_RPalm/small_enemy_03_RPinky1/small_enemy_03_RPinky2
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone/small_enemy_03_RUpperarm/small_enemy_03_RForearm/small_enemy_03_RPalm/small_enemy_03_RPinky1/small_enemy_03_RPinky2/small_enemy_03_RPinky3
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone/small_enemy_03_RUpperarm/small_enemy_03_RForearm/small_enemy_03_RPalm/small_enemy_03_RThumb1
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone/small_enemy_03_RUpperarm/small_enemy_03_RForearm/small_enemy_03_RPalm/small_enemy_03_RThumb1/small_enemy_03_RThumb2
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone/small_enemy_03_RUpperarm/small_enemy_03_RForearm/small_enemy_03_RPalm/small_enemy_03_RThumb1/small_enemy_03_RThumb2/small_enemy_03_RThumb3
+        weight: 1
+      - path: small_enemy_03_Pelvis/small_enemy_03_Spine1/small_enemy_03_Spine2/small_enemy_03_Ribcage/small_enemy_03_RCollarbone/small_enemy_03_RUpperarm/small_enemy_03_RForearm/small_enemy_03_RPalm/small_enemy_03_RWAttach
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: small_enemy_03_Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LToe1
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RToe1
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_LPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_RPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: small_enemy_03_Ribcage
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: small_enemy_03(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: small_enemy_03_attachments
+      parentName: 
+      position: {x: -0.026113883, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: small_enemy_03_body
+      parentName: 
+      position: {x: -0.0033820868, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: small_enemy_03_loincloth
+      parentName: 
+      position: {x: 0.01808292, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: small_enemy_03_Pelvis
+      parentName: 
+      position: {x: 0.00000013556509, y: 1.3736658, z: -0.20395403}
+      rotation: {x: 0.49912268, y: -0.50086725, z: -0.49913114, w: 0.5008759}
+      scale: {x: 1, y: 1, z: 1}
+    - name: small_enemy_03__Loincloth_Back1
+      parentName: 
+      position: {x: -0.1217945, y: -0.4565686, z: 0.00000004992254}
+      rotation: {x: -5.1031773e-10, y: 0.000000007418366, z: 0.99717736, w: -0.075082324}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: small_enemy_03__Loincloth_Back2
+      parentName: 
+      position: {x: -0.19343984, y: 0.000000048446655, z: -3.6961864e-13}
+      rotation: {x: 0.000000005357262, y: -0.000000003774091, z: 0.01806663, w: 0.9998368}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: small_enemy_03__Loincloth_Back3
+      parentName: 
+      position: {x: -0.19450217, y: 0, z: 3.6961864e-13}
+      rotation: {x: 0.0000000014880903, y: 0.000000006059048, z: -0.08213136, w: 0.9966215}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: small_enemy_03__Loincloth_Front1
+      parentName: 
+      position: {x: 0.14320531, y: 0.3837034, z: -0.00000003465064}
+      rotation: {x: 5.4651766e-11, y: -1.1365813e-11, z: 0.9815399, w: 0.19125752}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: small_enemy_03__Loincloth_Front2
+      parentName: 
+      position: {x: -0.10919004, y: 0, z: 0}
+      rotation: {x: 0.0000000016466402, y: -0.00000004661323, z: 0.096615516, w: 0.9953218}
+      scale: {x: 1, y: 1, z: 1}
+    - name: small_enemy_03__Loincloth_Front3
+      parentName: 
+      position: {x: -0.12463716, y: 0.000000006055832, z: -3.6961864e-13}
+      rotation: {x: 0.0000000050067515, y: 3.3596415e-10, z: 0.05286778, w: 0.99860156}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: small_enemy_03_LThigh
+      parentName: 
+      position: {x: -0.01684936, y: -0.0014815108, z: 0.39855736}
+      rotation: {x: -0.100025624, y: 0.99352413, z: 0.0393707, w: 0.03680654}
+      scale: {x: 1.0000006, y: 0.9999999, z: 1}
+    - name: small_enemy_03_LCalf
+      parentName: 
+      position: {x: -0.62124276, y: -0.0000005329132, z: -0.0000006298065}
+      rotation: {x: -0.018653719, y: -0.015296964, z: 0.45413452, w: 0.8906064}
+      scale: {x: 0.99999934, y: 0.99999946, z: 1.000001}
+    - name: small_enemy_03_LCalfB
+      parentName: 
+      position: {x: -0.5921877, y: -0.000001114273, z: 0.0000031490326}
+      rotation: {x: -0.0011918508, y: 0.05351477, z: -0.54597723, w: 0.8360883}
+      scale: {x: 1.0000029, y: 0.9999971, z: 0.99999976}
+    - name: small_enemy_03_LFoot
+      parentName: 
+      position: {x: -0.2627734, y: 0, z: 0.000000048446655}
+      rotation: {x: 0.0029357076, y: -0.047266476, z: -0.44746268, w: 0.8930478}
+      scale: {x: 1.0000066, y: 0.9999939, z: 1.0000001}
+    - name: small_enemy_03_LToe1
+      parentName: 
+      position: {x: -0.31148362, y: 0.000000006055832, z: 0}
+      rotation: {x: -0.000024342917, y: 0.00024460952, z: -0.09169758, w: 0.9957869}
+      scale: {x: 1.0000001, y: 0.99999964, z: 0.9999999}
+    - name: small_enemy_03_LToe2
+      parentName: 
+      position: {x: -0.062151972, y: -0.000000003027916, z: 0}
+      rotation: {x: 0.000000014901161, y: 0.000000014901165, z: 0.000000014901163,
+        w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.99999976}
+    - name: small_enemy_03_RThigh
+      parentName: 
+      position: {x: -0.016849311, y: -0.0014815592, z: -0.39855742}
+      rotation: {x: -0.10002202, y: 0.99352634, z: -0.039313495, w: -0.036817953}
+      scale: {x: 1.0000005, y: 1.0000002, z: 0.99999976}
+    - name: small_enemy_03_RCalf
+      parentName: 
+      position: {x: -0.6212427, y: -0.00000058135987, z: 0.00000058135987}
+      rotation: {x: 0.018729862, y: 0.015227165, z: 0.45420876, w: 0.89056826}
+      scale: {x: 1.0000008, y: 1.0000002, z: 0.99999917}
+    - name: small_enemy_03_RCalfB
+      parentName: 
+      position: {x: -0.5921877, y: -0.0000011627197, z: -0.000003100586}
+      rotation: {x: 0.001229646, y: -0.053390082, z: -0.5462505, w: 0.8359177}
+      scale: {x: 1.0000099, y: 0.9999906, z: 1.0000008}
+    - name: small_enemy_03_RFoot
+      parentName: 
+      position: {x: -0.2627734, y: 0, z: 0.000000048446655}
+      rotation: {x: -0.0030172463, y: 0.04693816, z: -0.4472372, w: 0.89317787}
+      scale: {x: 1.0000181, y: 0.99998146, z: 0.9999999}
+    - name: small_enemy_03_RToe1
+      parentName: 
+      position: {x: -0.3114837, y: 0.000000006055832, z: -0.000000048446655}
+      rotation: {x: 0.0000020007194, y: -0.0000017548012, z: -0.09170907, w: 0.99578583}
+      scale: {x: 1.0000008, y: 0.99999934, z: 1}
+    - name: small_enemy_03_RToe2
+      parentName: 
+      position: {x: -0.062151946, y: 0, z: -0.000000048446655}
+      rotation: {x: 0.0000000037252899, y: -0.000000048894442, z: 1.8214596e-16, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: small_enemy_03_Spine1
+      parentName: 
+      position: {x: -0.12942281, y: -0.009902193, z: -0.000000024575943}
+      rotation: {x: 0.000000026721137, y: -0.00000016229359, z: -0.16288656, w: 0.9866448}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000001}
+    - name: small_enemy_03_Spine2
+      parentName: 
+      position: {x: -0.3528209, y: 0, z: 0}
+      rotation: {x: -0.0000000226993, y: 0.00000013734184, z: 0.16250496, w: 0.98670775}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1}
+    - name: small_enemy_03_Ribcage
+      parentName: 
+      position: {x: -0.30055636, y: -0.000000006055832, z: 0}
+      rotation: {x: 1.01886416e-10, y: 0.000000044241474, z: -0.0013577096, w: 0.9999991}
+      scale: {x: 0.99999946, y: 0.99999934, z: 0.9999999}
+    - name: small_enemy_03_LCollarbone
+      parentName: 
+      position: {x: 0.13165689, y: 0.29913634, z: 0.16121377}
+      rotation: {x: -0.067676716, y: 0.79823506, z: -0.046602253, w: 0.59671515}
+      scale: {x: 1.0000005, y: 1.0000002, z: 0.99999946}
+    - name: small_enemy_03_LUpperarm
+      parentName: 
+      position: {x: -0.29783073, y: 0, z: 0.00000009689331}
+      rotation: {x: -0.34454104, y: -0.15707897, z: 0.022358077, w: 0.9252664}
+      scale: {x: 1.0000006, y: 1.0000001, z: 0.99999905}
+    - name: small_enemy_03_LForearm
+      parentName: 
+      position: {x: -0.35975644, y: 0, z: -0.000000048446655}
+      rotation: {x: -0.035132233, y: 0.030389687, z: -0.00012045688, w: 0.99892056}
+      scale: {x: 0.99999976, y: 1.0000002, z: 0.9999999}
+    - name: small_enemy_03_LPalm
+      parentName: 
+      position: {x: -0.22621691, y: 0.00000009689331, z: -0.000000024223327}
+      rotation: {x: -0.019500079, y: -0.03420008, z: 0.12235087, w: 0.99170583}
+      scale: {x: 0.9999971, y: 1.0000023, z: 0.9999992}
+    - name: small_enemy_03_LIndex1
+      parentName: 
+      position: {x: -0.13111253, y: 0.012882837, z: 0.069524266}
+      rotation: {x: 0.06302993, y: 0.0068782084, z: -0.050846983, w: 0.9966918}
+      scale: {x: 1.0000025, y: 0.99999803, z: 0.9999997}
+    - name: small_enemy_03_LIndex2
+      parentName: 
+      position: {x: -0.04229742, y: 0.000000048446655, z: 0.000000024223327}
+      rotation: {x: 0.00000006744843, y: 0.000000046891344, z: 0.032081347, w: 0.9994853}
+      scale: {x: 1.0000026, y: 0.9999975, z: 0.99999964}
+    - name: small_enemy_03_LIndex3
+      parentName: 
+      position: {x: -0.050349057, y: 0.000000048446655, z: -0.000000024223327}
+      rotation: {x: 0.00000013367868, y: 0.00000003715566, z: 0.054593615, w: 0.9985087}
+      scale: {x: 1.0000026, y: 0.99999756, z: 0.99999946}
+    - name: small_enemy_03_LPinky1
+      parentName: 
+      position: {x: -0.13475476, y: 0.020227253, z: -0.042550504}
+      rotation: {x: 0.0025299133, y: -0.035867564, z: -0.060934603, w: 0.997494}
+      scale: {x: 1.0000023, y: 0.999998, z: 0.99999976}
+    - name: small_enemy_03_LPinky2
+      parentName: 
+      position: {x: -0.043712206, y: 0, z: 0}
+      rotation: {x: -0.0000053986405, y: -0.00002765281, z: 0.039364364, w: 0.9992249}
+      scale: {x: 1.0000026, y: 0.99999726, z: 0.99999946}
+    - name: small_enemy_03_LPinky3
+      parentName: 
+      position: {x: -0.05056101, y: 0, z: -0.000000024223327}
+      rotation: {x: 0.0000000013143199, y: -0.000000007392617, z: 0.051571164, w: 0.9986693}
+      scale: {x: 1.0000026, y: 0.9999974, z: 0.9999993}
+    - name: small_enemy_03_LThumb1
+      parentName: 
+      position: {x: -0.056167793, y: -0.031515613, z: 0.07269966}
+      rotation: {x: 0.49658453, y: 0.10410833, z: -0.43738002, w: 0.74247164}
+      scale: {x: 0.9999973, y: 1.0000072, z: 0.99999547}
+    - name: small_enemy_03_LThumb2
+      parentName: 
+      position: {x: -0.044204183, y: -0.000000048446655, z: 0}
+      rotation: {x: 0.00000006705518, y: 0.0000012367957, z: 0.039679028, w: 0.9992125}
+      scale: {x: 0.9999992, y: 1.0000025, z: 0.9999975}
+    - name: small_enemy_03_LThumb3
+      parentName: 
+      position: {x: -0.04335656, y: 0, z: 0.000000048446655}
+      rotation: {x: 0.000000031664896, y: -0.00000006146732, z: 1.9463564e-15, w: 1}
+      scale: {x: 0.9999995, y: 1.0000023, z: 0.9999973}
+    - name: small_enemy_03_RCollarbone
+      parentName: 
+      position: {x: 0.13165678, y: 0.29913634, z: -0.16121377}
+      rotation: {x: 0.067676924, y: -0.7982352, z: -0.04660232, w: 0.5967149}
+      scale: {x: 1.0000006, y: 0.99999964, z: 0.9999995}
+    - name: small_enemy_03_RUpperarm
+      parentName: 
+      position: {x: -0.2978307, y: 0, z: 0}
+      rotation: {x: 0.34454066, y: 0.1570791, z: 0.022358134, w: 0.9252664}
+      scale: {x: 1.0000008, y: 0.9999998, z: 0.99999887}
+    - name: small_enemy_03_RForearm
+      parentName: 
+      position: {x: -0.35975632, y: 0, z: 0.000000024223327}
+      rotation: {x: 0.035132073, y: -0.030389408, z: -0.00012040042, w: 0.99892056}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.99999994}
+    - name: small_enemy_03_RPalm
+      parentName: 
+      position: {x: -0.22621685, y: 0.00000009689331, z: 0}
+      rotation: {x: 0.019500203, y: 0.034200147, z: 0.12235107, w: 0.9917058}
+      scale: {x: 1.000002, y: 0.99999666, z: 1.0000004}
+    - name: small_enemy_03_RIndex1
+      parentName: 
+      position: {x: -0.13111317, y: 0.01288274, z: -0.069524266}
+      rotation: {x: -0.06302964, y: -0.0068796044, z: -0.05084452, w: 0.99669194}
+      scale: {x: 0.99999714, y: 1.0000019, z: 1.0000005}
+    - name: small_enemy_03_RIndex2
+      parentName: 
+      position: {x: -0.04229737, y: 0.000000048446655, z: 0.000000024223327}
+      rotation: {x: -0.0000000101129505, y: -0.00000014941342, z: 0.032081358, w: 0.9994853}
+      scale: {x: 0.999997, y: 1.0000021, z: 1.0000005}
+    - name: small_enemy_03_RIndex3
+      parentName: 
+      position: {x: -0.050349105, y: 0, z: 0}
+      rotation: {x: -0.00000021667324, y: 0.000000047847305, z: 0.054593146, w: 0.9985087}
+      scale: {x: 0.999997, y: 1.0000026, z: 1.0000005}
+    - name: small_enemy_03_RPinky1
+      parentName: 
+      position: {x: -0.13475534, y: 0.020227157, z: 0.042550553}
+      rotation: {x: -0.0025310519, y: 0.035866443, z: -0.060932804, w: 0.9974941}
+      scale: {x: 0.9999975, y: 1.0000021, z: 1.0000004}
+    - name: small_enemy_03_RPinky2
+      parentName: 
+      position: {x: -0.043712158, y: -0.000000048446655, z: -0.000000012111664}
+      rotation: {x: 0.0000052452087, y: 0.000030204654, z: 0.03936304, w: 0.999225}
+      scale: {x: 0.99999666, y: 1.0000019, z: 1.0000004}
+    - name: small_enemy_03_RPinky3
+      parentName: 
+      position: {x: -0.05056101, y: 0.000000048446655, z: 0}
+      rotation: {x: 0.000000045400093, y: 0.00000022243017, z: 0.051570687, w: 0.9986693}
+      scale: {x: 0.9999966, y: 1.0000021, z: 1.0000002}
+    - name: small_enemy_03_RThumb1
+      parentName: 
+      position: {x: -0.056168035, y: -0.031515516, z: -0.072699726}
+      rotation: {x: -0.49658042, y: -0.10410925, z: -0.43737924, w: 0.7424747}
+      scale: {x: 1.0000043, y: 0.9999918, z: 1.0000036}
+    - name: small_enemy_03_RThumb2
+      parentName: 
+      position: {x: -0.04420423, y: 0, z: -0.000000048446655}
+      rotation: {x: 0.000000029802319, y: -0.00000035762784, z: 0.03967693, w: 0.9992126}
+      scale: {x: 1.0000004, y: 0.9999965, z: 1.0000018}
+    - name: small_enemy_03_RThumb3
+      parentName: 
+      position: {x: -0.04335656, y: -0.000000048446655, z: -0.000000048446655}
+      rotation: {x: 0.0000000018626511, y: 0.000000017229466, z: -0.000000014901159,
+        w: 1}
+      scale: {x: 1.0000001, y: 0.9999969, z: 1.000002}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

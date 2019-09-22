@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 016e6d9891adea648b0dfb5de183cbba
+timeCreated: 1480576889
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: flying_small_enemy_Head
+    100004: flying_small_enemy_LAnkle
+    100006: flying_small_enemy_LCalf
+    100008: flying_small_enemy_LCollarbone
+    100010: flying_small_enemy_LForearm
+    100012: flying_small_enemy_LIndex1
+    100014: flying_small_enemy_LIndex2
+    100016: flying_small_enemy_LIndex3
+    100018: flying_small_enemy_LMiddle1
+    100020: flying_small_enemy_LMiddle2
+    100022: flying_small_enemy_LMiddle3
+    100024: flying_small_enemy_LPalm
+    100026: flying_small_enemy_LPinky1
+    100028: flying_small_enemy_LPinky2
+    100030: flying_small_enemy_LPinky3
+    100032: flying_small_enemy_LThigh
+    100034: flying_small_enemy_LThumb1
+    100036: flying_small_enemy_LThumb2
+    100038: flying_small_enemy_LThumb3
+    100040: flying_small_enemy_LUpperarm1
+    100042: flying_small_enemy_LUpperarm2
+    100044: flying_small_enemy_LWing_A1
+    100046: flying_small_enemy_LWing_A2
+    100048: flying_small_enemy_LWing_A3
+    100050: flying_small_enemy_LWing_ADigit11
+    100052: flying_small_enemy_LWing_ADigit21
+    100054: flying_small_enemy_LWing_ADigit22
+    100056: flying_small_enemy_LWing_ADigit23
+    100058: flying_small_enemy_LWing_ADigit24
+    100060: flying_small_enemy_LWing_APalm
+    100062: flying_small_enemy_LWing_B1
+    100064: flying_small_enemy_LWing_BDigit11
+    100066: flying_small_enemy_LWing_BDigit21
+    100068: flying_small_enemy_LWing_BDigit22
+    100070: flying_small_enemy_LWing_BDigit23
+    100072: flying_small_enemy_LWing_BPalm
+    100074: flying_small_enemy_Neck
+    100076: flying_small_enemy_Pelvis
+    100078: flying_small_enemy_RAnkle
+    100080: flying_small_enemy_RCalf
+    100082: flying_small_enemy_RCollarbone
+    100084: flying_small_enemy_RForearm
+    100086: flying_small_enemy_Ribcage
+    100088: flying_small_enemy_RIndex1
+    100090: flying_small_enemy_RIndex2
+    100092: flying_small_enemy_RIndex3
+    100094: flying_small_enemy_RMiddle1
+    100096: flying_small_enemy_RMiddle2
+    100098: flying_small_enemy_RMiddle3
+    100100: flying_small_enemy_RPalm
+    100102: flying_small_enemy_RPinky1
+    100104: flying_small_enemy_RPinky2
+    100106: flying_small_enemy_RPinky3
+    100108: flying_small_enemy_RThigh
+    100110: flying_small_enemy_RThumb1
+    100112: flying_small_enemy_RThumb2
+    100114: flying_small_enemy_RThumb3
+    100116: flying_small_enemy_RUpperarm1
+    100118: flying_small_enemy_RUpperarm2
+    100120: flying_small_enemy_RWing_A1
+    100122: flying_small_enemy_RWing_A2
+    100124: flying_small_enemy_RWing_A3
+    100126: flying_small_enemy_RWing_ADigit11
+    100128: flying_small_enemy_RWing_ADigit21
+    100130: flying_small_enemy_RWing_ADigit22
+    100132: flying_small_enemy_RWing_ADigit23
+    100134: flying_small_enemy_RWing_ADigit24
+    100136: flying_small_enemy_RWing_APalm
+    100138: flying_small_enemy_RWing_B1
+    100140: flying_small_enemy_RWing_BDigit11
+    100142: flying_small_enemy_RWing_BDigit21
+    100144: flying_small_enemy_RWing_BDigit22
+    100146: flying_small_enemy_RWing_BDigit23
+    100148: flying_small_enemy_RWing_BPalm
+    100150: flying_small_enemy_Spine1
+    100152: flying_small_enemy_Spine2
+    400000: //RootNode
+    400002: flying_small_enemy_Head
+    400004: flying_small_enemy_LAnkle
+    400006: flying_small_enemy_LCalf
+    400008: flying_small_enemy_LCollarbone
+    400010: flying_small_enemy_LForearm
+    400012: flying_small_enemy_LIndex1
+    400014: flying_small_enemy_LIndex2
+    400016: flying_small_enemy_LIndex3
+    400018: flying_small_enemy_LMiddle1
+    400020: flying_small_enemy_LMiddle2
+    400022: flying_small_enemy_LMiddle3
+    400024: flying_small_enemy_LPalm
+    400026: flying_small_enemy_LPinky1
+    400028: flying_small_enemy_LPinky2
+    400030: flying_small_enemy_LPinky3
+    400032: flying_small_enemy_LThigh
+    400034: flying_small_enemy_LThumb1
+    400036: flying_small_enemy_LThumb2
+    400038: flying_small_enemy_LThumb3
+    400040: flying_small_enemy_LUpperarm1
+    400042: flying_small_enemy_LUpperarm2
+    400044: flying_small_enemy_LWing_A1
+    400046: flying_small_enemy_LWing_A2
+    400048: flying_small_enemy_LWing_A3
+    400050: flying_small_enemy_LWing_ADigit11
+    400052: flying_small_enemy_LWing_ADigit21
+    400054: flying_small_enemy_LWing_ADigit22
+    400056: flying_small_enemy_LWing_ADigit23
+    400058: flying_small_enemy_LWing_ADigit24
+    400060: flying_small_enemy_LWing_APalm
+    400062: flying_small_enemy_LWing_B1
+    400064: flying_small_enemy_LWing_BDigit11
+    400066: flying_small_enemy_LWing_BDigit21
+    400068: flying_small_enemy_LWing_BDigit22
+    400070: flying_small_enemy_LWing_BDigit23
+    400072: flying_small_enemy_LWing_BPalm
+    400074: flying_small_enemy_Neck
+    400076: flying_small_enemy_Pelvis
+    400078: flying_small_enemy_RAnkle
+    400080: flying_small_enemy_RCalf
+    400082: flying_small_enemy_RCollarbone
+    400084: flying_small_enemy_RForearm
+    400086: flying_small_enemy_Ribcage
+    400088: flying_small_enemy_RIndex1
+    400090: flying_small_enemy_RIndex2
+    400092: flying_small_enemy_RIndex3
+    400094: flying_small_enemy_RMiddle1
+    400096: flying_small_enemy_RMiddle2
+    400098: flying_small_enemy_RMiddle3
+    400100: flying_small_enemy_RPalm
+    400102: flying_small_enemy_RPinky1
+    400104: flying_small_enemy_RPinky2
+    400106: flying_small_enemy_RPinky3
+    400108: flying_small_enemy_RThigh
+    400110: flying_small_enemy_RThumb1
+    400112: flying_small_enemy_RThumb2
+    400114: flying_small_enemy_RThumb3
+    400116: flying_small_enemy_RUpperarm1
+    400118: flying_small_enemy_RUpperarm2
+    400120: flying_small_enemy_RWing_A1
+    400122: flying_small_enemy_RWing_A2
+    400124: flying_small_enemy_RWing_A3
+    400126: flying_small_enemy_RWing_ADigit11
+    400128: flying_small_enemy_RWing_ADigit21
+    400130: flying_small_enemy_RWing_ADigit22
+    400132: flying_small_enemy_RWing_ADigit23
+    400134: flying_small_enemy_RWing_ADigit24
+    400136: flying_small_enemy_RWing_APalm
+    400138: flying_small_enemy_RWing_B1
+    400140: flying_small_enemy_RWing_BDigit11
+    400142: flying_small_enemy_RWing_BDigit21
+    400144: flying_small_enemy_RWing_BDigit22
+    400146: flying_small_enemy_RWing_BDigit23
+    400148: flying_small_enemy_RWing_BPalm
+    400150: flying_small_enemy_Spine1
+    400152: flying_small_enemy_Spine2
+    7400000: Attack_B
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 2
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack_B
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flying_small_enemy_Pelvis
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_LThigh
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_LThigh/flying_small_enemy_LCalf
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_LThigh/flying_small_enemy_LCalf/flying_small_enemy_LAnkle
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_RThigh
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_RThigh/flying_small_enemy_RCalf
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_RThigh/flying_small_enemy_RCalf/flying_small_enemy_RAnkle
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm/flying_small_enemy_LPalm
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm/flying_small_enemy_LPalm/flying_small_enemy_LIndex1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm/flying_small_enemy_LPalm/flying_small_enemy_LIndex1/flying_small_enemy_LIndex2
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm/flying_small_enemy_LPalm/flying_small_enemy_LIndex1/flying_small_enemy_LIndex2/flying_small_enemy_LIndex3
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm/flying_small_enemy_LPalm/flying_small_enemy_LMiddle1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm/flying_small_enemy_LPalm/flying_small_enemy_LMiddle1/flying_small_enemy_LMiddle2
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm/flying_small_enemy_LPalm/flying_small_enemy_LMiddle1/flying_small_enemy_LMiddle2/flying_small_enemy_LMiddle3
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm/flying_small_enemy_LPalm/flying_small_enemy_LPinky1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm/flying_small_enemy_LPalm/flying_small_enemy_LPinky1/flying_small_enemy_LPinky2
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm/flying_small_enemy_LPalm/flying_small_enemy_LPinky1/flying_small_enemy_LPinky2/flying_small_enemy_LPinky3
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm/flying_small_enemy_LPalm/flying_small_enemy_LThumb1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm/flying_small_enemy_LPalm/flying_small_enemy_LThumb1/flying_small_enemy_LThumb2
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LCollarbone/flying_small_enemy_LUpperarm1/flying_small_enemy_LUpperarm2/flying_small_enemy_LForearm/flying_small_enemy_LPalm/flying_small_enemy_LThumb1/flying_small_enemy_LThumb2/flying_small_enemy_LThumb3
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_A1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_A1/flying_small_enemy_LWing_A2
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_A1/flying_small_enemy_LWing_A2/flying_small_enemy_LWing_A3
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_A1/flying_small_enemy_LWing_A2/flying_small_enemy_LWing_A3/flying_small_enemy_LWing_APalm
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_A1/flying_small_enemy_LWing_A2/flying_small_enemy_LWing_A3/flying_small_enemy_LWing_APalm/flying_small_enemy_LWing_ADigit11
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_A1/flying_small_enemy_LWing_A2/flying_small_enemy_LWing_A3/flying_small_enemy_LWing_APalm/flying_small_enemy_LWing_ADigit21
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_A1/flying_small_enemy_LWing_A2/flying_small_enemy_LWing_A3/flying_small_enemy_LWing_APalm/flying_small_enemy_LWing_ADigit21/flying_small_enemy_LWing_ADigit22
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_A1/flying_small_enemy_LWing_A2/flying_small_enemy_LWing_A3/flying_small_enemy_LWing_APalm/flying_small_enemy_LWing_ADigit21/flying_small_enemy_LWing_ADigit22/flying_small_enemy_LWing_ADigit23
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_A1/flying_small_enemy_LWing_A2/flying_small_enemy_LWing_A3/flying_small_enemy_LWing_APalm/flying_small_enemy_LWing_ADigit21/flying_small_enemy_LWing_ADigit22/flying_small_enemy_LWing_ADigit23/flying_small_enemy_LWing_ADigit24
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_B1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_B1/flying_small_enemy_LWing_BPalm
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_B1/flying_small_enemy_LWing_BPalm/flying_small_enemy_LWing_BDigit11
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_B1/flying_small_enemy_LWing_BPalm/flying_small_enemy_LWing_BDigit21
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_B1/flying_small_enemy_LWing_BPalm/flying_small_enemy_LWing_BDigit21/flying_small_enemy_LWing_BDigit22
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_LWing_B1/flying_small_enemy_LWing_BPalm/flying_small_enemy_LWing_BDigit21/flying_small_enemy_LWing_BDigit22/flying_small_enemy_LWing_BDigit23
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_Neck
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_Neck/flying_small_enemy_Head
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm/flying_small_enemy_RPalm
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm/flying_small_enemy_RPalm/flying_small_enemy_RIndex1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm/flying_small_enemy_RPalm/flying_small_enemy_RIndex1/flying_small_enemy_RIndex2
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm/flying_small_enemy_RPalm/flying_small_enemy_RIndex1/flying_small_enemy_RIndex2/flying_small_enemy_RIndex3
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm/flying_small_enemy_RPalm/flying_small_enemy_RMiddle1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm/flying_small_enemy_RPalm/flying_small_enemy_RMiddle1/flying_small_enemy_RMiddle2
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm/flying_small_enemy_RPalm/flying_small_enemy_RMiddle1/flying_small_enemy_RMiddle2/flying_small_enemy_RMiddle3
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm/flying_small_enemy_RPalm/flying_small_enemy_RPinky1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm/flying_small_enemy_RPalm/flying_small_enemy_RPinky1/flying_small_enemy_RPinky2
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm/flying_small_enemy_RPalm/flying_small_enemy_RPinky1/flying_small_enemy_RPinky2/flying_small_enemy_RPinky3
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm/flying_small_enemy_RPalm/flying_small_enemy_RThumb1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm/flying_small_enemy_RPalm/flying_small_enemy_RThumb1/flying_small_enemy_RThumb2
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RCollarbone/flying_small_enemy_RUpperarm1/flying_small_enemy_RUpperarm2/flying_small_enemy_RForearm/flying_small_enemy_RPalm/flying_small_enemy_RThumb1/flying_small_enemy_RThumb2/flying_small_enemy_RThumb3
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_A1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_A1/flying_small_enemy_RWing_A2
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_A1/flying_small_enemy_RWing_A2/flying_small_enemy_RWing_A3
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_A1/flying_small_enemy_RWing_A2/flying_small_enemy_RWing_A3/flying_small_enemy_RWing_APalm
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_A1/flying_small_enemy_RWing_A2/flying_small_enemy_RWing_A3/flying_small_enemy_RWing_APalm/flying_small_enemy_RWing_ADigit11
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_A1/flying_small_enemy_RWing_A2/flying_small_enemy_RWing_A3/flying_small_enemy_RWing_APalm/flying_small_enemy_RWing_ADigit21
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_A1/flying_small_enemy_RWing_A2/flying_small_enemy_RWing_A3/flying_small_enemy_RWing_APalm/flying_small_enemy_RWing_ADigit21/flying_small_enemy_RWing_ADigit22
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_A1/flying_small_enemy_RWing_A2/flying_small_enemy_RWing_A3/flying_small_enemy_RWing_APalm/flying_small_enemy_RWing_ADigit21/flying_small_enemy_RWing_ADigit22/flying_small_enemy_RWing_ADigit23
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_A1/flying_small_enemy_RWing_A2/flying_small_enemy_RWing_A3/flying_small_enemy_RWing_APalm/flying_small_enemy_RWing_ADigit21/flying_small_enemy_RWing_ADigit22/flying_small_enemy_RWing_ADigit23/flying_small_enemy_RWing_ADigit24
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_B1
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_B1/flying_small_enemy_RWing_BPalm
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_B1/flying_small_enemy_RWing_BPalm/flying_small_enemy_RWing_BDigit11
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_B1/flying_small_enemy_RWing_BPalm/flying_small_enemy_RWing_BDigit21
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_B1/flying_small_enemy_RWing_BPalm/flying_small_enemy_RWing_BDigit21/flying_small_enemy_RWing_BDigit22
+        weight: 1
+      - path: flying_small_enemy_Pelvis/flying_small_enemy_Spine1/flying_small_enemy_Spine2/flying_small_enemy_Ribcage/flying_small_enemy_RWing_B1/flying_small_enemy_RWing_BPalm/flying_small_enemy_RWing_BDigit21/flying_small_enemy_RWing_BDigit22/flying_small_enemy_RWing_BDigit23
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

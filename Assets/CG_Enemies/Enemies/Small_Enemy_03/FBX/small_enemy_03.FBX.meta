@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: fc00e0c3315fbe148acd0d4cc63b9ea4
+timeCreated: 1480105878
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: small_enemy_03__Loincloth_Back1
+    100004: small_enemy_03__Loincloth_Back2
+    100006: small_enemy_03__Loincloth_Back3
+    100008: small_enemy_03__Loincloth_Front1
+    100010: small_enemy_03__Loincloth_Front2
+    100012: small_enemy_03__Loincloth_Front3
+    100014: small_enemy_03_attachments
+    100016: small_enemy_03_body
+    100018: small_enemy_03_LCalf
+    100020: small_enemy_03_LCalfB
+    100022: small_enemy_03_LCollarbone
+    100024: small_enemy_03_LFoot
+    100026: small_enemy_03_LForearm
+    100028: small_enemy_03_LIndex1
+    100030: small_enemy_03_LIndex2
+    100032: small_enemy_03_LIndex3
+    100034: small_enemy_03_loincloth
+    100036: small_enemy_03_LPalm
+    100038: small_enemy_03_LPinky1
+    100040: small_enemy_03_LPinky2
+    100042: small_enemy_03_LPinky3
+    100044: small_enemy_03_LThigh
+    100046: small_enemy_03_LThumb1
+    100048: small_enemy_03_LThumb2
+    100050: small_enemy_03_LThumb3
+    100052: small_enemy_03_LToe1
+    100054: small_enemy_03_LToe2
+    100056: small_enemy_03_LUpperarm
+    100058: small_enemy_03_Pelvis
+    100060: small_enemy_03_RCalf
+    100062: small_enemy_03_RCalfB
+    100064: small_enemy_03_RCollarbone
+    100066: small_enemy_03_RFoot
+    100068: small_enemy_03_RForearm
+    100070: small_enemy_03_Ribcage
+    100072: small_enemy_03_RIndex1
+    100074: small_enemy_03_RIndex2
+    100076: small_enemy_03_RIndex3
+    100078: small_enemy_03_RPalm
+    100080: small_enemy_03_RPinky1
+    100082: small_enemy_03_RPinky2
+    100084: small_enemy_03_RPinky3
+    100086: small_enemy_03_RThigh
+    100088: small_enemy_03_RThumb1
+    100090: small_enemy_03_RThumb2
+    100092: small_enemy_03_RThumb3
+    100094: small_enemy_03_RToe1
+    100096: small_enemy_03_RToe2
+    100098: small_enemy_03_RUpperarm
+    100100: small_enemy_03_Spine1
+    100102: small_enemy_03_Spine2
+    400000: //RootNode
+    400002: small_enemy_03__Loincloth_Back1
+    400004: small_enemy_03__Loincloth_Back2
+    400006: small_enemy_03__Loincloth_Back3
+    400008: small_enemy_03__Loincloth_Front1
+    400010: small_enemy_03__Loincloth_Front2
+    400012: small_enemy_03__Loincloth_Front3
+    400014: small_enemy_03_attachments
+    400016: small_enemy_03_body
+    400018: small_enemy_03_LCalf
+    400020: small_enemy_03_LCalfB
+    400022: small_enemy_03_LCollarbone
+    400024: small_enemy_03_LFoot
+    400026: small_enemy_03_LForearm
+    400028: small_enemy_03_LIndex1
+    400030: small_enemy_03_LIndex2
+    400032: small_enemy_03_LIndex3
+    400034: small_enemy_03_loincloth
+    400036: small_enemy_03_LPalm
+    400038: small_enemy_03_LPinky1
+    400040: small_enemy_03_LPinky2
+    400042: small_enemy_03_LPinky3
+    400044: small_enemy_03_LThigh
+    400046: small_enemy_03_LThumb1
+    400048: small_enemy_03_LThumb2
+    400050: small_enemy_03_LThumb3
+    400052: small_enemy_03_LToe1
+    400054: small_enemy_03_LToe2
+    400056: small_enemy_03_LUpperarm
+    400058: small_enemy_03_Pelvis
+    400060: small_enemy_03_RCalf
+    400062: small_enemy_03_RCalfB
+    400064: small_enemy_03_RCollarbone
+    400066: small_enemy_03_RFoot
+    400068: small_enemy_03_RForearm
+    400070: small_enemy_03_Ribcage
+    400072: small_enemy_03_RIndex1
+    400074: small_enemy_03_RIndex2
+    400076: small_enemy_03_RIndex3
+    400078: small_enemy_03_RPalm
+    400080: small_enemy_03_RPinky1
+    400082: small_enemy_03_RPinky2
+    400084: small_enemy_03_RPinky3
+    400086: small_enemy_03_RThigh
+    400088: small_enemy_03_RThumb1
+    400090: small_enemy_03_RThumb2
+    400092: small_enemy_03_RThumb3
+    400094: small_enemy_03_RToe1
+    400096: small_enemy_03_RToe2
+    400098: small_enemy_03_RUpperarm
+    400100: small_enemy_03_Spine1
+    400102: small_enemy_03_Spine2
+    4300000: small_enemy_03_attachments
+    4300002: small_enemy_03_body
+    4300004: small_enemy_03_loincloth
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: small_enemy_03_attachments
+    13700002: small_enemy_03_body
+    13700004: small_enemy_03_loincloth
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

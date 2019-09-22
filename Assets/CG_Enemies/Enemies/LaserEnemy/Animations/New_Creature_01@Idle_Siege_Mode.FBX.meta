@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 77f8b86c553b14e4e8fc13283663564c
+timeCreated: 1504572240
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: New_Creature_01Head
+    100004: New_Creature_01LAntenna1
+    100006: New_Creature_01LAntenna2
+    100008: New_Creature_01LAntenna3
+    100010: New_Creature_01LAntenna4
+    100012: New_Creature_01LAntenna5
+    100014: New_Creature_01LCalf
+    100016: New_Creature_01LCollarbone
+    100018: New_Creature_01LFoot
+    100020: New_Creature_01LForearm
+    100022: New_Creature_01LForearm 1
+    100024: New_Creature_01LFrontClaw
+    100026: New_Creature_01LRearClaw
+    100028: New_Creature_01LThigh
+    100030: New_Creature_01LToe1
+    100032: New_Creature_01LUpperarm
+    100034: New_Creature_01LUpperarm 1
+    100036: New_Creature_01LUpVectorNode
+    100038: New_Creature_01LUpVectorNode 1
+    100040: New_Creature_01Neck
+    100042: New_Creature_01Pelvis
+    100044: New_Creature_01RAntenna1
+    100046: New_Creature_01RAntenna2
+    100048: New_Creature_01RAntenna3
+    100050: New_Creature_01RAntenna4
+    100052: New_Creature_01RAntenna5
+    100054: New_Creature_01RCalf
+    100056: New_Creature_01RCollarbone
+    100058: New_Creature_01RFoot
+    100060: New_Creature_01RForearm
+    100062: New_Creature_01RForearm 1
+    100064: New_Creature_01RFrontClaw
+    100066: New_Creature_01Ribcage
+    100068: New_Creature_01RRearClaw
+    100070: New_Creature_01RThigh
+    100072: New_Creature_01RToe1
+    100074: New_Creature_01RUpperarm
+    100076: New_Creature_01RUpperarm 1
+    100078: New_Creature_01RUpVectorNode
+    100080: New_Creature_01RUpVectorNode 1
+    100082: New_Creature_01Spine1
+    100084: New_Creature_01Spine2
+    400000: //RootNode
+    400002: New_Creature_01Head
+    400004: New_Creature_01LAntenna1
+    400006: New_Creature_01LAntenna2
+    400008: New_Creature_01LAntenna3
+    400010: New_Creature_01LAntenna4
+    400012: New_Creature_01LAntenna5
+    400014: New_Creature_01LCalf
+    400016: New_Creature_01LCollarbone
+    400018: New_Creature_01LFoot
+    400020: New_Creature_01LForearm
+    400022: New_Creature_01LForearm 1
+    400024: New_Creature_01LFrontClaw
+    400026: New_Creature_01LRearClaw
+    400028: New_Creature_01LThigh
+    400030: New_Creature_01LToe1
+    400032: New_Creature_01LUpperarm
+    400034: New_Creature_01LUpperarm 1
+    400036: New_Creature_01LUpVectorNode
+    400038: New_Creature_01LUpVectorNode 1
+    400040: New_Creature_01Neck
+    400042: New_Creature_01Pelvis
+    400044: New_Creature_01RAntenna1
+    400046: New_Creature_01RAntenna2
+    400048: New_Creature_01RAntenna3
+    400050: New_Creature_01RAntenna4
+    400052: New_Creature_01RAntenna5
+    400054: New_Creature_01RCalf
+    400056: New_Creature_01RCollarbone
+    400058: New_Creature_01RFoot
+    400060: New_Creature_01RForearm
+    400062: New_Creature_01RForearm 1
+    400064: New_Creature_01RFrontClaw
+    400066: New_Creature_01Ribcage
+    400068: New_Creature_01RRearClaw
+    400070: New_Creature_01RThigh
+    400072: New_Creature_01RToe1
+    400074: New_Creature_01RUpperarm
+    400076: New_Creature_01RUpperarm 1
+    400078: New_Creature_01RUpVectorNode
+    400080: New_Creature_01RUpVectorNode 1
+    400082: New_Creature_01Spine1
+    400084: New_Creature_01Spine2
+    7400000: Idle_Siege_Mode
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle_Siege_Mode
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

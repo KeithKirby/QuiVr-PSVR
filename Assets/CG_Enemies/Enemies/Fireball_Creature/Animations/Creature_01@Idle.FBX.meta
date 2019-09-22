@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: f6ed7f39c142b874da04ad978776efce
+timeCreated: 1503537398
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Creature_01LArmCollarbone
+    100004: Creature_01LArmElbow
+    100006: Creature_01LArmFIndex1
+    100008: Creature_01LArmFIndex2
+    100010: Creature_01LArmFMiddle1
+    100012: Creature_01LArmFMiddle2
+    100014: Creature_01LArmFPinky1
+    100016: Creature_01LArmFPinky2
+    100018: Creature_01LArmFThumb1
+    100020: Creature_01LArmFThumb2
+    100022: Creature_01LArmPalm
+    100024: Creature_01LArmShoulder1
+    100026: Creature_01LArmShoulder2
+    100028: Creature_01LFemur
+    100030: Creature_01LFrontHoof
+    100032: Creature_01LHumerus
+    100034: Creature_01LLargeCannon
+    100036: Creature_01LPhalangesManus
+    100038: Creature_01LPhalanxPrima
+    100040: Creature_01LRadius
+    100042: Creature_01LRearHoof
+    100044: Creature_01LScapula
+    100046: Creature_01LTibia
+    100048: Creature_01Pelvis
+    100050: Creature_01RArmCollarbone
+    100052: Creature_01RArmElbow
+    100054: Creature_01RArmFIndex1
+    100056: Creature_01RArmFIndex2
+    100058: Creature_01RArmFMiddle1
+    100060: Creature_01RArmFMiddle2
+    100062: Creature_01RArmFPinky1
+    100064: Creature_01RArmFPinky2
+    100066: Creature_01RArmFThumb1
+    100068: Creature_01RArmFThumb2
+    100070: Creature_01RArmPalm
+    100072: Creature_01RArmShoulder1
+    100074: Creature_01RArmShoulder2
+    100076: Creature_01RFemur
+    100078: Creature_01RFrontHoof
+    100080: Creature_01RHumerus
+    100082: Creature_01Ribcage_Bot
+    100084: Creature_01Ribcage_Top
+    100086: Creature_01RLargeCannon
+    100088: Creature_01RPhalangesManus
+    100090: Creature_01RPhalanxPrima
+    100092: Creature_01RRadius
+    100094: Creature_01RRearHoof
+    100096: Creature_01RScapula
+    100098: Creature_01RTibia
+    100100: Creature_01Spine1
+    100102: Creature_01Spine2
+    100104: Creature_01Spine3
+    100106: Creature_01Spine_Top
+    400000: //RootNode
+    400002: Creature_01LArmCollarbone
+    400004: Creature_01LArmElbow
+    400006: Creature_01LArmFIndex1
+    400008: Creature_01LArmFIndex2
+    400010: Creature_01LArmFMiddle1
+    400012: Creature_01LArmFMiddle2
+    400014: Creature_01LArmFPinky1
+    400016: Creature_01LArmFPinky2
+    400018: Creature_01LArmFThumb1
+    400020: Creature_01LArmFThumb2
+    400022: Creature_01LArmPalm
+    400024: Creature_01LArmShoulder1
+    400026: Creature_01LArmShoulder2
+    400028: Creature_01LFemur
+    400030: Creature_01LFrontHoof
+    400032: Creature_01LHumerus
+    400034: Creature_01LLargeCannon
+    400036: Creature_01LPhalangesManus
+    400038: Creature_01LPhalanxPrima
+    400040: Creature_01LRadius
+    400042: Creature_01LRearHoof
+    400044: Creature_01LScapula
+    400046: Creature_01LTibia
+    400048: Creature_01Pelvis
+    400050: Creature_01RArmCollarbone
+    400052: Creature_01RArmElbow
+    400054: Creature_01RArmFIndex1
+    400056: Creature_01RArmFIndex2
+    400058: Creature_01RArmFMiddle1
+    400060: Creature_01RArmFMiddle2
+    400062: Creature_01RArmFPinky1
+    400064: Creature_01RArmFPinky2
+    400066: Creature_01RArmFThumb1
+    400068: Creature_01RArmFThumb2
+    400070: Creature_01RArmPalm
+    400072: Creature_01RArmShoulder1
+    400074: Creature_01RArmShoulder2
+    400076: Creature_01RFemur
+    400078: Creature_01RFrontHoof
+    400080: Creature_01RHumerus
+    400082: Creature_01Ribcage_Bot
+    400084: Creature_01Ribcage_Top
+    400086: Creature_01RLargeCannon
+    400088: Creature_01RPhalangesManus
+    400090: Creature_01RPhalanxPrima
+    400092: Creature_01RRadius
+    400094: Creature_01RRearHoof
+    400096: Creature_01RScapula
+    400098: Creature_01RTibia
+    400100: Creature_01Spine1
+    400102: Creature_01Spine2
+    400104: Creature_01Spine3
+    400106: Creature_01Spine_Top
+    7400000: Idle
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
