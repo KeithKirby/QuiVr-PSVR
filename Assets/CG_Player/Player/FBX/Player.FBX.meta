@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: 8c6d7586740154d48b61f6a917849d39
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BN_Arm_L
+    100002: BN_Arm_R
+    100004: BN_Chest
+    100006: BN_Forearm_L
+    100008: BN_Forearm_R
+    100010: BN_Hand_L
+    100012: BN_Hand_R
+    100014: BN_Head
+    100016: BN_Index_01_L
+    100018: BN_Index_01_R
+    100020: BN_Index_02_L
+    100022: BN_Index_02_R
+    100024: BN_Index_03_L
+    100026: BN_Index_03_R
+    100028: BN_Middle_01_L
+    100030: BN_Middle_01_R
+    100032: BN_Middle_02_L
+    100034: BN_Middle_02_R
+    100036: BN_Middle_03_L
+    100038: BN_Middle_03_R
+    100040: BN_Pinky_01_L
+    100042: BN_Pinky_01_R
+    100044: BN_Pinky_02_L
+    100046: BN_Pinky_02_R
+    100048: BN_Pinky_03_L
+    100050: BN_Pinky_03_R
+    100052: BN_Ring_01_L
+    100054: BN_Ring_01_R
+    100056: BN_Ring_02_L
+    100058: BN_Ring_02_R
+    100060: BN_Ring_03_L
+    100062: BN_Ring_03_R
+    100064: BN_Root
+    100066: BN_Thumb_01_L
+    100068: BN_Thumb_01_R
+    100070: BN_Thumb_02_L
+    100072: BN_Thumb_02_R
+    100074: BN_Thumb_03_L
+    100076: BN_Thumb_03_R
+    100078: Fingers
+    100080: Gloves
+    100082: Hood
+    100084: Mask
+    100086: //RootNode
+    400000: BN_Arm_L
+    400002: BN_Arm_R
+    400004: BN_Chest
+    400006: BN_Forearm_L
+    400008: BN_Forearm_R
+    400010: BN_Hand_L
+    400012: BN_Hand_R
+    400014: BN_Head
+    400016: BN_Index_01_L
+    400018: BN_Index_01_R
+    400020: BN_Index_02_L
+    400022: BN_Index_02_R
+    400024: BN_Index_03_L
+    400026: BN_Index_03_R
+    400028: BN_Middle_01_L
+    400030: BN_Middle_01_R
+    400032: BN_Middle_02_L
+    400034: BN_Middle_02_R
+    400036: BN_Middle_03_L
+    400038: BN_Middle_03_R
+    400040: BN_Pinky_01_L
+    400042: BN_Pinky_01_R
+    400044: BN_Pinky_02_L
+    400046: BN_Pinky_02_R
+    400048: BN_Pinky_03_L
+    400050: BN_Pinky_03_R
+    400052: BN_Ring_01_L
+    400054: BN_Ring_01_R
+    400056: BN_Ring_02_L
+    400058: BN_Ring_02_R
+    400060: BN_Ring_03_L
+    400062: BN_Ring_03_R
+    400064: BN_Root
+    400066: BN_Thumb_01_L
+    400068: BN_Thumb_01_R
+    400070: BN_Thumb_02_L
+    400072: BN_Thumb_02_R
+    400074: BN_Thumb_03_L
+    400076: BN_Thumb_03_R
+    400078: Fingers
+    400080: Gloves
+    400082: Hood
+    400084: Mask
+    400086: //RootNode
+    2300000: Hood
+    2300002: Mask
+    2300004: Fingers
+    2300006: Gloves
+    3300000: Hood
+    3300002: Mask
+    3300004: Fingers
+    3300006: Gloves
+    4300000: Hood
+    4300002: Mask
+    4300004: Fingers
+    4300006: Gloves
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Fingers
+    13700002: Gloves
+    13700004: Hood
+    13700006: Mask
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fingers_mat
+    second: {fileID: 2100000, guid: 8f528c2a91ac39c45a3f5dc2ad8a25ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gloves_Mat
+    second: {fileID: 2100000, guid: f9135e6d1b7c1ec47b7f815dde63eb10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hood_Mat
+    second: {fileID: 2100000, guid: 84965375ba3854140854e93dbc24b5e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mask_mat
+    second: {fileID: 2100000, guid: 7853e98ea00aa8d49bc239c9c2572f99, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BN_Root
+        weight: 1
+      - path: BN_Root/BN_Arm_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Index_01_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Index_01_L/BN_Index_02_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Index_01_L/BN_Index_02_L/BN_Index_03_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Middle_01_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Middle_01_L/BN_Middle_02_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Middle_01_L/BN_Middle_02_L/BN_Middle_03_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Pinky_01_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Pinky_01_L/BN_Pinky_02_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Pinky_01_L/BN_Pinky_02_L/BN_Pinky_03_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Ring_01_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Ring_01_L/BN_Ring_02_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Ring_01_L/BN_Ring_02_L/BN_Ring_03_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Thumb_01_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Thumb_01_L/BN_Thumb_02_L
+        weight: 1
+      - path: BN_Root/BN_Arm_L/BN_Forearm_L/BN_Hand_L/BN_Thumb_01_L/BN_Thumb_02_L/BN_Thumb_03_L
+        weight: 1
+      - path: BN_Root/BN_Arm_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Index_01_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Index_01_R/BN_Index_02_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Index_01_R/BN_Index_02_R/BN_Index_03_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Middle_01_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Middle_01_R/BN_Middle_02_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Middle_01_R/BN_Middle_02_R/BN_Middle_03_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Pinky_01_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Pinky_01_R/BN_Pinky_02_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Pinky_01_R/BN_Pinky_02_R/BN_Pinky_03_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Ring_01_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Ring_01_R/BN_Ring_02_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Ring_01_R/BN_Ring_02_R/BN_Ring_03_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Thumb_01_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Thumb_01_R/BN_Thumb_02_R
+        weight: 1
+      - path: BN_Root/BN_Arm_R/BN_Forearm_R/BN_Hand_R/BN_Thumb_01_R/BN_Thumb_02_R/BN_Thumb_03_R
+        weight: 1
+      - path: BN_Root/BN_Chest
+        weight: 1
+      - path: BN_Root/BN_Chest/BN_Head
+        weight: 1
+      - path: Fingers
+        weight: 1
+      - path: Gloves
+        weight: 1
+      - path: Hood
+        weight: 1
+      - path: Mask
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
