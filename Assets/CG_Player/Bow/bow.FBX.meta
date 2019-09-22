@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: 63d64ce49b27c7f40b54a9c90813f1c1
+timeCreated: 1474654428
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BN_Handle
+    100004: BN_Limb_Bot_01
+    100006: BN_Limb_Bot_02
+    100008: BN_Limb_Bot_03
+    100010: BN_Limb_Bot_04
+    100012: BN_Limb_Top_01
+    100014: BN_Limb_Top_02
+    100016: BN_Limb_Top_03
+    100018: BN_String_Bot_01
+    100020: BN_String_Bot_02
+    100022: BN_String_Top_01
+    100024: BN_String_Top_02
+    100026: bow
+    100028: CTRL_Bow
+    100030: CTRL_Nock_Point
+    100032: bow_mesh
+    100034: Nock_Point
+    100036: bow_nock_point
+    100038: bow_handle
+    400000: //RootNode
+    400002: BN_Handle
+    400004: BN_Limb_Bot_01
+    400006: BN_Limb_Bot_02
+    400008: BN_Limb_Bot_03
+    400010: BN_Limb_Bot_04
+    400012: BN_Limb_Top_01
+    400014: BN_Limb_Top_02
+    400016: BN_Limb_Top_03
+    400018: BN_String_Bot_01
+    400020: BN_String_Bot_02
+    400022: BN_String_Top_01
+    400024: BN_String_Top_02
+    400026: bow
+    400028: CTRL_Bow
+    400030: CTRL_Nock_Point
+    400032: bow_mesh
+    400034: Nock_Point
+    400036: bow_nock_point
+    400038: bow_handle
+    2300000: //RootNode
+    2300002: bow
+    3300000: //RootNode
+    3300002: bow
+    4300000: bow
+    4300002: bow_sg
+    4300004: bow_mesh
+    7400000: Main
+    11100000: //RootNode
+    13700000: bow
+    13700002: bow_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Main
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bow
+        weight: 1
+      - path: CTRL_Bow
+        weight: 1
+      - path: CTRL_Bow/BN_Handle
+        weight: 1
+      - path: CTRL_Bow/BN_Handle/BN_Limb_Bot_01
+        weight: 1
+      - path: CTRL_Bow/BN_Handle/BN_Limb_Bot_01/BN_Limb_Bot_02
+        weight: 1
+      - path: CTRL_Bow/BN_Handle/BN_Limb_Bot_01/BN_Limb_Bot_02/BN_Limb_Bot_03
+        weight: 1
+      - path: CTRL_Bow/BN_Handle/BN_Limb_Bot_01/BN_Limb_Bot_02/BN_Limb_Bot_03/BN_Limb_Bot_04
+        weight: 1
+      - path: CTRL_Bow/BN_Handle/BN_Limb_Bot_01/BN_Limb_Bot_02/BN_Limb_Bot_03/BN_Limb_Bot_04/BN_String_Bot_02
+        weight: 1
+      - path: CTRL_Bow/BN_Handle/BN_Limb_Bot_01/BN_Limb_Bot_02/BN_Limb_Bot_03/BN_Limb_Bot_04/BN_String_Bot_02/BN_String_Bot_01
+        weight: 1
+      - path: CTRL_Bow/BN_Handle/BN_Limb_Top_01
+        weight: 1
+      - path: CTRL_Bow/BN_Handle/BN_Limb_Top_01/BN_Limb_Top_02
+        weight: 1
+      - path: CTRL_Bow/BN_Handle/BN_Limb_Top_01/BN_Limb_Top_02/BN_Limb_Top_03
+        weight: 1
+      - path: CTRL_Bow/BN_Handle/BN_Limb_Top_01/BN_Limb_Top_02/BN_Limb_Top_03/BN_String_Top_02
+        weight: 1
+      - path: CTRL_Bow/BN_Handle/BN_Limb_Top_01/BN_Limb_Top_02/BN_Limb_Top_03/BN_String_Top_02/BN_String_Top_01
+        weight: 1
+      - path: CTRL_Bow/CTRL_Nock_Point
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
