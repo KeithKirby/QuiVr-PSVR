@@ -1,0 +1,9 @@
+Instructions:
+1. Add the SteamVR Plugin  (https://www.assetstore.unity3d.com/en/#!/content/32647)
+2. In the EventSystem gameobject remove (or deactivate) Unity's Input Module (usually Standalone Input Module)
+3. Add our SteamVR Input Module
+4. Add at least one Steam VR Pointer and configure which physical controller should follow
+5. (Optional) Add a line renderer prefab to use it as a laser beam
+6. (Optional) Add a object to use as a hit indicator
+7. In your canvas (or canvases) remove (or deactivate) Unity's Graphic Raycaster
+8. Add our SteamVR Graphic Raycaster
