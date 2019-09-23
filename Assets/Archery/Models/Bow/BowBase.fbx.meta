@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: 9616a120ed0bdd34e804df6f8f6833b7
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AimPoint
+    100002: Base
+    100004: Base_MeshPart0
+    100006: Base_MeshPart1
+    100008: Base_MeshPart2
+    100010: Bolt1
+    100012: Bolt2
+    100014: bow
+    100016: //RootNode
+    100018: Capsule
+    100020: Cylinder
+    100022: Cylinder_2
+    100024: Joint
+    100026: Joint_1
+    100028: Joint_10
+    100030: Joint_10_2
+    100032: Joint_11
+    100034: Joint_11_2
+    100036: Joint_12
+    100038: Joint_1_2
+    100040: Joint_2
+    100042: Joint_2_2
+    100044: Joint_2_3
+    100046: Joint_3
+    100048: Joint_3_2
+    100050: Joint_4
+    100052: Joint_4_2
+    100054: Joint_5
+    100056: Joint_5_2
+    100058: Joint_6
+    100060: Joint_6_2
+    100062: Joint_7
+    100064: Joint_7_2
+    100066: Joint_8
+    100068: Joint_8_2
+    100070: Joint_9
+    100072: Joint_9_2
+    100074: NockPoint
+    100076: Root
+    100078: TensionScrew
+    400000: AimPoint
+    400002: Base
+    400004: Base_MeshPart0
+    400006: Base_MeshPart1
+    400008: Base_MeshPart2
+    400010: Bolt1
+    400012: Bolt2
+    400014: bow
+    400016: //RootNode
+    400018: Capsule
+    400020: Cylinder
+    400022: Cylinder_2
+    400024: Joint
+    400026: Joint_1
+    400028: Joint_10
+    400030: Joint_10_2
+    400032: Joint_11
+    400034: Joint_11_2
+    400036: Joint_12
+    400038: Joint_1_2
+    400040: Joint_2
+    400042: Joint_2_2
+    400044: Joint_2_3
+    400046: Joint_3
+    400048: Joint_3_2
+    400050: Joint_4
+    400052: Joint_4_2
+    400054: Joint_5
+    400056: Joint_5_2
+    400058: Joint_6
+    400060: Joint_6_2
+    400062: Joint_7
+    400064: Joint_7_2
+    400066: Joint_8
+    400068: Joint_8_2
+    400070: Joint_9
+    400072: Joint_9_2
+    400074: NockPoint
+    400076: Root
+    400078: TensionScrew
+    2300000: Bolt1
+    2300002: Bolt2
+    2300004: Capsule
+    2300006: Cylinder
+    2300008: Cylinder_2
+    2300010: TensionScrew
+    3300000: Bolt1
+    3300002: Bolt2
+    3300004: Capsule
+    3300006: Cylinder
+    3300008: Cylinder_2
+    3300010: TensionScrew
+    4300000: Cylinder
+    4300002: Cylinder_2
+    4300004: Capsule
+    4300006: Base_MeshPart0
+    4300008: Base_MeshPart1
+    4300010: Base_MeshPart2
+    4300012: Bolt1
+    4300014: TensionScrew
+    4300016: Bolt2
+    7400000: Main
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Base_MeshPart0
+    13700002: Base_MeshPart1
+    13700004: Base_MeshPart2
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoltCenter
+    second: {fileID: 2100000, guid: be33f0f6a3d1285489febb256bbef8a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BowEdge
+    second: {fileID: 2100000, guid: f4d2b790472168541972f74d21cf42ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BowWood
+    second: {fileID: 2100000, guid: 1f7413d80978a2f41bdeac06db60d55f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brass
+    second: {fileID: 2100000, guid: ffadfc969b4873445a0e3a58fdfebbcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cord
+    second: {fileID: 2100000, guid: f6ac2effe7c8ba34199ba50118831b19, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MISC_Water
+  m_Shader: {fileID: 4800000, guid: 5a418680b2085424e9c31700d5f855ef, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: bf12e6c29d8c1dd45bd8ccaf05b3a9f7, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 8900000, guid: d153e0053d3c80e4fa9f70e12465687f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailBump
+      second:
+        m_Texture: {fileID: 2800000, guid: 1d12cc523f65e9f49aa29548fe4402cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: eac04477d1e512148921eceeb5a4a7f3, type: 3}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 2800000, guid: bf12e6c29d8c1dd45bd8ccaf05b3a9f7, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RefCube
+      second:
+        m_Texture: {fileID: 8900000, guid: 5b4361bda0746024eb47ad645b331d56, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Roughness
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SSSMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 208a65f29c0658d4e832620aee4ca6bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Spec
+      second:
+        m_Texture: {fileID: 2800000, guid: 63874c619d1a80d4ba50571680d86a31, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _layer1Tex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BumpIntensity
+      second: 1
+    - first:
+        name: _DetailInt
+      second: 0.4
+    - first:
+        name: _DetailTile
+      second: 10
+    - first:
+        name: _DetailTiling
+      second: 10
+    - first:
+        name: _Fresnel
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 2.1641788
+    - first:
+        name: _InvertValue
+      second: 0
+    - first:
+        name: _Opacity
+      second: 2
+    - first:
+        name: _Parallax
+      second: 0.0116
+    - first:
+        name: _Power
+      second: 0
+    - first:
+        name: _RefInt
+      second: 0.7
+    - first:
+        name: _RefIntensity
+      second: 1
+    - first:
+        name: _RimPower
+      second: 4
+    - first:
+        name: _RimWidth
+      second: 3
+    - first:
+        name: _SSSIntensity
+      second: 0.5
+    - first:
+        name: _SSSPower
+      second: 1
+    - first:
+        name: _ScrollSpeed
+      second: -0.2
+    - first:
+        name: _Shift
+      second: 0
+    - first:
+        name: _Shininess
+      second: 0.6012862
+    - first:
+        name: _Smoothness
+      second: 0.5
+    - first:
+        name: _SpecContrast
+      second: 2
+    - first:
+        name: _SpecIntensity
+      second: 2.3
+    - first:
+        name: _Transparency
+      second: 0.95
+    - first:
+        name: _WaveFreq
+      second: 20
+    - first:
+        name: _WavePower
+      second: 1.4029856
+    - first:
+        name: _fogEnd
+      second: 400
+    - first:
+        name: _fogStart
+      second: 20
+    - first:
+        name: _layer1Tile
+      second: 10
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.40018246, g: 0.41960785, b: 0.3768243, a: 1}
+    - first:
+        name: _ColorTint
+      second: {r: 0.74509805, g: 0.7023594, b: 0.5727028, a: 1}
+    - first:
+        name: _Emission
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _MainColor
+      second: {r: 0.56618226, g: 0.6117647, b: 0.56872165, a: 0}
+    - first:
+        name: _ReflectColor
+      second: {r: 1, g: 1, b: 1, a: 0.5}
+    - first:
+        name: _ReflectionTint
+      second: {r: 0.20392157, g: 0.1646609, b: 0.09116493, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SSSColor
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _SpColor
+      second: {r: 0.25882354, g: 0.2304037, b: 0.2304037, a: 0}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _fogColor
+      second: {r: 0.29211843, g: 0.4276772, b: 0.5686275, a: 1}

@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BLD_Misc
+  m_Shader: {fileID: 4800000, guid: 7f84410aaf331d7488b107776f7f4523, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 2800000, guid: a089e86c222b8644d8fcb090f13d8a6c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AmbientCubemap:
+        m_Texture: {fileID: 8900000, guid: 60054bb9aa31d97458f3018817e0d996, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 4460ff9b7df99a04b8fc891be83b0d34, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: b8ac424f5c2df1645a77bcd1e54684a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Detail:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _DetailBump:
+        m_Texture: {fileID: 2800000, guid: 61dabda3768d3a34c8f1db030f06e147, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTexture:
+        m_Texture: {fileID: 2800000, guid: 9e4680bda913dec43ba0f4364bc1d2f4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtMask:
+        m_Texture: {fileID: 2800000, guid: 448f48dbafe55434ca91cd6aa74e6e83, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 758321c3140c3544ba9c0447994f91ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 0db3dcc65c6ce1f45b11430519a759b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefCube:
+        m_Texture: {fileID: 8900000, guid: 1adec83ebec84d04c8052a44c6c51b04, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: 865b22f1ce0e49c47b6b6b13c197f89f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpMask:
+        m_Texture: {fileID: 2800000, guid: 9e4680bda913dec43ba0f4364bc1d2f4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Spc:
+        m_Texture: {fileID: 2800000, guid: 2016b5fc800910c498f2f4eedb685fad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMask:
+        m_Texture: {fileID: 2800000, guid: 9e4680bda913dec43ba0f4364bc1d2f4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _layer1Norm:
+        m_Texture: {fileID: 2800000, guid: 44d3a482f6458264dacb42954f760454, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _layer1Tex:
+        m_Texture: {fileID: 2800000, guid: c8ad69516f4c73341aa744653ac11175, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbientCubemapContrast: 1
+    - _AmbientCubemapIntensity: 1
+    - _DetailInt: 0.6
+    - _DetailTiling: 25
+    - _DirtFade: 0.4807692
+    - _DirtTile: 4
+    - _Fresnel: 2
+    - _Glossiness: 1
+    - _LMNormal: 1
+    - _Power: 2
+    - _RefInt: 1
+    - _RefIntensity: 1
+    - _RimWidth: 3
+    - _Shift: 0
+    - _Shininess: 0.078125
+    - _SpIntensity: 1
+    - _VMask: 0
+    - _layer1Metal: 0
+    - _layer1Scale: 4
+    - _layer1Tile: 10
+    - _layer1Tiling: 3
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DirtColor: {r: 0.30980393, g: 0.1719565, b: 0.0024298346, a: 1}
+    - _SelfIlum: {r: 0, g: 0, b: 0, a: 0}
+    - _SpColor: {r: 0.258762, g: 0.33282173, b: 0.36862746, a: 1}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}

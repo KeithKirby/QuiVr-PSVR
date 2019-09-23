@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 8fc9339347b06ca429bf6edccedf35dd
+timeCreated: 1476718608
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ball
+    100004: Black_UV_GRP
+    100006: Block
+    100008: ButtonPlate
+    100010: Buttons_01_UV_GRP
+    100012: Buttons_02_UV_GRP
+    100014: Circle
+    100016: CStick_Back
+    100018: CStick_Front
+    100020: CStick_UV_GRP
+    100022: CStickClamp
+    100024: Down
+    100026: DPad_UV_GRP
+    100028: DPadPlate_LowPoly
+    100030: InteriorBits_UV_GRP
+    100032: L1
+    100034: L2
+    100036: Left
+    100038: Loop
+    100040: MainBody
+    100042: OptionsButton
+    100044: Port
+    100046: PSButton_LowPoly
+    100048: R1_1
+    100050: R1_2
+    100052: Right
+    100054: Screw_Back
+    100056: Screw_Front
+    100058: ShareButton
+    100060: Square
+    100062: TopButton
+    100064: Triangle
+    100066: Trigger
+    100068: TriggerGuard
+    100070: TriggerPlate
+    100072: Triggers_UV_GRP
+    100074: UnderPlate
+    100076: Up
+    100078: White_UV_GRP
+    100080: X
+    100082: Buttons_01_UV_ICON
+    100084: Square001
+    100086: Square002
+    100088: Square003
+    100090: Square004
+    100092: Cross
+    100094: Circle 1
+    100096: Square 1
+    100098: Triangle 1
+    100100: CStick_Back_Dummy
+    100102: CStick_Front_Dummy
+    100104: Buttons_02_R1_1_Dummy
+    100106: Buttons_02_R1_2_Dummy
+    100108: Buttons_02_TopButton_Dummy
+    100110: ButtonPlateUnderside
+    100112: Black_Trigger_Dummy
+    400000: //RootNode
+    400002: Ball
+    400004: Black_UV_GRP
+    400006: Block
+    400008: ButtonPlate
+    400010: Buttons_01_UV_GRP
+    400012: Buttons_02_UV_GRP
+    400014: Circle
+    400016: CStick_Back
+    400018: CStick_Front
+    400020: CStick_UV_GRP
+    400022: CStickClamp
+    400024: Down
+    400026: DPad_UV_GRP
+    400028: DPadPlate_LowPoly
+    400030: InteriorBits_UV_GRP
+    400032: L1
+    400034: L2
+    400036: Left
+    400038: Loop
+    400040: MainBody
+    400042: OptionsButton
+    400044: Port
+    400046: PSButton_LowPoly
+    400048: R1_1
+    400050: R1_2
+    400052: Right
+    400054: Screw_Back
+    400056: Screw_Front
+    400058: ShareButton
+    400060: Square
+    400062: TopButton
+    400064: Triangle
+    400066: Trigger
+    400068: TriggerGuard
+    400070: TriggerPlate
+    400072: Triggers_UV_GRP
+    400074: UnderPlate
+    400076: Up
+    400078: White_UV_GRP
+    400080: X
+    400082: Buttons_01_UV_ICON
+    400084: Square001
+    400086: Square002
+    400088: Square003
+    400090: Square004
+    400092: Cross
+    400094: Circle 1
+    400096: Square 1
+    400098: Triangle 1
+    400100: CStick_Back_Dummy
+    400102: CStick_Front_Dummy
+    400104: Buttons_02_R1_1_Dummy
+    400106: Buttons_02_R1_2_Dummy
+    400108: Buttons_02_TopButton_Dummy
+    400110: ButtonPlateUnderside
+    400112: Black_Trigger_Dummy
+    2300000: Ball
+    2300002: Block
+    2300004: ButtonPlate
+    2300006: Circle
+    2300008: CStick_Back
+    2300010: CStick_Front
+    2300012: CStickClamp
+    2300014: Down
+    2300016: DPadPlate_LowPoly
+    2300018: L1
+    2300020: L2
+    2300022: Left
+    2300024: Loop
+    2300026: MainBody
+    2300028: OptionsButton
+    2300030: Port
+    2300032: PSButton_LowPoly
+    2300034: R1_1
+    2300036: R1_2
+    2300038: Right
+    2300040: Screw_Back
+    2300042: Screw_Front
+    2300044: ShareButton
+    2300046: Square
+    2300048: TopButton
+    2300050: Triangle
+    2300052: Trigger
+    2300054: TriggerGuard
+    2300056: TriggerPlate
+    2300058: UnderPlate
+    2300060: Up
+    2300062: X
+    2300064: Square001
+    2300066: Square002
+    2300068: Square003
+    2300070: Square004
+    2300072: Cross
+    2300074: Circle 1
+    2300076: Square 1
+    2300078: Triangle 1
+    2300080: ButtonPlateUnderside
+    3300000: Ball
+    3300002: Block
+    3300004: ButtonPlate
+    3300006: Circle
+    3300008: CStick_Back
+    3300010: CStick_Front
+    3300012: CStickClamp
+    3300014: Down
+    3300016: DPadPlate_LowPoly
+    3300018: L1
+    3300020: L2
+    3300022: Left
+    3300024: Loop
+    3300026: MainBody
+    3300028: OptionsButton
+    3300030: Port
+    3300032: PSButton_LowPoly
+    3300034: R1_1
+    3300036: R1_2
+    3300038: Right
+    3300040: Screw_Back
+    3300042: Screw_Front
+    3300044: ShareButton
+    3300046: Square
+    3300048: TopButton
+    3300050: Triangle
+    3300052: Trigger
+    3300054: TriggerGuard
+    3300056: TriggerPlate
+    3300058: UnderPlate
+    3300060: Up
+    3300062: X
+    3300064: Square001
+    3300066: Square002
+    3300068: Square003
+    3300070: Square004
+    3300072: Cross
+    3300074: Circle 1
+    3300076: Square 1
+    3300078: Triangle 1
+    3300080: ButtonPlateUnderside
+    4300000: MainBody
+    4300002: UnderPlate
+    4300004: TriggerPlate
+    4300006: ButtonPlate
+    4300008: Ball
+    4300010: DPadPlate_LowPoly
+    4300012: TriggerGuard
+    4300014: Trigger
+    4300016: ShareButton
+    4300018: CStickClamp
+    4300020: OptionsButton
+    4300022: PSButton_LowPoly
+    4300024: Up
+    4300026: Right
+    4300028: Down
+    4300030: Left
+    4300032: CStick_Front
+    4300034: CStick_Back
+    4300036: TopButton
+    4300038: R1_2
+    4300040: R1_1
+    4300042: X
+    4300044: Circle
+    4300046: Triangle
+    4300048: Square
+    4300050: L1
+    4300052: Block
+    4300054: L2
+    4300056: Screw_Back
+    4300058: Screw_Front
+    4300060: Loop
+    4300062: Port
+    4300064: Square001
+    4300066: Square002
+    4300068: Square003
+    4300070: Square004
+    4300072: Cross
+    4300074: Square
+    4300076: Triangle
+    4300078: Circle
+    4300080: ButtonPlateUnderside
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

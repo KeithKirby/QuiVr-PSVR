@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 1d5f976d51cf86548b56cbcf4da4345a
+timeCreated: 1465624342
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ArrowNotch
+    100002: Bones
+    100004: bow_bolt
+    100006: bow_detail_01
+    100008: Cylinder
+    100010: Cylinder_2
+    100012: Joint
+    100014: Joint_1
+    100016: Joint_1_2
+    100018: Joint_2
+    100020: Joint_2_2
+    100022: Joint_2_3
+    100024: Joint_3
+    100026: Joint_3_2
+    100028: Joint_4
+    100030: Joint_4_2
+    100032: Joint_5
+    100034: Joint_5_2
+    100036: Joint_6
+    100038: Joint_6_2
+    100040: Joint_7
+    100042: Joint_7_2
+    100044: Joint_8
+    100046: Joint_8_2
+    100048: Joint_9
+    100050: Mesh
+    100052: Null
+    100054: Null_2
+    100056: Polygon_2
+    100058: Polygon_2_2
+    100060: Polygon_3_1
+    100062: //RootNode
+    400000: ArrowNotch
+    400002: Bones
+    400004: bow_bolt
+    400006: bow_detail_01
+    400008: Cylinder
+    400010: Cylinder_2
+    400012: Joint
+    400014: Joint_1
+    400016: Joint_1_2
+    400018: Joint_2
+    400020: Joint_2_2
+    400022: Joint_2_3
+    400024: Joint_3
+    400026: Joint_3_2
+    400028: Joint_4
+    400030: Joint_4_2
+    400032: Joint_5
+    400034: Joint_5_2
+    400036: Joint_6
+    400038: Joint_6_2
+    400040: Joint_7
+    400042: Joint_7_2
+    400044: Joint_8
+    400046: Joint_8_2
+    400048: Joint_9
+    400050: Mesh
+    400052: Null
+    400054: Null_2
+    400056: Polygon_2
+    400058: Polygon_2_2
+    400060: Polygon_3_1
+    400062: //RootNode
+    2300000: Cylinder
+    2300002: Cylinder_2
+    2300004: Polygon_2
+    2300006: Polygon_3_1
+    3300000: Cylinder
+    3300002: Cylinder_2
+    3300004: Polygon_2
+    3300006: Polygon_3_1
+    4300000: Polygon_2
+    4300002: Polygon_3_1
+    4300004: Polygon_2_2
+    4300006: Cylinder
+    4300008: Cylinder_2
+    7400000: Main
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Polygon_2_2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

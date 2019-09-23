@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BLD_Doors
+  m_Shader: {fileID: 4800000, guid: 7f84410aaf331d7488b107776f7f4523, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _AO
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _AmbientCubemap
+      second:
+        m_Texture: {fileID: 8900000, guid: 60054bb9aa31d97458f3018817e0d996, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 2faa8cfb794680b41858dbfed0c742d7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 8900000, guid: b8ac424f5c2df1645a77bcd1e54684a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Detail
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailBump
+      second:
+        m_Texture: {fileID: 2800000, guid: 24567f003b1917041b8a537c852fe91b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DiffuseTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 9e4680bda913dec43ba0f4364bc1d2f4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DirtMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 448f48dbafe55434ca91cd6aa74e6e83, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 1115b96d7645b7844b8ea5c8cdcbc689, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 0db3dcc65c6ce1f45b11430519a759b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RefCube
+      second:
+        m_Texture: {fileID: 8900000, guid: 1adec83ebec84d04c8052a44c6c51b04, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Roughness
+      second:
+        m_Texture: {fileID: 2800000, guid: fd1e23e02b4065c40abce3e98ef2a366, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 9e4680bda913dec43ba0f4364bc1d2f4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Spc
+      second:
+        m_Texture: {fileID: 2800000, guid: 21194c9dd7d997d4f8fad4625b53bf92, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecularMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 9e4680bda913dec43ba0f4364bc1d2f4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _layer1Norm
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _layer1Tex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AmbientCubemapContrast
+      second: 1
+    - first:
+        name: _AmbientCubemapIntensity
+      second: 1
+    - first:
+        name: _DetailInt
+      second: 0.8
+    - first:
+        name: _DetailTiling
+      second: 6
+    - first:
+        name: _DirtFade
+      second: 0.4807692
+    - first:
+        name: _DirtTile
+      second: 4
+    - first:
+        name: _Fresnel
+      second: 2
+    - first:
+        name: _Glossiness
+      second: 1
+    - first:
+        name: _LMNormal
+      second: 1
+    - first:
+        name: _Power
+      second: 0
+    - first:
+        name: _RefInt
+      second: 0.5
+    - first:
+        name: _RefIntensity
+      second: 2
+    - first:
+        name: _RimWidth
+      second: 3
+    - first:
+        name: _Shift
+      second: 0
+    - first:
+        name: _Shininess
+      second: 0.078125
+    - first:
+        name: _SpIntensity
+      second: 1
+    - first:
+        name: _VMask
+      second: 0
+    - first:
+        name: _layer1Metal
+      second: 0
+    - first:
+        name: _layer1Scale
+      second: 10
+    - first:
+        name: _layer1Tile
+      second: 10
+    - first:
+        name: _layer1Tiling
+      second: 10
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _DirtColor
+      second: {r: 0.30980393, g: 0.1719565, b: 0.0024298346, a: 1}
+    - first:
+        name: _SelfIlum
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _SpColor
+      second: {r: 0.258762, g: 0.33282173, b: 0.36862746, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}

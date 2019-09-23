@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ICE_IceBlocks1
+  m_Shader: {fileID: 4800000, guid: 7f84410aaf331d7488b107776f7f4523, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _AO
+      second:
+        m_Texture: {fileID: 2800000, guid: 8b537d373faddd849803c6b81fb8123d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: e4df33a881271ff4bb4c967870fc8da4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 8900000, guid: b8ac424f5c2df1645a77bcd1e54684a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailBump
+      second:
+        m_Texture: {fileID: 2800000, guid: 1d12cc523f65e9f49aa29548fe4402cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 75c979f552bbdf141ae5f9114f9cc361, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RefCube
+      second:
+        m_Texture: {fileID: 8900000, guid: 1adec83ebec84d04c8052a44c6c51b04, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Roughness
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SSSMask
+      second:
+        m_Texture: {fileID: 2800000, guid: f6f7a9dbf254b67409d188c6dac62141, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Spc
+      second:
+        m_Texture: {fileID: 2800000, guid: 126eec00f2af6bb4d9a5d0aad4d4949f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _layer1Norm
+      second:
+        m_Texture: {fileID: 2800000, guid: 44d3a482f6458264dacb42954f760454, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _layer1Tex
+      second:
+        m_Texture: {fileID: 2800000, guid: c8ad69516f4c73341aa744653ac11175, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _DetailInt
+      second: 1
+    - first:
+        name: _DetailTile
+      second: 10
+    - first:
+        name: _DetailTiling
+      second: 16
+    - first:
+        name: _Fresnel
+      second: 3
+    - first:
+        name: _LMNormal
+      second: 0
+    - first:
+        name: _Power
+      second: 4
+    - first:
+        name: _RefInt
+      second: 1.5
+    - first:
+        name: _RefIntensity
+      second: 1
+    - first:
+        name: _RimWidth
+      second: 1
+    - first:
+        name: _SSSIntensity
+      second: 1
+    - first:
+        name: _SSSPower
+      second: 1
+    - first:
+        name: _Shift
+      second: -1
+    - first:
+        name: _VMask
+      second: 0
+    - first:
+        name: _layer1Scale
+      second: 10
+    - first:
+        name: _layer1Tile
+      second: 10
+    - first:
+        name: _layer1Tiling
+      second: 4
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RefColor
+      second: {r: 0.7882353, g: 0.8235294, b: 0.77254903, a: 1}
+    - first:
+        name: _SSSColor
+      second: {r: 0.059701502, g: 0.80273455, b: 1, a: 0}
+    - first:
+        name: _SelfIlum
+      second: {r: 0, g: 0.32665902, b: 0.32941177, a: 0}
